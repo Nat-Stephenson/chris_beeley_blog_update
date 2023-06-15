@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2022-06-23T15:45:00Z"
-guid: https://chrisbeeley.net/?p=1645
-id: 1645
 title: Data science for dummies (Goldacre)
-url: /?p=1645
 ---
 
 Building your own tools for data science is a pretty fundamental concept, and I think it’s fair to say that it’s totally alien to most NHS bosses. I shall henceforth be showing them this excellent section from the Goldacre report. It’s not about data science as such, it’s about TREs, but it illustrates the concept beautifully

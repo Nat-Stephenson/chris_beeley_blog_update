@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2023-02-14T15:19:20Z"
-guid: https://chrisbeeley.net/?p=1666
-id: 1666
 title: Data science panel questions
-url: /?p=1666
 ---
 
 I was on a panel the other day talking about data science careers (I guess there will be a link to it somewhere at some point, I’ll share it when I see it) and they’ve sent some questions out after the event because they didn’t get through them all.

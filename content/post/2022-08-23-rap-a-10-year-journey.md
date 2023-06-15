@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2022-08-23T15:03:17Z"
-guid: https://chrisbeeley.net/?p=1660
-id: 1660
 title: RAP; a 10 year journey
-url: /?p=1660
 ---
 
 I found the earliest possible reference that I ever made to RAP in a document, part of an evaluation report I submitted nearly 10 years ago. At the time I wrote it I had hoped that it would be ceased on by the people who read it as an obviously important innovation, but I can see now that change is not so easily won. Anyway, just for fun, here it is, June 25th 2012, written in Sweave before all that newfangled RMarkdown (even that’s not newfangled now! Quarto!).
