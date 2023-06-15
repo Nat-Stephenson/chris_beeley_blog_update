@@ -1,0 +1,23 @@
+---
+author: chrisbeeley
+categories:
+- Uncategorized
+date: "2019-07-02T16:28:58Z"
+guid: https://chrisbeeley.net/?p=1218
+id: 1218
+title: Python, working together, and productionising code at Nottinghamshire Healthcare
+  NHS Trust
+url: /?p=1218
+---
+
+Someone just asked me a question on Twitter and I was most of the way through what would have been several tweets before I thought perhaps it would work better as a blog post. I’m going to answer the question first, and then talk some more about the context and what I’m hoping to achieve where I am and (with the advent of more collaborative working through the ICS) in the wider system. So I’ve been using scikit-learn to train a classifier to predict non attendance at healthcare appointments and the question to me was “What made you choose Python rather than R for this one? Which classifier are you using?”.
+
+I’m using a couple of classifiers, to be honest I’m really just messing around but I always like to tweet and blog at the beginning because you end up having useful conversations that can save you time later on. I’m sort of aping [this excellent paper](https://www.nature.com/articles/s41746-019-0103-3) and have got some pretty good preliminary results using gradient boosting, but as I say I am just kind of messing around at the moment.
+
+The reason I’m using Python instead of R is twofold. The first reason is that I have been using Python more and more doing text mining (for a very brief outline that I will come back to see [this blog post](https://chrisbeeley.net/?p=1214)). Python is a little bit ahead in terms of the text mining algorithms, because that’s what people are using, and for a while I would do all the data cleaning and outputs (think Shiny) in R, just nipping into Python for four lines to run the model. The problem with doing that is that my Python is so bad that I often can’t even make the model run. Or even if it runs I can’t necessarily get the outputs or plots that I need. So I’ve realised I just need to rip off the plaster and learn Python. Properly, end to end. So when this predicting DNA with machine learning thing came along it seemed the perfect project in which to build a Python pipeline. I could do it in R in a fifth the time, I’m sure, but I wouldn’t be learning to use Python to help with the text mining stuff, so I’m being discplined and torturing myself learning this new language (it’s hard work but it’s not torture, obviously, I’m having a great time).
+
+There is a bigger reason, however, which is what motivated this blog post. People in the system are using Python. The people who wrote that paper cited above used Python and they’ve indicated their willingness to look at sharing the code once they’ve tidied it up a bit. Some other people doing something else I haven’t talked about yet (but will) are also using Python. I had a bit of A Moment the other day when I realised that it’s no good just building reusable, sharable technology. That’s only the first step. In a way, that’s the easy bit. Easier bit. We need people out in the system who can actually use it. Can you just go to any provider Trust in the country and say “Hey, I fitted a machine learning to predict DNA with scikit-learn, here’s the code/ a Docker image” and they’ll just say “Thanks very much, we’ll productionise it in the data warehouse next month”? Nope! And they definitely won’t say “That’s very interesting, we’ve compared it with some of our internal testing and we’ve improved the model, we’ve already submitted a pull request”.
+
+We have a saying where I come from, [the Involvement team](https://www.nottinghamshirehealthcare.nhs.uk/involvement-and-experience), I’m sure they got it from somewhere but I heard it from them first. “If you want to go fast, go alone. If you want to go far, go together”. Learning Python for me is just a tiny step towards me being part of the solution to the problem of “We have all these amazing machine learning models ready to rock out in the wilds of the NHS, but who on Earth is going to get them set up and improving lives/ saving money?”
+
+As with quite a lot of my blog posts at the moment, I am aware that I’m talking about tackling huge, systemic problems, and I’m in no doubt that I’m the absolute tiniest cog in the whole system, so it does feel a bit weird talking about all these huge, system level changes. But be the change you want to see, that’s what I always say, so I’m doing my best.

@@ -1,0 +1,26 @@
+---
+author: chrisbeeley
+categories:
+- Uncategorized
+date: "2021-05-31T12:02:03Z"
+guid: https://chrisbeeley.net/?p=1514
+id: 1514
+title: What do we want from senior analysts in the NHS?
+url: /?p=1514
+---
+
+I’ve been meaning to write this for ages and I’ve just had a rather silly conversation on Twitter about managers and leaders in the NHS which has inspired me to get on with it. I think most people are agreed that we have A Problem with mangers and leaders in the analytic space. Much ink has been spilled in the subject, and I think that the two main conclusions of all this ink are broadly accepted by everyone. They are, briefly:
+
+1: Managers often lack the analytical training and experience to critically engage with the data and analyses with which they are presented (or indeed, to do analyses well themselves) and this leads to decision by anecdote and hunch.
+
+2: Analysts lack a clear career track that rewards them for developing their analytic skills rather than for their becoming managers, unlike, say, surgeons, who can be very successful by just being very good surgeons and aren’t expected to become managers (although there’s a bit of nuance even in there that I’m getting to so stick with me if you’re thinking I’m talking rubbish already)
+
+I’m not really going to talk about point number one except to say that in my view part of the solution to this problem is to have analysts in more senior positions, including at board, and by that I mean actual analysts, not managers of analysts. Many people with much more knowledge and experience (and credibility) than me have said this already, so you didn’t really come here to read that. All this does relate to point number two, however, which I will talk about now.
+
+Having advanced some way in my career as an analyst, I can say that my experience absolutely fits with the general point that people make about analyst careers. Quite honestly, there wasn’t really a career structure that I fitted into when I finished my PhD in 2009, and I’ve sorted of bobbed around doing different stuff. I’ve never looked at job and thought “That’s the job for me, I’m applying for that”. I’ve pretty much just made it up as I went along.
+
+The thing I’m not sure about, however, is this idea that we need to reward analysts just for their analytical skills. Sometimes when I talk to people about this I get the idea that they’re promoting the idea that we’ll have these Python geniuses just sitting in a box doing linear algebra and deep learning and advancing up the career track like that. To me I think that misunderstands what we want from analysts in the NHS. I believe the likes of Google and Facebook do pay some very, very clever people to just work on really high end statistical and computational tasks, and they use the methods that these people are producing to increase revenue. I think we in the NHS look at that and we imagine that we can make that work for us. But the NHS is not Google, and most analytical teams are far too small to support an individual working that way. There may be scope to employ people in that capacity in the national bodies, which are much larger. I don’t claim to know much about that. But speaking as someone who works in a provider trust and who has worked with people all over the country in trusts and CCGs, I’m pretty confident in my belief that we actually want to reward people to do other stuff than just clever Python and machine learning.
+
+We do want to employ people with high end technical skills. Source control. Statistics. Machine learning. But once they’re good at that stuff we want more from them. I don’t want them sitting in a box writing code all day. That is a much too narrow definition of working effectively. They need to be training. Mentoring. Doing high level design. Understanding the local, regional, and national landscape. Writing and winning funding applications. Even if they’re not line managing anybody they need to be aware of what more junior colleagues are doing, helping them prioritise and understand their work, and managing projects so they’re delivered on time and to spec.
+
+And therein lies the heart of what I consider to be the mythology around this issue. This stuff is hard. Universities are churning out people who can write Python for data science at a rate of knots now. We’ve got it the wrong way round. Yes, those people at Google are terribly clever, and I couldn’t do what they do in a thousand years. But this stuff is hard too. Teamwork. Mentoring. Communication. Understanding what to do where, with whom, and how. These skills are incredibly valuable. Recruit to and reward technical skills, by all means. But ask yourself if you want more from your team members.

@@ -1,0 +1,34 @@
+---
+author: chrisbeeley
+categories:
+- Uncategorized
+date: "2020-06-10T16:09:06Z"
+guid: http://chrisbeeley.net/?p=1380
+id: 1380
+title: RStudio Connect in the cloud
+url: /?p=1380
+---
+
+I’ve been using RStudio stuff on the server for a long time. I started using Shiny community edition back in 2013 for an application that is totally open and so doesn’t need authenticating. Then two years ago I started deploying Shiny applications that people authenticated to behind our Trust firewall using Shiny Pro. I have wanted to use RStudio Connect for a long time but it was hard to get the funding together for it given how things are with austerity since the banking crisis.
+
+NHS organisations can now get a discount for RStudio Connect and I have finally obtained a multi server licence. It runs in the cloud, and I have set up a password based login for this server to allow us to serve applications to people in our region without their being behind our firewall and without opening up the data for everyone to see (it’s not row level patient data, it’s only summaries, but everyone is more comfortable with it being behind a password). I also have it running on my firewalled server doing the work that Shiny Pro used to do.
+
+I didn’t think deeply about it before I started (more fool me, really), and so I was surprised how different Connect is to Shiny Pro. I’m writing this to give some of my experiences to smooth out the learning curve for others.
+
+I’m going to slightly artificially split this blog post into Stuff I Did In The Cloud and Stuff I Did Behind The Firewall, even though a lot of it could be written under either, just to stop this from being The Longest Blog Post Ever Written About R. If you’re interested in what I’m saying (make up your own mind about that 🙂) then you should read both.
+
+So far all I’ve done on the cloud server is take a Shiny application that works on my machine, deploy it to Connect, and then share it with authenticated users. I will be doing more stuff with MySQL integration and cron, and some other stuff, but I’m going to talk more about databases when I talk about the firewalled one (which is doing it on hard mode, basically).
+
+I wanted to authenticate people without the help of preexisting corporate resources (like Active Directory or LDAP). There are two main ways of doing this. Use a cloud based authentication system (like OAuth with Google) or just get Connect to handle it all. I didn’t really want to force people to use their Google accounts (if they even have them) so I got Connect to deal with all the passwords. This works fine. I think it’s a bit odd that you have to use a terminal based tool to delete users and can’t just do it on the GUI but no big deal. However, it’s worth noting that in order to get this to work you will need an email server on the host machine. As will be clear to anybody reading I am not DevOps. I’m just a data scientist who wants to spin up the server and then forget about it and crack on with putting Shiny applications up. I managed to get Shiny server community edition working pretty easily some years back and with quite a lot of hard work and help also got Pro running behind our firewall (with Kerberos, LDAPS, all that).
+
+With Connect and needing a mail server that’s another leap forward in terms of your Linux skills. It’s not so much getting postfix working, that’s actually fairly simple, it’s all the configuration necessary to convince other people’s mail servers that you’re not sending them spam. Fortunately I actually did that a few years back implementing a laughably shonky cron job that picked up important pieces of data and emailed them to managers overnight if there was anything they needed to see. I needed to add the server to a special allow list to get through NHS email filters, even. It’s lucky for me that this work was already done because with my pretty limited knowledge this would have been a stumbling block.
+
+I don’t even know if this stuff about Linux skills is important. I’ve been doing this work with servers for some years now, cheap and cheerful, no DevOps support, just to get things working. Some people on Twitter seem to think that it’s a fool’s errand and you absolutely need proper Linux support in your organisation to use RStudio products. It has not been easy for me to learn and do all this stuff, and if I’m honest this isn’t really what I was dreaming about doing when I was doing my psychology PhD. But the fact remains that Linux support is rare to non existent in the NHS and this whole journey has been either me doing it or nobody doing it. I feel that my organisation has made great strides with R, partly because of the work I have put in messing around with the servers, but mainly because of the enthusiasm and talent of the people writing the R. I’ve never been able to look these people in the eye and say “I’m sorry, our organisation just doesn’t support that and neither do I” and so here we are. Draw your own conclusions. I claim no expertise in any of this. Our servers definitely do what they say on the tin. That’s as far as I’ve got.
+
+Once I’d got all the stuff with the email sorted it was plain sailing. It’s worth knowing that Connect can store multiple versions of R and multiple versions of packages so the people deploying to the server can deploy their exact configuration to the server. The big change for me is that other people can put their own stuff up and (if they’re an admin) they can also invite other people to Connect and give them access to applications. So it’s sort of fire and forget, which is wonderful, obviously.
+
+It’s worth noting also that if you’re collaborating on an application everyone needs the rsconnect/ folder which contains details of where and how to deploy the application. You can put that in a shared area or just check it into GitHub and anyone with publisher rights can update one of your applications.
+
+Just as RStudio have been telling me, Connect is really a platform for data scientists to publish their own work. It allows you to give all of your data scientists the tools they need to deploy reports and dashboards and to sign people up and authenticate them, all without touching the server. And that is very liberating for me.
+
+There’s a mental handbrake turn when we get to working with databases and data, that is relevant in the cloud too, but I’m going to talk about it in the next blog post, because that’s where I encountered it first and where I had the maximum amount of head scratching with it.
