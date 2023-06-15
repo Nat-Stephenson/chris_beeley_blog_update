@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2022-05-29T10:04:11Z"
-guid: https://chrisbeeley.net/?p=1635
-id: 1635
 title: The prevalence of code sharing (Goldacre)
-url: /?p=1635
 ---
 
 Another greatest hit from the [Goldacare report](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis), in the section on [open working](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis#modern-open-working-methods-for-nhs-data-analysis), “The prevalence of code sharing” (all material reused under [OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/))
