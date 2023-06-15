@@ -1,5 +1,5 @@
-baseURL: http://chrisbeeley.net/
+baseURL: https://chrisbeeley.github.io/chris_beeley_blog/
 disablePathToLower: true
 languageCode: en-us
-title: My New Hugo Site
+title: Chris Beeley's blog
 theme: 'ananke'

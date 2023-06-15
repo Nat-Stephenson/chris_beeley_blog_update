@@ -5,7 +5,7 @@ categories:
 date: "2022-08-23T15:03:17Z"
 guid: https://chrisbeeley.net/?p=1660
 id: 1660
-title: RAP &#8211; a 10 year journey
+title: RAP; a 10 year journey
 url: /?p=1660
 ---
 
