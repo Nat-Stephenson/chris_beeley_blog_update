@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>useR day three | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="useR day three" />
+<meta property="og:description" content="The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=83/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2011-08-17T19:38:16+00:00" />
+<meta property="article:modified_time" content="2011-08-17T19:38:16+00:00" />
+<meta itemprop="name" content="useR day three">
+<meta itemprop="description" content="The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today."><meta itemprop="datePublished" content="2011-08-17T19:38:16+00:00" />
+<meta itemprop="dateModified" content="2011-08-17T19:38:16+00:00" />
+<meta itemprop="wordCount" content="424">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="useR day three"/>
+<meta name="twitter:description" content="The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">useR day three</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2011-08-17T19:38:16Z">August 17, 2011</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today.</p>
+<p>One thing I learned today was about the <a href="http://www.rtexttools.com/">RTextTools</a><!-- raw HTML omitted --><!-- raw HTML omitted --> package which sounds like a great way of classifying textual data. I’ve already had a go with some text stuff in a <a href="http://chrisbeeleyimh.wordpress.com/2011/08/02/fun-with-wordclouds/">previous post</a><!-- raw HTML omitted --><!-- raw HTML omitted --> but I hadn’t really thought about the whole data mining/ machine learning thing all that seriously until today. I do wonder whether this would have applications to the patient survey (900 responses a quarter, and actually now I think of it we have about 1500 from early in its life that were never classified). There is a person who codes the responses as they come in, and I don’t need or want to take that job off him, because clearly a person is always going to be better than a machine at classifying text, but if I could prototype it then one intriguing possibility would be raised. It would enable us to change the coding system. We set the whole thing up quite quickly and I did rather think we were stuck with the coding system forever (since we don’t want to recode 6000+ rows) but if the computer can do it reasonably well then we could change it as we saw fit. We could even have different coding systems for different parts of the Trust, all sorts of things. All interesting things to muse on.</p>
+<p>It just goes to show what is possible when you use R and keep up to date with the amazing community. One of the presentations suggested that people do not always appreciate the work of the R-core team (who devote many thousands of hours completely gratis to R). For my part, I would say that I certainly do appreciate their efforts, moreover I find the whole story of R quite inspiring. R really was my introduction to the world of open-source, and there are some amazingly generous figures in the whole community, the R-core team not least among them, as well as other heroes from Linux, OpenOffice etc. Not only that but a countless army of minor heroes who share their work and source code every day. I’m rather too much of a novice to make a serious contribution but I hope one day to follow the example of these minor heroes and give something back, however small.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

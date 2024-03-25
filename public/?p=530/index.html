@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Useful R functions | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Useful R functions" />
+<meta property="og:description" content="Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=530/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2014-04-24T13:26:19+00:00" />
+<meta property="article:modified_time" content="2014-04-24T13:26:19+00:00" />
+<meta itemprop="name" content="Useful R functions">
+<meta itemprop="description" content="Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet."><meta itemprop="datePublished" content="2014-04-24T13:26:19+00:00" />
+<meta itemprop="dateModified" content="2014-04-24T13:26:19+00:00" />
+<meta itemprop="wordCount" content="749">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Useful R functions"/>
+<meta name="twitter:description" content="Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Useful R functions</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-04-24T13:26:19Z">April 24, 2014</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet. And here seems as good a place as any to do it since I can see it and so can anyone else who is interested. Two to start, will add more as I get them. Credit to original authors, follow the link.</p>
+<p>Removing whitespace</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+trimws()
+</code></pre><p><a href="http://stackoverflow.com/questions/7963898/extracting-the-last-n-characters-from-a-string-in-r">Extract the last n characters of a string</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+substrRight &lt;- function(x, n){
+  substr(x, nchar(x)-n+1, nchar(x))
+}
+</code></pre><p>I can’t credit this one, sadly, I can’t remember where I stole it from. It’s a nice summary of the <a href="http://en.wikipedia.org/wiki/Anscombe's_quartet">Anscombe</a> data anyway. Sorry to whoever wrote it! I’ve used it many times, I’m grateful to you!</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+library(ggplot2)
+library(plyr)
+
+anscombe2 &lt;- with(anscombe, data.frame(
+  x     = c(x1, x2, x3, x4),
+  y     = c(y1, y2, y3, y4),
+  group = gl(4, nrow(anscombe))))
+
+(stats &lt;- ddply(anscombe2, .(group), summarize, mean = mean(y),
+   std_dev = sd(y), correlation = cor(x, y), lm_intercept = lm(y ~ x)$coefficients[1],
+   lm_x_effect = lm(y ~ x)$coefficients[2]))
+
+
+(p &lt;- ggplot(anscombe2, aes(x, y)) +
+
+  geom_point() +
+
+  facet_wrap(~ group)
+)
+</code></pre><p>This one I always forget, and it’s so useful. Extract the nth element from a list, returning a list</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+&gt; splitThemes
+[[1]]
+[1] &#34;Communication&#34; &#34;Other&#34;        
+
+[[2]]
+[1] &#34;Access to Services&#34; &#34;Other&#34;             
+
+[[3]]
+[1] &#34;Access to Services&#34; &#34;Waiting time&#34;      
+
+&gt; lapply(splitThemes, &#34;[&#34;, 2)
+[[1]]
+[1] &#34;Other&#34;
+
+[[2]]
+[1] &#34;Other&#34;
+
+[[3]]
+[1] &#34;Waiting time&#34;
+</code></pre><p>On the subject of the “[” function, look at this beauty I just found on <a href="http://stackoverflow.com/questions/10883605/truncating-the-end-of-a-string-in-r-after-a-character-that-can-be-present-zero-o">Stack Overflow</a>.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+x &lt;- c(&#39;foobar&#39;,&#39;foo:bar&#39;,&#39;foo1:bar1 foo:bar&#39;,&#39;foo bar&#39;)
+&gt; sapply(str_split(x,&#34;:&#34;),&#39;[&#39;,1)
+[1] &#34;foobar&#34;  &#34;foo&#34;     &#34;foo1&#34;    &#34;foo bar&#34;
+</code></pre><p><a href="http://stackoverflow.com/questions/13438556/how-do-i-copy-and-paste-data-into-r">Read from clipboard</a></p>
+<p>There seem to be various issues with OS with this one, follow the link above for more. For me (Ubunutu Linux) it seems to work on some machines and not on others. I’m afraid I don’t know enough to figure out why and I’m repeatedly crashing RStudio trying to find out, so I’ve given in for now. I may come back to this when I’m less thick.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+copdat &lt;- read.delim(&#34;clipboard&#34;)
+</code></pre><p>If you can’t get it working there’s a lovely <a href="https://cran.r-project.org/web/packages/clipr/index.html">package</a> that will do it for you (when isn’t there?).</p>
+<p><a href="http://stackoverflow.com/questions/3765754/remove-html-tags-from-string-r-programming">Strip HTML from a string</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+gsub(&#34;&lt;(.|\n)*?&gt;&#34;,&#34;&#34;,string
+</code></pre><p><a href="http://psychwire.wordpress.com/2011/06/03/merge-all-files-in-a-directory-using-r-into-a-single-dataframe/">Read several spreadsheets from within one folder and stick them all together</a></p>
+<p>I changed this one slightly from the place whence I stole it, so you may like to look at the original in the link above to see which is closer to what you are doing.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+file_list &lt;- list.files(&#34;~/YOUR/PATH/HERE&#34;, full.names = TRUE)
+
+dataset &lt;- do.call(&#34;rbind&#34;, lapply(file_list, FUN = function(files){
+  read.csv(files)
+  }
+))
+</code></pre><p><a href="http://stackoverflow.com/questions/15776732/how-to-convert-a-vector-of-strings-to-title-case">Change a vector of strings to title case</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+strings = c(&#34;first phrase&#34;, &#34;another phrase to convert&#34;,
+             &#34;and here&#39;s another one&#34;, &#34;last-one&#34;)
+gsub(&#34;\\b([a-z])([a-z]+)&#34;, &#34;\\U\\1\\L\\2&#34; ,strings, perl=TRUE)
+## [1] &#34;First Phrase&#34;              &#34;Another Phrase To Convert&#34;
+## [3] &#34;And Here&#39;s Another One&#34;    &#34;Last-One&#34; 
+</code></pre><p>And we all want to <a href="http://stackoverflow.com/questions/3402371/rbind-different-number-of-columns">rbind dataframes with different number of columns occasionally</a>, here’s a cool function to do that.</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+library(gtools)
+df1 &lt;- data.frame(a = c(1:5), b = c(6:10))
+df2 &lt;- data.frame(a = c(11:15), b = c(16:20), c = LETTERS[1:5])
+
+smartbind(df1, df2)
+
+# result
+     a  b    c
+1.1  1  6 &lt;NA&gt;
+1.2  2  7 &lt;NA&gt;
+1.3  3  8 &lt;NA&gt;
+1.4  4  9 &lt;NA&gt;
+1.5  5 10 &lt;NA&gt;
+2.1 11 16    A
+2.2 12 17    B
+2.3 13 18    C
+2.4 14 19    D
+2.5 15 20    E
+</code></pre><p><a href="http://stats.stackexchange.com/questions/45444/how-do-you-visualize-binary-outcomes-versus-a-continuous-predictor">Plotting a binomial outcome against a continuous variable</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+library(ggplot2) # plotting package for R
+
+N=100
+data=data.frame(Q=seq(N), Freq=runif(N,0,1), Success=sample(seq(0,1), 
+size=N, replace=TRUE))
+
+ggplot(data, aes(x=Freq, y=Success))+geom_point(size=2, alpha=0.4)+
+  stat_smooth(method=&#34;loess&#34;, colour=&#34;blue&#34;, size=1.5)+
+  xlab(&#34;Frequency&#34;)+
+  ylab(&#34;Probability of Detection&#34;)+
+  theme_bw()
+</code></pre><p><a href="http://stackoverflow.com/questions/1395270/determining-memory-usage-of-objects">Report the memory usage of all the objects in the current session</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+sort(sapply(ls(), function(x){
+    format(object.size(get(x)), units = &#34;MB&#34;)
+    }
+  )
+)
+</code></pre><p><a href="http://stackoverflow.com/questions/3318333/split-a-vector-into-chunks-in-r">Split a vector into equal n sized chunks</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+chunk &lt;- function(x,n) split(x, cut(seq_along(x), n, labels = FALSE))
+</code></pre><p><a href="http://suehpro.blogspot.co.uk/2014/12/first-day-of-month-using-r.html">First day of the month</a></p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+# get some dates for the toy example:
+df1 &lt;- data.frame(YourDate = as.Date(&#34;2012-01-01&#34;) + seq(from = 1,to = 900,by = 11))
+
+df1$DayOne &lt;- df1$YourDate - as.POSIXlt(df1$YourDate)$mday + 1
+</code></pre><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,11 +1,9 @@
 baseURL: https://chrisbeeley.github.io/chris_beeley_blog/
 disablePathToLower: true
 languageCode: en-us
-title: Chris Beeley's blog
-theme: 'lightbi-hugo'
-Paginate: 6
 
-Params:
+theme: 'ananke'
+Paginate: 10
 mainSections: ["post","posts"]
 dateFormat: "2 January 2023"
 comments: false

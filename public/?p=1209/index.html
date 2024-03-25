@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Producing RMarkdown reports with Plumber | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Producing RMarkdown reports with Plumber" />
+<meta property="og:description" content="I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=1209/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-03-19T18:56:03+00:00" />
+<meta property="article:modified_time" content="2019-03-19T18:56:03+00:00" />
+<meta itemprop="name" content="Producing RMarkdown reports with Plumber">
+<meta itemprop="description" content="I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now."><meta itemprop="datePublished" content="2019-03-19T18:56:03+00:00" />
+<meta itemprop="dateModified" content="2019-03-19T18:56:03+00:00" />
+<meta itemprop="wordCount" content="835">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Producing RMarkdown reports with Plumber"/>
+<meta name="twitter:description" content="I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Producing RMarkdown reports with Plumber</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-03-19T18:56:03Z">March 19, 2019</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now.</p>
+<p>So I launched a new version of the patient experience dashboard. I forget if I mentioned it on here or not. I think not. It’s here <a href="http://109.74.194.173:8080/apps/SUCE/">http://109.74.194.173:8080/apps/SUCE/</a> and the code is here <a href="https://github.com/ChrisBeeley/patient-experience-dashboard">https://github.com/ChrisBeeley/patient-experience-dashboard</a>. (I should add that I’ve launched a bit early because of an event so it will be a little buggy- forgive me for that).</p>
+<p>One of the things we’ve done is get rid of the static reports that we used to host on the website, which we’re just generated as HTML, uploaded to the CMS and left there. We have preferred instead to switch to a dynamic reporting system which can generate different reports from a fresh set of data each time (I’ve barely started to implement different reports, so it’s very bare bones at the moment, but that’s the idea, at least).</p>
+<p>One of my users, however, liked the way that the old reports would have links to all the team reports on. So she would send out one weblink to service managers and it would have all of the different teams on it and they could just click on each one as they wished. So I need to replicate this somehow. My thinking has gone all round the houses so I’ll spare you the details but basically I thought originally that I could do this with Shiny, generating URLs in each report that would contain query strings that could then be fed into the report generator, which means that clicking each link would bring back each team report. I can’t say for definite that it’s impossible, but I couldn’t figure out a way to do it because Shiny downloads are much more built around the idea that your user clicks a button to get the report. I could have had the link generate a Shiny application with a button in that you press to get the team report, but that’s two clicks and seems a bit clunky. Really, Shiny is not the correct way to solve this problem.</p>
+<p>So I hit upon the idea of doing it with Plumber (<a href="https://www.rplumber.io/">https://www.rplumber.io/</a>). There are very few examples that I could find on the internet of using Plumber to generate parameterised reports with RMarkdown, and none at all generating Word documents (which everyone here prefers) so I’m offering this to help out the next person who wants to do this.</p>
+<p>Just getting any old RMarkdown to render to HTML is pretty easy. Have a look at the Plumber documentation, obviously, but basically you’re looking at</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+#* @serializer contentType list(type=&#34;application/html&#34;)
+#* @get /test
+function(res){
+  
+  include_rmd(&#34;test_report.Rmd&#34;, res)
+}
+</code></pre><p>If you run this API on your machine it will be available at localhost:8000/test (or whatever port Plumber tells you it’s running on). You can see where the /test location is defined, just above the function.</p>
+<p>Easy so far. I had two problems. The first one was including parameters. For all I know this is possible with the include_rmd function but I couldn’t work it out so I found I had to use rmarkdown::render in the function. Like this:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+#* @serializer contentType list(type=&#34;application/html&#34;)
+#* @get /html
+function(team){
+  tmp &lt;- tempfile()
+  
+  render(&#34;team_quarterly.Rmd&#34;, tmp, output_format = &#34;html_document&#34;,
+         params = list(team = team))
+  
+  readBin(tmp, &#34;raw&#34;, n=file.info(tmp)$size)
+}
+</code></pre><p>This API will be available on localhost:8000/html?team=301 (or whatever you want to set team to).</p>
+<p>The RMarkdown just looks like this:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+---
+title: Quarterly report
+output: html_document
+params:
+  team: NA
+---
+
+`r params$team`
+</code></pre><p>You can see you define the params in the YAML and then they’re available with params$team, which will be set to whatever your ?team=XXX search string is.</p>
+<p>Okay, getting there now. The last headache I had was making a Word document. This is only difficult because I didn’t know to put the correct application type in the serializer bit on the first line that defines the API. You just need this:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+#* @serializer contentType list(type=&#34;application/vnd.openxmlformats-officedocument.wordprocessingml.document&#34;)
+#* @get /word
+function(team){
+  tmp &lt;- tempfile()
+  
+  render(&#34;team_quarterly.Rmd&#34;, tmp, output_format = &#34;word_document&#34;,
+         params = list(team = team))
+
+
+  readBin(tmp, &#34;raw&#34;, n=file.info(tmp)$size)
+}
+</code></pre><p>This will be available at localhost/word?team=301.</p>
+<p>That’s it! Easy when you know how. All the code is on Git here <a href="https://github.com/ChrisBeeley/reports_with_plumber">https://github.com/ChrisBeeley/reports_with_plumber</a>.</p>
+<p>I’m pretty excited about this. I did it to solve a very specific problem that I had for one of my dashboard users but it’s pretty obvious that having an API that can return reports parameterised by query string is going to be a very powerful and flexible tool in a lot of my work.</p>
+<p>I’ll get it up on the server over the weekend. If that causes more headaches I guess I’ll be back with another blog post about it next week 🙂</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

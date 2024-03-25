@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Fun with wordclouds | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="As always, I’m late to this party, and wordclouds have come under fire in recent times, e.">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Fun with wordclouds" />
+<meta property="og:description" content="As always, I’m late to this party, and wordclouds have come under fire in recent times, e." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=25/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2011-08-02T15:59:52+00:00" />
+<meta property="article:modified_time" content="2011-08-02T15:59:52+00:00" />
+<meta itemprop="name" content="Fun with wordclouds">
+<meta itemprop="description" content="As always, I’m late to this party, and wordclouds have come under fire in recent times, e."><meta itemprop="datePublished" content="2011-08-02T15:59:52+00:00" />
+<meta itemprop="dateModified" content="2011-08-02T15:59:52+00:00" />
+<meta itemprop="wordCount" content="401">
+<meta itemprop="keywords" content="data visualisation,patient survey,text mining,word clouds," /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Fun with wordclouds"/>
+<meta name="twitter:description" content="As always, I’m late to this party, and wordclouds have come under fire in recent times, e."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Fun with wordclouds</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2011-08-02T15:59:52Z">August 2, 2011</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>As always, I’m late to this party, and wordclouds have come under fire in recent times, e.g. here: <a href="http://www.drewconway.com/zia/?p=2624">drewconway.com</a>. From my point of view they’re eye-catching, and I hope that by putting them up on a website or in a report they might cause people to linger and look in more detail at other pieces of data and visualisation. That’s all I’m going to say for now, I’m sure I’ll talk again about what’s attractive to data scientists and statisticians and what’s attractive to the general public, but let’s leave it for now.</p>
+<p>I am looking at interesting ways of looking at the patient survey (see previous post) at the moment and I thought I would have a go at a wordcloud. Thanks to the wonderful people producing packages for R (the tm and wordcloud packages, many thanks to both!), it’s easy. I nicked a bit of code from another blog (thanks <a href="http://onertipaday.blogspot.com/2011/07/word-cloud-in-r.html">One R tip a day</a>!) and pretty soon I had my own. It’s from two areas of the Trust, featuring the things people like about our services.</p>
+<p>Here’s the code:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+mydata=subset(mydatafirst, Var1==0) # slice the data by area
+
+mycorpus=Corpus(DataframeSource(data.frame(mydata[-is.na(mydata$Best),34]))) # make a text corpus for the tm package out of a data frame, removing missing values at the same time
+
+mycorpus &amp;lt;- tm_map(mycorpus, removePunctuation) # remove all the puncuation
+mycorpus &amp;lt;- tm_map(mycorpus, tolower) # make everything lower case
+mycorpus &amp;lt;- tm_map(mycorpus, function(x) removeWords(x, c(stopwords(&amp;quot;english&amp;quot;), &amp;quot;none&amp;quot;, &amp;quot;ive&amp;quot;, &amp;quot;dont&amp;quot;, &amp;quot;etc&amp;quot;))) # remove words without meaning, many of which are provided by the stopwords(&amp;quot;english&amp;quot;) function
+
+# these next steps take the corpus and turn it into a dataframe ready for the wordcloud function
+
+tdm &amp;lt;- TermDocumentMatrix(mycorpus)
+m &amp;lt;- as.matrix(tdm)
+v &amp;lt;- sort(rowSums(m),decreasing=TRUE)
+d &amp;lt;- data.frame(word = names(v),freq=v)
+
+par(mfrow=c(1,2))
+
+wordcloud(d$word,d$freq,c(3.5,.5),2,100,TRUE,.15, terrain.colors(5),vfont=c(&amp;quot;sans serif&amp;quot;,&amp;quot;plain&amp;quot;))
+
+# ...same steps again for the other area
+
+wordcloud(d2$word,d2$freq,scale=c(4,.5),2,100,TRUE,.15, terrain.colors(5),vfont=c(&amp;quot;sans serif&amp;quot;,&amp;quot;plain&amp;quot;))
+</code></pre><p>I adjusted by eye the scale which you can see in the 3rd parameter of the wordcloud function (making the second area a bit larger). There’s probably a better way, I will investigate further as I look more at what to do with all this data.</p>
+<p>Here’s the word cloud:</p>
+<p><a href="http://chrisbeeley.net/wp-content/uploads/2011/08/rplot02.pdf">Rplot02</a></p>
+<p>Not bad for a few hours’ work! I’m hoping it will draw people in to look at more of the reporting that we do at any rate. Let me know what you think of it, and word clouds generally, in the comments.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/chris_beeley_blog/tags/data-visualisation/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Data Visualisation</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/chris_beeley_blog/tags/patient-survey/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Patient Survey</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/chris_beeley_blog/tags/text-mining/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Text Mining</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/chris_beeley_blog/tags/word-clouds/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Word Clouds</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/chris_beeley_blog/?p=8/">The patient survey: past, present and future</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

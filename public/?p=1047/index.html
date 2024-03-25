@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Analysing runs from the Polar web flow service | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run?">
+    <meta name="generator" content="Hugo 0.124.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Analysing runs from the Polar web flow service" />
+<meta property="og:description" content="Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=1047/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2018-02-09T10:30:27+00:00" />
+<meta property="article:modified_time" content="2018-02-09T10:30:27+00:00" />
+<meta itemprop="name" content="Analysing runs from the Polar web flow service">
+<meta itemprop="description" content="Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run?"><meta itemprop="datePublished" content="2018-02-09T10:30:27+00:00" />
+<meta itemprop="dateModified" content="2018-02-09T10:30:27+00:00" />
+<meta itemprop="wordCount" content="331">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Analysing runs from the Polar web flow service"/>
+<meta name="twitter:description" content="Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run?"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Analysing runs from the Polar web flow service</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2018-02-09T10:30:27Z">February 9, 2018</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run? For this analysis I have used the Polar Flow web service to download two attempts at the same <a href="http://www.parkrun.org.uk/forestrec/">Parkrun</a>, recorded on a Polar M600 (which I love, by the way, if you’re looking for a running/ smartwatch recommendation).</p>
+<p>The background to the analysis is in the second of the two runs I thought I was doing really well and was going to crush my PB and it ended up being exactly the same as the previous run, in terms of total time taken, but with my heart rate a lot lower.</p>
+<p>But I didn’t really feel like I wasn’t pushing myself hard enough, so I can’t really explain why my heart rate has dropped so much without a corresponding increase in performance. One possible explanation is I have moved from being bottlenecked by the performance of my cardiovascular system to being bottlenecked by the performance of my legs, but that these two bottlenecks are very similar in terms of where they cap my pace.</p>
+<p>It was pretty fun having a look in R. Here’s a <a href="http://rpubs.com/Chris_Beeley/analysis5K">link to the analysis</a> as it stands.</p>
+<p>I thought I would look at my race strategy in terms of how fast I went at each point, reasoning that maybe I let myself down on the hills or the straights or something in the second attempt. However, as you can see the pace is absolutely identical the whole way in both runs. The heart rate, as you can see, is consistently lower in the second run, and it only creeps up at the end for the sprint finish (which makes me wonder if I really was pushing myself hard enough).</p>
+<p>I need to do more analysis. My next idea is to look at the relationship between incline, heart rate, and pace (the route is pretty hilly so this is quite important).</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
