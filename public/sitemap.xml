@@ -3,15 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/chris_beeley_blog/</loc>
-    <lastmod>2023-02-14T15:19:20+00:00</lastmod>
+    <lastmod>2024-03-25T20:26:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</loc>
+    <lastmod>2024-03-25T20:26:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/chris_beeley_blog/post/</loc>
+    <lastmod>2024-03-25T20:26:51+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chris_beeley_blog/categories/</loc>
     <lastmod>2023-02-14T15:19:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</loc>
-    <lastmod>2023-02-14T15:19:20+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/chris_beeley_blog/post/</loc>
     <lastmod>2023-02-14T15:19:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chris_beeley_blog/categories/Uncategorized/</loc>
