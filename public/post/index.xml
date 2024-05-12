@@ -2,1221 +2,1228 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on </title>
-    <link>http://localhost:1313/chris_beeley_blog/post/</link>
+    <link>https://chrisbeeley.github.io/chris_beeley_blog/post/</link>
     <description>Recent content in Posts on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Mar 2024 20:26:51 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/chris_beeley_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 May 2024 11:45:29 +0100</lastBuildDate>
+    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decisions Decisions</title>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-05-04-decisions-decisions/</link>
+      <pubDate>Sun, 12 May 2024 11:45:29 +0100</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-05-04-decisions-decisions/</guid>
+      <description>Part two in my &amp;ldquo;Wot I did next&amp;rdquo; series of blogs about management/ leadership in data science, and the usual caveats apply- I claim no expertise in any of the subjects therein.</description>
+    </item>
     <item>
       <title>New Job New Blog</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</link>
       <pubDate>Mon, 25 Mar 2024 20:26:51 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</guid>
       <description>This blog has existed for a long time. The first entry is nearly thirteen years old.</description>
     </item>
     <item>
       <title>Data science panel questions</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</link>
       <pubDate>Tue, 14 Feb 2023 15:19:20 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</guid>
       <description>I was on a panel the other day talking about data science careers (I guess there will be a link to it somewhere at some point, I’ll share it when I see it) and they’ve sent some questions out after the event because they didn’t get through them all.</description>
     </item>
     <item>
       <title>RAP; a 10 year journey</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2022-08-23-rap-a-10-year-journey/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-08-23-rap-a-10-year-journey/</link>
       <pubDate>Tue, 23 Aug 2022 15:03:17 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2022-08-23-rap-a-10-year-journey/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-08-23-rap-a-10-year-journey/</guid>
       <description>I found the earliest possible reference that I ever made to RAP in a document, part of an evaluation report I submitted nearly 10 years ago.</description>
     </item>
     <item>
       <title>Data science for dummies (Goldacre)</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2022-06-23-data-science-for-dummies-goldacre/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-23-data-science-for-dummies-goldacre/</link>
       <pubDate>Thu, 23 Jun 2022 15:45:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2022-06-23-data-science-for-dummies-goldacre/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-23-data-science-for-dummies-goldacre/</guid>
       <description>Building your own tools for data science is a pretty fundamental concept, and I think it’s fair to say that it’s totally alien to most NHS bosses.</description>
     </item>
     <item>
       <title>We need more than &#34;black box&#34;; systems (Goldacre)</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2022-06-16-we-need-more-than-black-box-systems-goldacre/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-16-we-need-more-than-black-box-systems-goldacre/</link>
       <pubDate>Thu, 16 Jun 2022 13:42:09 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2022-06-16-we-need-more-than-black-box-systems-goldacre/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-16-we-need-more-than-black-box-systems-goldacre/</guid>
       <description>The system should be cautious around imagining that it can push away the challenge of TREs – and all work with NHS data – by procuring ‘black box’ services.</description>
     </item>
     <item>
       <title>The prevalence of code sharing (Goldacre)</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2022-05-29-the-prevalence-of-code-sharing-goldacre/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-05-29-the-prevalence-of-code-sharing-goldacre/</link>
       <pubDate>Sun, 29 May 2022 10:04:11 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2022-05-29-the-prevalence-of-code-sharing-goldacre/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-05-29-the-prevalence-of-code-sharing-goldacre/</guid>
       <description>Another greatest hit from the Goldacare report, in the section on open working, “The prevalence of code sharing” (all material reused under OGL)</description>
     </item>
     <item>
       <title>The Goldacre review- greatest hits</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1626/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1626/</link>
       <pubDate>Sun, 22 May 2022 12:18:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1626/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1626/</guid>
       <description>I absolutely love the Goldacare review, I really can’t praise it enough, and I will be doing a lot of work based on it in the coming weeks and months looking at it from the perspective of my own Trust and, (with others) from the perspective of my ICS, and NHS-R.</description>
     </item>
     <item>
       <title>In defence of the ordinary</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1599/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1599/</link>
       <pubDate>Mon, 10 Jan 2022 17:40:24 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1599/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1599/</guid>
       <description>I think this might be a general cultural problem, but I notice it a lot in my field of healthcare analytics.</description>
     </item>
     <item>
       <title>In defence of looking at jobs</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1595/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1595/</link>
       <pubDate>Wed, 22 Dec 2021 11:14:41 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1595/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1595/</guid>
       <description>Nobody should ever have to apologise for looking at jobs, however settled they are.</description>
     </item>
     <item>
       <title>In defence of holiday working</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1591/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1591/</link>
       <pubDate>Thu, 16 Dec 2021 21:21:14 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1591/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1591/</guid>
       <description>This might be a little bit controversial, this post. If you hate it please don’t be offended, it’s just my opinion.</description>
     </item>
     <item>
       <title>In defence of eating</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1582/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1582/</link>
       <pubDate>Wed, 24 Nov 2021 15:07:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1582/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1582/</guid>
       <description>One weird thing in remote/ pandemic times is that people have started turning their cameras off when they eat.</description>
     </item>
     <item>
       <title>In defence of dashboards</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1574/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1574/</link>
       <pubDate>Tue, 16 Nov 2021 22:19:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1574/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1574/</guid>
       <description>I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).</description>
     </item>
     <item>
       <title>Make statistics sexy</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1570/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1570/</link>
       <pubDate>Sat, 13 Nov 2021 23:12:54 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1570/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1570/</guid>
       <description>I’ve been enjoined to make statistics sexy. It’s really taking root in my brain.</description>
     </item>
     <item>
       <title>Data saves lives- and so does open code</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1554/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1554/</link>
       <pubDate>Fri, 17 Sep 2021 16:56:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1554/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1554/</guid>
       <description>I’m reading data saves lives. And look, it’s that thing that I say all the time, that I have pinned on my Twitter profile, the thing I’ve heard time and time again for a decade that everybody just stands around nodding at and nothing actually changes.</description>
     </item>
     <item>
       <title>Pay and reward</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1545/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1545/</link>
       <pubDate>Thu, 19 Aug 2021 22:30:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1545/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1545/</guid>
       <description>I’m reading No Rules Rules, the Netflix management book. It’s really good, lots of interesting stuff in there about doing things differently and although clearly there’s a lot I can’t do in the NHS, there are lessons in there for sure.</description>
     </item>
     <item>
       <title>Graphs &gt; tables</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1537/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1537/</link>
       <pubDate>Mon, 19 Jul 2021 17:30:17 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1537/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1537/</guid>
       <description>One phenomenon that I find very strange in the NHS (and elsewhere, probably, I’ve never worked anywhere else) is the obsession people have with having tables of numbers instead of graphs.</description>
     </item>
     <item>
       <title>Stop punishing people with data</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1533/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1533/</link>
       <pubDate>Sun, 18 Jul 2021 15:28:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1533/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1533/</guid>
       <description>Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes</description>
     </item>
     <item>
       <title>Shoddy data</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1530/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1530/</link>
       <pubDate>Wed, 14 Jul 2021 16:42:02 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1530/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1530/</guid>
       <description>You know, naming no names because I’ll get in trouble but someone somewhere has paid for some data from a proprietary vendor and they’re shipping absolutely unusable garbage data.</description>
     </item>
     <item>
       <title>Managing data science teams in the trenches</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1517/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1517/</link>
       <pubDate>Tue, 01 Jun 2021 12:11:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1517/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1517/</guid>
       <description>We’re systematically devaluing management and leadership in the analyst space, and I encounter a lot of people who think that a day with no code written is a day wasted.</description>
     </item>
     <item>
       <title>What do we want from senior analysts in the NHS?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1514/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1514/</link>
       <pubDate>Mon, 31 May 2021 12:02:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1514/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1514/</guid>
       <description>I’ve been meaning to write this for ages and I’ve just had a rather silly conversation on Twitter about managers and leaders in the NHS which has inspired me to get on with it.</description>
     </item>
     <item>
       <title>SQL versus analytic tools</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1495/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1495/</link>
       <pubDate>Fri, 26 Mar 2021 10:43:42 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1495/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1495/</guid>
       <description>From a tweet from my NHS-R buddy John MacKintosh</description>
     </item>
     <item>
       <title>Building generic Shiny applications with a data module</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1489/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1489/</link>
       <pubDate>Thu, 18 Feb 2021 16:13:18 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1489/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1489/</guid>
       <description>We’re rebuilding our patient experience dashboard at the moment, partly to incorporate some of the work that we’re doing on text mining and partly to connect it up to other types of information we have like staff experience and clinical outcomes.</description>
     </item>
     <item>
       <title>Accessing plot characteristics in Shiny modules</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1478/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1478/</link>
       <pubDate>Fri, 29 Jan 2021 22:47:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1478/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1478/</guid>
       <description>It was my New Year’s resolution to blog more and that’s going really well because this is the first blog I’ve done all year and it’s nearly the end of January.</description>
     </item>
     <item>
       <title>Serving RStudio Connect content to logged in and anonymous users</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1455/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1455/</link>
       <pubDate>Mon, 19 Oct 2020 17:16:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1455/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1455/</guid>
       <description>We have our patient feedback dashboard in the open where anyone can see what Nottinghamshire Healthcare NHS Trust’s patients are saying about us.</description>
     </item>
     <item>
       <title>Analyst, analyse thyself</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1434/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1434/</link>
       <pubDate>Fri, 02 Oct 2020 09:00:14 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1434/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1434/</guid>
       <description>I work in a small (growing) team of data scientists and we’re part of a larger analytic unit which has a focus on innovation in analytics (hence us) and public health methods.</description>
     </item>
     <item>
       <title>Shiny modules for beginners</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1411/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1411/</link>
       <pubDate>Wed, 05 Aug 2020 17:53:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1411/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1411/</guid>
       <description>I’ve seen some discussion on the Internet about whether people learning Shiny should start with modules or if they’re an advanced topic.</description>
     </item>
     <item>
       <title>Getting started in data science for healthcare</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1395/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1395/</link>
       <pubDate>Mon, 13 Jul 2020 15:55:37 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1395/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1395/</guid>
       <description>I just recruited to a data science post at Nottinghamshire Healthcare NHS Trust and I’ve been asked for feedback by several people about how to get started in data science in healthcare, and indeed how to get a job in data science in healthcare.</description>
     </item>
     <item>
       <title>RStudio Connect behind the firewall</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1388/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1388/</link>
       <pubDate>Wed, 10 Jun 2020 16:18:43 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1388/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1388/</guid>
       <description>This is part II of what would otherwise have been a far-too-long post about configuring RStudio Connect.</description>
     </item>
     <item>
       <title>RStudio Connect in the cloud</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1380/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1380/</link>
       <pubDate>Wed, 10 Jun 2020 16:09:06 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1380/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1380/</guid>
       <description>I’ve been using RStudio stuff on the server for a long time.</description>
     </item>
     <item>
       <title>Productionising R at Nottinghamshire Healthcare</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1366/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1366/</link>
       <pubDate>Tue, 26 May 2020 17:18:50 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1366/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1366/</guid>
       <description>I’m hopeful we’re moving into a bit of a new phase with using R in my Trust so I thought I’d outline the direction of travel, to see if it chimes with anyone else and just to keep people up to date about what we’re doing.</description>
     </item>
     <item>
       <title>app.R and global.R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1344/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1344/</link>
       <pubDate>Fri, 03 Apr 2020 18:14:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1344/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1344/</guid>
       <description>I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book Mastering Shiny.</description>
     </item>
     <item>
       <title>Data science for human beings</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1341/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1341/</link>
       <pubDate>Fri, 27 Mar 2020 10:46:57 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1341/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1341/</guid>
       <description>Someone just emailed me to ask me about getting into data science.</description>
     </item>
     <item>
       <title>NHS data science and software licensing</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1336/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1336/</link>
       <pubDate>Mon, 23 Mar 2020 13:04:45 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1336/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1336/</guid>
       <description>I’m writing something about software licensing and IP in NHS data science projects at the moment.</description>
     </item>
     <item>
       <title>The Great Survey Munge</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1307/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1307/</link>
       <pubDate>Wed, 04 Mar 2020 13:51:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1307/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1307/</guid>
       <description>As I mentioned on Twitter the other day, I have this rather ugly spreadsheet that comes from some online survey software that requires quite a lot of cleaning in order to upload it to the database.</description>
     </item>
     <item>
       <title>Rapidly find the mean of survey questions</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1292/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1292/</link>
       <pubDate>Tue, 25 Feb 2020 14:18:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1292/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1292/</guid>
       <description>Following on from the last blog post, I’ve got quite a nice way of generating lots of means from a survey dataset.</description>
     </item>
     <item>
       <title>Converting words on a survey dataset to numbers for analysis</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1287/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1287/</link>
       <pubDate>Tue, 18 Feb 2020 13:41:50 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1287/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1287/</guid>
       <description>As always, I have very little time for blogging (sorry) but I just came up with a neat way of converting “Strongly Agree”, “Always”, all that stuff that you get on survey based datasets into numbers ready for analysis.</description>
     </item>
     <item>
       <title>Decade round up post</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1273/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1273/</link>
       <pubDate>Sun, 19 Jan 2020 09:58:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1273/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1273/</guid>
       <description>I’ve got into the habit of writing a yearly roundup blog post (see this blog, passim), based on a suggested framework by David Allen.</description>
     </item>
     <item>
       <title>My superpower (a talk I gave about being ill)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1263/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1263/</link>
       <pubDate>Mon, 16 Dec 2019 09:25:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1263/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1263/</guid>
       <description>So this post is nothing to do with R, or Linux, or statistics, or any of the usual stuff.</description>
     </item>
     <item>
       <title>NHS-R conference</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1257/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1257/</link>
       <pubDate>Sun, 08 Dec 2019 12:36:07 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1257/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1257/</guid>
       <description>So I recently just got back from the NHS-R community conference, which was amazing of course, and it’s got me in the mood to share, so I’m writing a few blog posts.</description>
     </item>
     <item>
       <title>Authenticating using LDAP from Active Directory using Shiny Server Pro</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1242/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1242/</link>
       <pubDate>Wed, 06 Nov 2019 18:03:08 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1242/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1242/</guid>
       <description>Right, I promised I would write this a very long time ago and I still haven’t done it.</description>
     </item>
     <item>
       <title>Add label to shinydashboard</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1230/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1230/</link>
       <pubDate>Thu, 31 Oct 2019 11:38:12 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1230/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1230/</guid>
       <description>I feel like I’m sticking my neck out a bit here, and there’s a simple way to doing this that I haven’t found, but I’ve looked pretty hard and “add label to sidebar shiny dashboard” has basically no Google juice at all, and I should know because I’ve been staring at it for half an hour.</description>
     </item>
     <item>
       <title>The analysts&amp;#8217; manifesto</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1222/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1222/</link>
       <pubDate>Thu, 08 Aug 2019 14:53:23 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1222/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1222/</guid>
       <description>I was at an event a little while ago and there was talk of change coming for healthcare analysts.</description>
     </item>
     <item>
       <title>Python, working together, and productionising code at Nottinghamshire Healthcare NHS Trust</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1218/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1218/</link>
       <pubDate>Tue, 02 Jul 2019 16:28:58 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1218/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1218/</guid>
       <description>Someone just asked me a question on Twitter and I was most of the way through what would have been several tweets before I thought perhaps it would work better as a blog post.</description>
     </item>
     <item>
       <title>A note for Kindle readers of my Shiny book</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1216/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1216/</link>
       <pubDate>Sat, 25 May 2019 14:34:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1216/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1216/</guid>
       <description>Someone has been in touch with me to say that the Kindle version has no chapter numbers and they were finding it difficult to figure out which bit of the book went with which bit in the repository.</description>
     </item>
     <item>
       <title>The future of patient experience data at Nottinghamshire Healthcare</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1214/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1214/</link>
       <pubDate>Fri, 05 Apr 2019 10:50:20 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1214/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1214/</guid>
       <description>I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.</description>
     </item>
     <item>
       <title>Adding line returns in RMarkdown in a loop</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1212/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1212/</link>
       <pubDate>Sun, 31 Mar 2019 16:48:05 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1212/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1212/</guid>
       <description>Another one that’s for me when I forget. The internet seems strangely reluctant to tell me how to do this, yet here it is buried in the answer to something else.</description>
     </item>
     <item>
       <title>Producing RMarkdown reports with Plumber</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1209/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1209/</link>
       <pubDate>Tue, 19 Mar 2019 18:56:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1209/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1209/</guid>
       <description>I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now.</description>
     </item>
     <item>
       <title>Suppress console output with ggplot, purrr, and RMarkdown</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1198/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1198/</link>
       <pubDate>Sun, 17 Mar 2019 18:27:09 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1198/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1198/</guid>
       <description>So I posted a while back about producing several plots at once with RMarkdown and purrr and how to suppress the console output in the document.</description>
     </item>
     <item>
       <title>A world of #plotthedots and&amp;#8230; what else?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1195/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1195/</link>
       <pubDate>Sun, 03 Mar 2019 09:26:42 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1195/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1195/</guid>
       <description>Reproduced above is a recent exchange on Twitter. I’d better open by saying this blog post is not impugning the work of Samantha Riley or any other plot the dots people.</description>
     </item>
     <item>
       <title>Citing R packages in RMarkdown</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1190/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1190/</link>
       <pubDate>Sun, 17 Feb 2019 15:46:33 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1190/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1190/</guid>
       <description>I haven’t really done much in the way of citing papers in the last couple of years, I’ve spent my time either messing around with Shiny servers or databases or writing RMarkdown reports- and being horribly ill, of course, haha!</description>
     </item>
     <item>
       <title>Dplyr function to replace nested ifelse (like SQL CASE WHEN)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1188/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1188/</link>
       <pubDate>Sun, 03 Feb 2019 17:45:39 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1188/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1188/</guid>
       <description>I hate nested ifelse statements in R code. I absolutely hate them.</description>
     </item>
     <item>
       <title>Data science accelerator lesson one- build a pipeline and ship the code!</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1186/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1186/</link>
       <pubDate>Sun, 20 Jan 2019 17:41:39 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1186/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1186/</guid>
       <description>My exciting news is that I was accepted onto the data science accelerator and have been doing it since late December.</description>
     </item>
     <item>
       <title>New Year&amp;#8217;s post</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1181/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1181/</link>
       <pubDate>Tue, 08 Jan 2019 21:41:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1181/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1181/</guid>
       <description>So this is my annual New Year’s post, it’s an idea from David Allen that I’ve done before.</description>
     </item>
     <item>
       <title>A tidy text talk and some stuff from my Shiny book</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1173/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1173/</link>
       <pubDate>Fri, 16 Nov 2018 14:28:40 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1173/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1173/</guid>
       <description>This is just a quick post to show some of the stuff that I’ve published/ presented/ put on GitHub recently.</description>
     </item>
     <item>
       <title>Drawing stacked barcharts the tidyverse way</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1170/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1170/</link>
       <pubDate>Tue, 13 Nov 2018 17:07:50 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1170/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1170/</guid>
       <description>Don’t judge me, but I do spend quite a lot of time making stacked barcharts of survey data.</description>
     </item>
     <item>
       <title>Produce tables in loop</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1159/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1159/</link>
       <pubDate>Tue, 16 Oct 2018 16:23:37 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1159/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1159/</guid>
       <description>Another one for me before I forget, I seem to have terrible problems writing headings and tables in a loop in RMarkdown.</description>
     </item>
     <item>
       <title>The shinyverse</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1157/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1157/</link>
       <pubDate>Tue, 02 Oct 2018 13:55:24 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1157/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1157/</guid>
       <description>I’m pretty sure I’ve made up the word shinyverse, to refer to all the packages that either use or complement Shiny.</description>
     </item>
     <item>
       <title>Filling in non missing elements by row (Survey Monkey masterclass)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1155/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1155/</link>
       <pubDate>Tue, 02 Oct 2018 10:17:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1155/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1155/</guid>
       <description>There must be other people out there doing this, so I’ll share this neat thing I found today.</description>
     </item>
     <item>
       <title>In praise of awkward questions</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1152/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1152/</link>
       <pubDate>Tue, 18 Sep 2018 20:29:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1152/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1152/</guid>
       <description>I went to a conference last week, more of a meet up really, and they presented the results of the work that we’ve all been doing, indicating that there were several statistically significant improvements in the expected direction.</description>
     </item>
     <item>
       <title>Jupyter, Python, interactive web frameworks, and more</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1147/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1147/</link>
       <pubDate>Mon, 03 Sep 2018 08:41:32 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1147/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1147/</guid>
       <description>A couple of days ago on Twitter I said the following:</description>
     </item>
     <item>
       <title>Producing several plots at once with RMarkdown and purrr</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1143/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1143/</link>
       <pubDate>Fri, 17 Aug 2018 15:06:06 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1143/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1143/</guid>
       <description>pre:not([class]) { background-color: white; } if (window.hljs) { hljs.</description>
     </item>
     <item>
       <title>Shiny Pro in a Windows/ NHS environment, part 1: The curse of Kerberos</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1124/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1124/</link>
       <pubDate>Thu, 12 Jul 2018 14:02:53 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1124/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1124/</guid>
       <description>Right, here goes. Let’s tell the story. I’ve been working on this for months, not because it’s particularly hard, but because I really didn’t know what I was doing.</description>
     </item>
     <item>
       <title>Passing strings as variables from a Shiny app into dplyr</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1116/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1116/</link>
       <pubDate>Wed, 13 Jun 2018 12:31:04 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1116/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1116/</guid>
       <description>I’ve been sort of waiting until I understood this thoroughly, and I was going to write a very detailed blog post about it, and although I do understand it a lot better now than I did, I’m still not at the point where I would write an authoritative blog post about it confidently because there are too many things that I don’t understand.</description>
     </item>
     <item>
       <title>Selectively hide text with JavaScript in RMarkdown</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1104/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1104/</link>
       <pubDate>Tue, 29 May 2018 09:11:06 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1104/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1104/</guid>
       <description>I guess this is one of those where I kind of did know it was possible, really.</description>
     </item>
     <item>
       <title>Recoding to NA with dplyr</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1098/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1098/</link>
       <pubDate>Tue, 15 May 2018 10:54:04 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1098/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1098/</guid>
       <description>Just very quickly again, still horribly busy, but this has been annoying me for ages and I finally figured it out.</description>
     </item>
     <item>
       <title>Checking memory usage in R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1096/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1096/</link>
       <pubDate>Tue, 01 May 2018 09:11:34 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1096/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1096/</guid>
       <description>Wow, I cannot believe I didn’t blog this. I just tried to find it on my own blog and I must have forgotten.</description>
     </item>
     <item>
       <title>Convert icons to different colours</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1092/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1092/</link>
       <pubDate>Tue, 17 Apr 2018 12:39:42 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1092/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1092/</guid>
       <description>I’m horribly, horribly busy (stay tuned until mid May-ish to hear about what I’ve been up to) but I’ve just done something so quickly and easily that I couldn’t resist sharing it.</description>
     </item>
     <item>
       <title>Securing Shiny Server over SSL with Apache on Ubuntu</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1077/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1077/</link>
       <pubDate>Thu, 22 Mar 2018 09:48:39 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1077/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1077/</guid>
       <description>Well, I couldn’t find a guide for precisely this on the Internet, securing your Shiny Server over SSL (with Apache), but I did find the following links which were very useful and which I only adapted slightly.</description>
     </item>
     <item>
       <title>Scraping the RStudio webinar list</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1064/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1064/</link>
       <pubDate>Thu, 08 Mar 2018 18:47:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1064/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1064/</guid>
       <description>I only just found this list of RStudio webinars, there’s loads of stuff on there, I really need to plow through a lot of it.</description>
     </item>
     <item>
       <title>One weird trick to getting column types right with read_csv</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1057/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1057/</link>
       <pubDate>Thu, 22 Feb 2018 13:05:51 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1057/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1057/</guid>
       <description>Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time.</description>
     </item>
     <item>
       <title>Analysing runs from the Polar web flow service</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1047/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1047/</link>
       <pubDate>Fri, 09 Feb 2018 10:30:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1047/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1047/</guid>
       <description>Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run?</description>
     </item>
     <item>
       <title>New Year blog post</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1052/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1052/</link>
       <pubDate>Fri, 26 Jan 2018 21:31:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1052/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1052/</guid>
       <description>So my favourite productivity guru, David Allen, he of Getting Things Done fame, has a suggestion for a New Year review that you should carry out each year.</description>
     </item>
     <item>
       <title>Gathering data (wide to long) in the tidyverse</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1042/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1042/</link>
       <pubDate>Mon, 22 Jan 2018 16:27:34 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1042/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1042/</guid>
       <description>I seem to have a pretty severe mental block about the gather() function from dplyr so this is yet another post that to be honest is basically for me to refer to in 6 months when I forget all this stuff.</description>
     </item>
     <item>
       <title>Analysis tools for Manager Joe</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1032/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1032/</link>
       <pubDate>Fri, 05 Jan 2018 12:12:36 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1032/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1032/</guid>
       <description>I’m using someone else’s data today. It’s absolutely hideously laid out.</description>
     </item>
     <item>
       <title>Failure to produce pdf with RMarkdown tidyverse</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1037/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1037/</link>
       <pubDate>Wed, 20 Dec 2017 15:21:32 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1037/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1037/</guid>
       <description>I’m using tidyverse for everything now, as I’ve mentioned in previous posts, when I want a cup of tea I just run:</description>
     </item>
     <item>
       <title>Font size of code in .Rpres presentations</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1030/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1030/</link>
       <pubDate>Fri, 08 Dec 2017 16:54:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1030/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1030/</guid>
       <description>I don’t know if I even knew about the .</description>
     </item>
     <item>
       <title>Better Git commit messages</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1025/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1025/</link>
       <pubDate>Tue, 21 Nov 2017 11:14:13 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1025/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1025/</guid>
       <description>Something else I’m trying to be better at is using Git.</description>
     </item>
     <item>
       <title>Ellen Townsend: Small talk saves lives — IMH Blog (Nottingham)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1016/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1016/</link>
       <pubDate>Fri, 17 Nov 2017 20:44:58 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1016/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1016/</guid>
       <description>It sounds much too simple doesn’t it? Making small talk could save a life.</description>
     </item>
     <item>
       <title>Filtering data straight into a plot with tidyverse</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1017/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1017/</link>
       <pubDate>Fri, 15 Sep 2017 09:05:04 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1017/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1017/</guid>
       <description>I’m still trying to go full tidyverse, as I believe I mentioned a while back.</description>
     </item>
     <item>
       <title>One editor to rule them all- Atom</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=1023/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=1023/</link>
       <pubDate>Sun, 02 Jul 2017 09:57:15 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=1023/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=1023/</guid>
       <description>I’m very happy using RStudio for all my R code.</description>
     </item>
     <item>
       <title>Lazy tables with R and pander</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=983/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=983/</link>
       <pubDate>Tue, 23 May 2017 14:17:18 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=983/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=983/</guid>
       <description>One of the many things I love about R is how gloriously lazy it can help you to be.</description>
     </item>
     <item>
       <title>Quarters and modulo arithmetic</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=957/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=957/</link>
       <pubDate>Fri, 21 Apr 2017 12:39:35 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=957/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=957/</guid>
       <description>This is another post that’s mainly for my benefit when I inevitably forget.</description>
     </item>
     <item>
       <title>Consuming REST APIs with PHP and CURL</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=955/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=955/</link>
       <pubDate>Thu, 20 Apr 2017 11:27:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=955/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=955/</guid>
       <description>I wasted such a lot of time on this that I must commit it to the internet on the off chance that it helps someone else in the same situation.</description>
     </item>
     <item>
       <title>Converting a grouped plyr::ddply() to dplyr</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=936/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=936/</link>
       <pubDate>Thu, 13 Apr 2017 16:19:59 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=936/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=936/</guid>
       <description>I’m going full tidyverse at the moment and so I’m converting my old plyr code to dplyr.</description>
     </item>
     <item>
       <title>Munging Patient Opinion data with R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=904/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=904/</link>
       <pubDate>Fri, 10 Mar 2017 11:31:23 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=904/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=904/</guid>
       <description>I’ve written a post about using Patient Opinion’s new API, focusing on how to download your data using R but also perhaps useful to those using other languages as a gentle introduction, which can be found here.</description>
     </item>
     <item>
       <title>Querying the Patient Opinion API from R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=886/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=886/</link>
       <pubDate>Fri, 10 Mar 2017 11:28:06 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=886/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=886/</guid>
       <description>Patient Opinion have a new API out. They are retiring the old API, so you’ll need to transfer over to the new one if you are currently using the old version, but in any case there are a number of advantages to doing so.</description>
     </item>
     <item>
       <title>Concatenating text nicely with commas and &amp;#8220;and&amp;#8221;s</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=871/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=871/</link>
       <pubDate>Thu, 12 Jan 2017 15:12:35 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=871/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=871/</guid>
       <description>Wow, this blog is quiet at the moment. I can’t even remember if I’ve written this anywhere but I had a liver transplant in May and I’ve been repeatedly hospitalised with complications ever since.</description>
     </item>
     <item>
       <title>Working as a coder at a technology company versus working as a coder in other contexts</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=861/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=861/</link>
       <pubDate>Wed, 05 Oct 2016 13:13:56 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=861/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=861/</guid>
       <description>I was just skimming a book about Python and I found a rather interesting quote:</description>
     </item>
     <item>
       <title>Open document formats and why we need them</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=824/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=824/</link>
       <pubDate>Wed, 01 Jun 2016 20:20:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=824/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=824/</guid>
       <description>The whole world is moving to open document formats for the obvious reason that in order to read and write documents one shouldn’t need to waste money on Microsoft’s increasingly ungainly Office application when perfectly good free and open source alternatives exist (thinking particularly of the mighty LibreOffice).</description>
     </item>
     <item>
       <title>Backing up a remote MySQL database on a remote server using cron</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=779/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=779/</link>
       <pubDate>Fri, 01 Apr 2016 15:33:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=779/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=779/</guid>
       <description>This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.</description>
     </item>
     <item>
       <title>Make your own HTML tables in R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=796/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=796/</link>
       <pubDate>Wed, 13 Jan 2016 14:53:54 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=796/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=796/</guid>
       <description>I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.</description>
     </item>
     <item>
       <title>G&#43;&#43; error compiling on R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=783/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=783/</link>
       <pubDate>Wed, 18 Nov 2015 18:36:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=783/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=783/</guid>
       <description>I was installing R packages (the httpuv package, but I imagine others would generate the same problem) on my Ubuntu server today and I got a very strange error message:</description>
     </item>
     <item>
       <title>Sharing files from host machine on virtualbox</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=769/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=769/</link>
       <pubDate>Wed, 30 Sep 2015 11:45:28 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=769/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=769/</guid>
       <description>I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card.</description>
     </item>
     <item>
       <title>Single file Shiny app to take GET parameters and return date range input boxes</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=757/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=757/</link>
       <pubDate>Thu, 17 Sep 2015 14:09:47 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=757/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=757/</guid>
       <description>I’ve spent quite a long time fiddling around with some code for the feedback website for which I am responsible for all the reporting so we can distribute custom URLs to individuals who have specific reports they want to run.</description>
     </item>
     <item>
       <title>Producing headings in Word files programmatically using knitr</title>
-      <link>http://localhost:1313/chris_beeley_blog/post/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/post/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</link>
       <pubDate>Tue, 01 Sep 2015 15:54:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/post/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/post/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</guid>
       <description>I love knitr. Sometimes I have to send people documents in Word.</description>
     </item>
     <item>
       <title>Digikam crashes on startup</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=748/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=748/</link>
       <pubDate>Mon, 31 Aug 2015 09:32:56 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=748/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=748/</guid>
       <description>To be honest, this post is really designed as a reminder to me in case I ever reinstall my OS, but it will probably get a bit of Google juice and could possibly help somebody else.</description>
     </item>
     <item>
       <title>Convert pdf to text on Ubuntu</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=740/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=740/</link>
       <pubDate>Fri, 12 Jun 2015 09:32:01 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=740/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=740/</guid>
       <description>We had rather an ugly scanned pdf of a very lovely poem over on our feedback website so I thought I would try to post the text from it using Optical Character Recognition using tesseract.</description>
     </item>
     <item>
       <title>Five tips for five years</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=731/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=731/</link>
       <pubDate>Fri, 05 Jun 2015 09:26:26 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=731/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=731/</guid>
       <description>I saw some wonderful tweets the other day where the author gave their former naive self some time-travelling advice from their present self about how best to get started with programming.</description>
     </item>
     <item>
       <title>Don&amp;#8217;t apologise- it&amp;#8217;s just feedback</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=726/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=726/</link>
       <pubDate>Fri, 05 Jun 2015 09:13:26 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=726/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=726/</guid>
       <description>I’m cross posting this to my team’s blog which can be found here to bring together my two worlds of programming and Linux-geekery with the Involvement and experience in UK health services which I use programming and Linux-geekery for in my job.</description>
     </item>
     <item>
       <title>Downloading Lucida Console on Ubuntu</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=722/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=722/</link>
       <pubDate>Fri, 22 May 2015 15:34:11 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=722/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=722/</guid>
       <description>Well, it’s been a horribly long time since I blogged anything.</description>
     </item>
     <item>
       <title>Primum non nocere- gathering feedback data in the NHS</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=717/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=717/</link>
       <pubDate>Sat, 31 Jan 2015 22:02:20 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=717/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=717/</guid>
       <description>One of the bits of the internet where I hang out is alive with debate around this comment piece in The Guardian.</description>
     </item>
     <item>
       <title>I did it! I edited some open sourced code!</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=710/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=710/</link>
       <pubDate>Tue, 23 Dec 2014 21:46:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=710/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=710/</guid>
       <description>I do try to promote the benefits of open source wherever I go, and one of these many benefits is, of course, the ability of endusers or intermediate parties to modify the source code to make changes to the software.</description>
     </item>
     <item>
       <title>All hail the mighty Cron- setting up cron jobs and a mail server to collect their output logs</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=703/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=703/</link>
       <pubDate>Fri, 24 Oct 2014 11:45:15 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=703/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=703/</guid>
       <description>At a certain point, everyone with a penchant for databases and Linux is going to want to make use of cron, whether it’s to back up their data, run maintenance on certain fields of a database, or something else (in my case, do a huge pull of MySQL tables and format ready to drop nicely into a Shiny application).</description>
     </item>
     <item>
       <title>Querying Google analytics data with R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=696/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=696/</link>
       <pubDate>Tue, 09 Sep 2014 14:14:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=696/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=696/</guid>
       <description>This post is in response to a question on Twitter, but it may be of interest to others.</description>
     </item>
     <item>
       <title>Book review: PHP Cookbook by David Sklar and Adam Trachtenberg</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=689/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=689/</link>
       <pubDate>Wed, 13 Aug 2014 12:06:41 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=689/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=689/</guid>
       <description>This is a book review of PHP Cookbook by David Sklar, and Adam Trachtenberg.</description>
     </item>
     <item>
       <title>Open source vs. commercial off the shelf</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=682/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=682/</link>
       <pubDate>Fri, 08 Aug 2014 17:01:57 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=682/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=682/</guid>
       <description>A government department in Australia reports saving very large amounts of money by shunning paid for proprietary software and implementing their own version with R (link to story).</description>
     </item>
     <item>
       <title>Book review: Supercommunicator by Frank J. Pietrucha</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=671/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=671/</link>
       <pubDate>Sun, 06 Jul 2014 14:06:26 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=671/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=671/</guid>
       <description>This is a book review of Supercommunicator by Frank J.</description>
     </item>
     <item>
       <title>Make your own Twitter ticker using PHP, CSS3, and JavaScript</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=657/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=657/</link>
       <pubDate>Fri, 20 Jun 2014 21:03:47 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=657/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=657/</guid>
       <description>I made a little Twitter ticker for work the other day, which will fetch posts with a particular hashtag and then animate them marquee style across the screen, I thought I may as well share it here.</description>
     </item>
     <item>
       <title>New guest post at Online behaviour</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=654/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=654/</link>
       <pubDate>Tue, 17 Jun 2014 09:31:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=654/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=654/</guid>
       <description>I’ve just had a guest post published at Online Behaviour, about visualising Google Analytics data using R and Shiny, which can be found here.</description>
     </item>
     <item>
       <title>Book review: Learning PHP, MySQL, JavaScript, and CSS, 2nd Edition</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=644/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=644/</link>
       <pubDate>Mon, 09 Jun 2014 17:21:08 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=644/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=644/</guid>
       <description>Full disclosure: I received this ebook free under the O’Reilly Reader Review Programme.</description>
     </item>
     <item>
       <title>Learn to program, or loads of other stuff, for free</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=641/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=641/</link>
       <pubDate>Fri, 06 Jun 2014 22:00:11 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=641/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=641/</guid>
       <description>There are more and more free sources of free sources of courses in programming and more besides.</description>
     </item>
     <item>
       <title>Web application development with R using Shiny new version of code</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=631/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=631/</link>
       <pubDate>Sat, 10 May 2014 20:54:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=631/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=631/</guid>
       <description>The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, Web application development with R using Shiny.</description>
     </item>
     <item>
       <title>Shiny server working on Windows based virtual machine</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=624/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=624/</link>
       <pubDate>Thu, 08 May 2014 21:00:15 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=624/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=624/</guid>
       <description>Working in the NHS as I do, which runs all of its IT on Windows, I’d always despaired of being able to get Shiny Server working.</description>
     </item>
     <item>
       <title>Useful R functions</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=530/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=530/</link>
       <pubDate>Thu, 24 Apr 2014 13:26:19 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=530/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=530/</guid>
       <description>Today seems as good a day as any to start archiving all the useful R functions I see scattered around the internet.</description>
     </item>
     <item>
       <title>Produce Word documents, web pages, and pdfs in R quickly and easily</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=609/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=609/</link>
       <pubDate>Sat, 29 Mar 2014 13:27:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=609/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=609/</guid>
       <description>When I started using R in about 2009 reproducible research was a complete eye-opener for me.</description>
     </item>
     <item>
       <title>Setting up a new Linux install, quickstart guide</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=593/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=593/</link>
       <pubDate>Sun, 23 Mar 2014 14:41:14 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=593/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=593/</guid>
       <description>This is another post which is designed both to help me as an aide-memoire and also to help anyone else out there who wants to set up a new Linux install quickly and easily.</description>
     </item>
     <item>
       <title>Buy my book from #Packt in the Buy One, Get One Free sale bit.ly/1j26nPN #Packt2k</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=603/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=603/</link>
       <pubDate>Wed, 19 Mar 2014 21:20:13 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=603/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=603/</guid>
       <description>My publisher is having a sale, buy one get on free on all ebooks, so if you wish to buy my book or indeed a book about something else, go check it out here.</description>
     </item>
     <item>
       <title>My PhD thesis is online finally</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=590/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=590/</link>
       <pubDate>Wed, 19 Mar 2014 10:09:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=590/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=590/</guid>
       <description>To my great shame, I never published the findings from my PhD (Daily behavioural ratings: what can behavioural observation tell us about psychopathy, personality disorder and violence risk in secure psychiatric settings?</description>
     </item>
     <item>
       <title>Book review: Doing Data Science: Straight Talk from the Frontline</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=578/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=578/</link>
       <pubDate>Wed, 12 Feb 2014 17:10:20 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=578/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=578/</guid>
       <description>Book review&#xA;Doing Data Science: Straight Talk from the Frontline By Cathy O’Neil, Rachel Schutt</description>
     </item>
     <item>
       <title>Boss of year of code can&amp;#8217;t code- do we all need to be able to code?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=571/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=571/</link>
       <pubDate>Mon, 10 Feb 2014 21:37:25 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=571/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=571/</guid>
       <description>As many of you will be aware, the Twittersphere was recently ignited by Lottie Dexter (Year of code boss can’t code) and her car crash performance on Newsnight.</description>
     </item>
     <item>
       <title>Pick up a copy of my book or another ebook for $5 #Packt$5 #ebookbonanza</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=564/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=564/</link>
       <pubDate>Mon, 23 Dec 2013 12:05:43 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=564/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=564/</guid>
       <description>The publisher of my book, Packt, is having an ebook sale:</description>
     </item>
     <item>
       <title>Clearly Better For Analytics and Graphics (My LondonR talk- Developing with Shiny for the Web)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=554/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=554/</link>
       <pubDate>Wed, 04 Dec 2013 21:00:34 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=554/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=554/</guid>
       <description>I gave a talk at the LondonR group last night about using Shiny and particularly about integrating it with HTML, CSS, JavaScript and jQuery to go nicely with other web content.</description>
     </item>
     <item>
       <title>The internet platform of the future</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=551/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=551/</link>
       <pubDate>Sat, 30 Nov 2013 09:11:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=551/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=551/</guid>
       <description>I recently sent the following to the New Statesman in response to a piece they recently carried which weighed up the likely fortunes of Google, Facebook, and Apple, and asked which would be the internet platform of the future.</description>
     </item>
     <item>
       <title>Free and open source software. Come for the free, stay for the awesome</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=537/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=537/</link>
       <pubDate>Fri, 08 Nov 2013 17:00:44 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=537/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=537/</guid>
       <description>I just wrote this for the Institute of Mental Health blog so I thought I may as well cross-post here.</description>
     </item>
     <item>
       <title>Quick p-values for publication</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=520/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=520/</link>
       <pubDate>Thu, 24 Oct 2013 06:14:08 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=520/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=520/</guid>
       <description>I’m afraid this is just from a lecture from the school of the totally obvious, but for some unfathomable reason I’ve never got round to doing it.</description>
     </item>
     <item>
       <title>Book launch</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=511/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=511/</link>
       <pubDate>Tue, 22 Oct 2013 19:02:44 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=511/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=511/</guid>
       <description>My book has just come out, Web Application Development with R using Shiny.</description>
     </item>
     <item>
       <title>Patient Opinion data made easy with R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=487/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=487/</link>
       <pubDate>Sat, 19 Oct 2013 10:47:41 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=487/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=487/</guid>
       <description>As you may or may not be aware, I recently helped on the data side of Nottinghamshire Healthcare NHS Trust’s feedback website which lives here.</description>
     </item>
     <item>
       <title>Some examples of Shiny with HTML, CSS, JavaScript, and jQuery</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=481/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=481/</link>
       <pubDate>Tue, 17 Sep 2013 10:35:09 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=481/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=481/</guid>
       <description>It’s becoming rather Shiny-centric, this blog, I know, but I just put some little demos about how to use Shiny with HTML, CSS, JavaScript, and jQuery, just some toy examples with links to source, up on the website.</description>
     </item>
     <item>
       <title>Shiny widget demo</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=474/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=474/</link>
       <pubDate>Sun, 15 Sep 2013 16:07:26 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=474/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=474/</guid>
       <description>For those of you using the brilliant Shiny package in R, I’ve built a little toy to help you learn/ remember the main widget types and the type of values they return.</description>
     </item>
     <item>
       <title>Citrix on Ubuntu 12.04</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=467/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=467/</link>
       <pubDate>Sun, 11 Aug 2013 23:17:48 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=467/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=467/</guid>
       <description>One for Linux users forced to use Citrix to log in to their corporate email, such as myself.</description>
     </item>
     <item>
       <title>What&amp;#8217;s up with chrisbeeley.net?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=462/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=462/</link>
       <pubDate>Fri, 02 Aug 2013 17:51:44 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=462/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=462/</guid>
       <description>I’ve had my own server for a little while now, with a very scabby and unattractive webpage on it, some Java I haven’t got round to turning into an applet, a couple of random Shiny apps, and that’s about it.</description>
     </item>
     <item>
       <title>Department for redundancy department results of staff survey questionnaire</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=454/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=454/</link>
       <pubDate>Fri, 28 Jun 2013 14:25:59 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=454/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=454/</guid>
       <description>I’ve just received the following in a local newsletter.</description>
     </item>
     <item>
       <title>Shiny application in a morning</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=414/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=414/</link>
       <pubDate>Tue, 18 Jun 2013 08:48:31 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=414/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=414/</guid>
       <description>Sort of apropos of nothing, really, this, but I was doing some research with some colleagues the other day and to help out I built a shiny application in a morning.</description>
     </item>
     <item>
       <title>Change we need to see in Government and public service IT</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=412/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=412/</link>
       <pubDate>Tue, 11 Jun 2013 14:50:58 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=412/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=412/</guid>
       <description>There’s a lot of material here, including a 22 minute talk, but if you’re even remotely interested in IT in government and public services then please have a look here (you can get all three by clicking through, but I’ve extracted each link for you).</description>
     </item>
     <item>
       <title>It&amp;#8217;s alive!</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=405/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=405/</link>
       <pubDate>Thu, 06 Jun 2013 19:54:51 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=405/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=405/</guid>
       <description>Well, it finally launched today, the patient feedback website that we created as part of the Patient Feedback Challenge.</description>
     </item>
     <item>
       <title>The UK government pays me to write open source all day</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=402/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=402/</link>
       <pubDate>Thu, 30 May 2013 11:21:04 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=402/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=402/</guid>
       <description>Open source is creeping into government and my area, health, bit by bit (no pun intended!</description>
     </item>
     <item>
       <title>Survivorship Bias</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=400/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=400/</link>
       <pubDate>Tue, 28 May 2013 08:10:20 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=400/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=400/</guid>
       <description>Not the usual topic of this blog, but a great post and well worth a read.</description>
     </item>
     <item>
       <title>Cool graph in 5 seconds</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=398/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=398/</link>
       <pubDate>Tue, 14 May 2013 11:06:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=398/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=398/</guid>
       <description>Cool graph in 5 seconds. Open R. Type&#xA;&amp;lt;pre class=&amp;#34;brush: r; title: ; notranslate&amp;#34; title=&amp;#34;&amp;#34;&amp;gt; library(rgl) with(mtcars, plot3d(wt, disp, mpg, col=&amp;amp;quot;red&amp;amp;quot;, size=3)) Spin the graph with your mouse.</description>
     </item>
     <item>
       <title>What does your maternity leave look like?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=380/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=380/</link>
       <pubDate>Sun, 14 Apr 2013 08:24:21 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=380/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=380/</guid>
       <description>Now THIS is a visualisation- the same child photographed at ages corresponding to statutory paid maternity leave in different countries</description>
     </item>
     <item>
       <title>All Information is Actionable</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=378/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=378/</link>
       <pubDate>Sun, 14 Apr 2013 08:21:26 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=378/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=378/</guid>
       <description>A brilliant post on the conflict between the needs of analysts and decision makers… with cats!</description>
     </item>
     <item>
       <title>Data in the NHS</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=371/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=371/</link>
       <pubDate>Wed, 20 Mar 2013 14:36:08 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=371/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=371/</guid>
       <description>I wrote a little piece for an information pack related to the Patient Feedback Challenge so I thought I may as well share it here.</description>
     </item>
     <item>
       <title>Unstable net promoter scores</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=303/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=303/</link>
       <pubDate>Fri, 08 Feb 2013 17:43:28 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=303/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=303/</guid>
       <description>If you work in the NHS you’ll know that the “net promoter score” (aka the friends and family test- “would you recommend this service to family and friends?</description>
     </item>
     <item>
       <title>Bottom-up creation of data-driven capabilities: show don’t tell</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=302/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=302/</link>
       <pubDate>Fri, 07 Dec 2012 11:14:48 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=302/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=302/</guid>
       <description>Fantastic post on how interactive analysis can help sell data-driven answers within an organisation.</description>
     </item>
     <item>
       <title>Shiny app running at last</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=293/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=293/</link>
       <pubDate>Sun, 02 Dec 2012 21:37:09 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=293/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=293/</guid>
       <description>I’m currently taking part in the NHS Institute for Innovation supported Patient Feedback challenge with colleagues at Nottinghamshire Healthcare NHS Trust.</description>
     </item>
     <item>
       <title>But I do want to be data (cross posted)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=255/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=255/</link>
       <pubDate>Mon, 17 Sep 2012 20:14:39 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=255/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=255/</guid>
       <description>I’ve got a guest piece on the Patient Opinion Blog which is cross-posted below.</description>
     </item>
     <item>
       <title>Super easy heatmaps of postcodes</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=239/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=239/</link>
       <pubDate>Wed, 25 Jul 2012 08:49:43 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=239/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=239/</guid>
       <description>Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.</description>
     </item>
     <item>
       <title>Easy tables for publication</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=230/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=230/</link>
       <pubDate>Sun, 08 Jul 2012 13:34:32 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=230/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=230/</guid>
       <description>I’m writing for a journal article today and it’s the familiar problem of how to export all of the beautiful tables and graphs from LaTeX to Word (using R, of course).</description>
     </item>
     <item>
       <title>A joke about R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=219/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=219/</link>
       <pubDate>Mon, 07 May 2012 08:38:08 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=219/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=219/</guid>
       <description>I’m so sorry, I’ve come across an R joke I must share.</description>
     </item>
     <item>
       <title>R-Uni (A List of Free R Tutorials and Resources in University webpages)</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=218/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=218/</link>
       <pubDate>Thu, 26 Apr 2012 19:57:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=218/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=218/</guid>
       <description>List of R tutorials for beginners.</description>
     </item>
     <item>
       <title>Great analogue visualisation</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=215/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=215/</link>
       <pubDate>Wed, 11 Apr 2012 10:01:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=215/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=215/</guid>
       <description>Perhaps another chapter in the infographics versus data graphics debate, a truly eye-catching visualisation of sugar contents in different drinks.</description>
     </item>
     <item>
       <title>Parallelising with R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=209/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=209/</link>
       <pubDate>Sat, 07 Apr 2012 10:02:59 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=209/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=209/</guid>
       <description>I’ve been fitting some generalised linear mixed effects models with 400,000 rows or so and it takes a while even on my quad core 3.</description>
     </item>
     <item>
       <title>Quick R tip- making scripts work across OS&amp;#8217;s</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=205/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=205/</link>
       <pubDate>Thu, 05 Apr 2012 14:11:35 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=205/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=205/</guid>
       <description>Quick thought for newbies to R. I have spent four years loading in data like this</description>
     </item>
     <item>
       <title>Dr John Milton &amp;#8211; Your days are numbered: Measuring clinical performance in mental health</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=203/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=203/</link>
       <pubDate>Mon, 02 Apr 2012 08:08:31 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=203/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=203/</guid>
       <description>Excellent post re: Moneyball and a clinician’s perspective.</description>
     </item>
     <item>
       <title>Excellent post about R base graphics</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=199/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=199/</link>
       <pubDate>Sat, 24 Mar 2012 12:05:59 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=199/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=199/</guid>
       <description>If you’re a keen user of the base graphics functionality in R (and you should be) then you’ll love this excellent summary of some of the useful and esoteric options within:</description>
     </item>
     <item>
       <title>Because it&amp;#8217;s Friday- animated graphs</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=189/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=189/</link>
       <pubDate>Fri, 09 Mar 2012 12:33:22 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=189/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=189/</guid>
       <description>I’ve been analysing some data and we’re a bit unsure, as we often are, as to its quality.</description>
     </item>
     <item>
       <title>Visualization series: Insight from Cleveland and Tufte on plotting numeric data by groups</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=187/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=187/</link>
       <pubDate>Mon, 05 Mar 2012 13:42:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=187/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=187/</guid>
       <description>Wonderful post about visualisation and The Problem with Pie Charts (I found a 3D pie chart in a Joint Strategic Needs Assessment this morning).</description>
     </item>
     <item>
       <title>Amazing video- Inventing on principle</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=182/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=182/</link>
       <pubDate>Mon, 20 Feb 2012 15:36:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=182/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=182/</guid>
       <description>I’ve just seen an amazing video, Brett Victor talking about Inventing on Principle.</description>
     </item>
     <item>
       <title>Stupidest pie chart of the year 2011</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=171/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</link>
       <pubDate>Mon, 02 Jan 2012 11:48:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=171/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</guid>
       <description>I’ve just been looking at the Stupidest bar chart of the year 2011 and I’ve been inspired to submit my Stupidest pie chart of the year 2011.</description>
     </item>
     <item>
       <title>New Year&amp;#8217;s resolutions</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=166/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=166/</link>
       <pubDate>Sun, 01 Jan 2012 00:01:27 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=166/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=166/</guid>
       <description>It’s that time of year again, so what do I need to keep doing or do differently this year?</description>
     </item>
     <item>
       <title>Complex surveys in R</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=159/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=159/</link>
       <pubDate>Thu, 29 Dec 2011 14:02:37 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=159/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=159/</guid>
       <description>I carried out what I thought was going to be a very simple piece of work the other day, slicing up some of the questions from a publicly available dataset in order to compare Nottinghamshire Healthcare NHS Trust with some other sites based on particular features of interest.</description>
     </item>
     <item>
       <title>Quick presentations</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=147/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=147/</link>
       <pubDate>Wed, 16 Nov 2011 16:44:38 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=147/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=147/</guid>
       <description>Just a quick one from me today, lots of deadlines colliding, which is handy because that’s what this post is about.</description>
     </item>
     <item>
       <title>Simulating data</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=133/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</link>
       <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=133/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</guid>
       <description>I try to publish as much of my work as I can on the internet, where the people who own the data agree (my little bit of the website is here) but very often I can’t publish the data because of issues with ongoing projects, other publications, various levels of confidentiality of data, and so on.</description>
     </item>
     <item>
       <title>Robin Hood marathon results</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=108/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=108/</link>
       <pubDate>Mon, 12 Sep 2011 16:54:30 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=108/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=108/</guid>
       <description>I ran the Robin Hood marathon yesterday in a decent-ish 4 hours and 13 minutes, which is my best yet.</description>
     </item>
     <item>
       <title>Misleading means and medians</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=99/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=99/</link>
       <pubDate>Thu, 01 Sep 2011 06:36:40 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=99/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=99/</guid>
       <description>Over at this excellent blog there is an interesting discussion about times when means and medians can be deceptive, particularly in the case where two variables with equal means have very different distributions.</description>
     </item>
     <item>
       <title>useR day four and beginner&amp;#8217;s odfWeave</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=87/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=87/</link>
       <pubDate>Sat, 20 Aug 2011 07:05:32 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=87/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=87/</guid>
       <description>I’m a bit late with the report from the last day of the useR conference, I was very busy Thursday getting home and catching up with the housework on Friday.</description>
     </item>
     <item>
       <title>useR day three</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=83/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=83/</link>
       <pubDate>Wed, 17 Aug 2011 19:38:16 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=83/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=83/</guid>
       <description>The last post perhaps was a bit over-long on extraneous detail and bits of R-commands that most readers will either know backwards or have no interest in, and today’s learning sheet is over double the length of yesterday’s, so let’s really do one thing I learned today.</description>
     </item>
     <item>
       <title>Day 2 of useR</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=74/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=74/</link>
       <pubDate>Tue, 16 Aug 2011 19:20:29 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=74/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=74/</guid>
       <description>Well, I said I was going to blog at least one thing I learned at the conference each day, today I’ve learned about 50 million things (yesterday was tutorials so I learned two things well; seen 20 presentations today, posters later).</description>
     </item>
     <item>
       <title>useR conference update</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=61/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=61/</link>
       <pubDate>Mon, 15 Aug 2011 19:16:14 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=61/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=61/</guid>
       <description>I’m at the useR! conference so I’ll be blogging every day with at least one thing that I learned.</description>
     </item>
     <item>
       <title>How do interest rates affect the way my mortgage is paid off?</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=46/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=46/</link>
       <pubDate>Wed, 10 Aug 2011 16:29:34 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=46/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=46/</guid>
       <description>With a baby on the way my wife and I have become very interested in the interest rate on our mortgage, and how it might go up or down, and how that will affect whether we overpay to build up some equity, etc.</description>
     </item>
     <item>
       <title>New book- The visual display of quantitative information</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=40/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=40/</link>
       <pubDate>Wed, 03 Aug 2011 15:38:24 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=40/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=40/</guid>
       <description>Took delivery of a new book today, Tufte’s Visual Display of Quantitative Information.</description>
     </item>
     <item>
       <title>Fun with wordclouds</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=25/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</link>
       <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=25/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</guid>
       <description>As always, I’m late to this party, and wordclouds have come under fire in recent times, e.</description>
     </item>
     <item>
       <title>The patient survey: past, present and future</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=8/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=8/</link>
       <pubDate>Mon, 01 Aug 2011 14:55:47 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=8/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=8/</guid>
       <description>Within my organisation we have something known as the Service User and Carer Experience Survey, often abbreviated to the SUCE, or in more natural spoken English, the patient survey.</description>
     </item>
     <item>
       <title>Welcome to the blog</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=5/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=5/</link>
       <pubDate>Mon, 01 Aug 2011 12:05:37 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=5/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=5/</guid>
       <description>Inspired by the many excellent blogs about research, statistics, and computing I have finally decided to set up my own.</description>
     </item>
   </channel>
