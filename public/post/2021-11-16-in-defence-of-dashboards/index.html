@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>In defence of dashboards | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).">
+    <meta name="generator" content="Hugo 0.126.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/post/2021-11-16-in-defence-of-dashboards/">
+  <meta property="og:title" content="In defence of dashboards">
+  <meta property="og:description" content="I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2021-11-16T22:19:27+00:00">
+    <meta property="article:modified_time" content="2021-11-16T22:19:27+00:00">
+
+  <meta itemprop="name" content="In defence of dashboards">
+  <meta itemprop="description" content="I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).">
+  <meta itemprop="datePublished" content="2021-11-16T22:19:27+00:00">
+  <meta itemprop="dateModified" content="2021-11-16T22:19:27+00:00">
+  <meta itemprop="wordCount" content="952">
+  <meta itemprop="keywords" content="Uncategorized">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="In defence of dashboards">
+  <meta name="twitter:description" content="I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">In defence of dashboards</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2021-11-16T22:19:27Z">November 16, 2021</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).</p>
+<p>I should acknowledge at the top that I’m The Dashboard Guy. I’ve written books about making dashboards in R. It’s my role in the data science team in which I sit. <a href="https://shiny.rstudio.com/">Shiny</a> in <a href="https://github.com/CDU-data-science-team/presentations/tree/main/2021-04-08%20Shiny%20in%20production">production</a>. It’s my thing. So take all this with as much salt as you wish, I promise I won’t be offended.</p>
+<p>People say that dashboards proliferate, and that nobody uses them. That is quite true in a lot of cases. I’d like to suggest why that is so, and talk about when people do use them.</p>
+<p>The first thing to say is that in the NHS (which is where I have always and will always work) many staff are not engaged with data in general. They’re not engaged with data, they’re not engaged with analysis, they’re not engaged with reports, they’re just not engaged. <a href="https://chrisbeeley.github.io/chris_beeley_blog/post/2021-07-18-stop-punishing-people-with-data/">They see data as a punishment, a “test” they cannot win</a>. They can’t see the point of it and it’s just a distraction at best and over-critical and unfair at worst.</p>
+<p>So my first question would be what do you replace the dashboards with? What will they engage with? I became The Dashboard Guy because we used to make a 300 page report by hand every quarter. It took literal person weeks and every recipient was only interested in their four page chunk. It was ridiculously inefficient. But everybody did want their four page chunk. Dashboards are useful for data that people want to see.</p>
+<p>The team and I have recently built a <a href="https://github.com/CDU-data-science-team/pxtextmining">classification algorithm for free text patient experience data</a>. There is no way on earth anybody could use that without a dashboard because there are thousands of points of data and you are typically only interested in a few hundred at a time. <a href="https://github.com/CDU-data-science-team/experiencesdashboard">So we built one</a>. If they are using the algorithm at all, they’re using the dashboard (or someone else’s, it’s open source so you can DIY the dashboard if you want). If they’re not, that means they’re not looking at what their patient experience data is about, or they’re reading a 4000 row spreadsheet (and I do know people who have done/ are doing that).</p>
+<p>So I think dashboards are very useful when you have a large highly structured dataset where everyone wants their own bit, and I’ve deployed perhaps three or four that have certainly been used by the individuals who wanted that data.</p>
+<p>But something else that I think they can be used for is putting data science tools in the hands of your users. I just <a href="https://github.com/ChrisBeeley/lda_explorer">built a dashboard</a> that allows you to pick how many LDA topics you want to use, and then shows you:</p>
+<ul>
+<li>Term frequency for each topic in a graph</li>
+<li>Five example comments from each topic</li>
+</ul>
+<p>(I should say, it’s very rough and unfinished, but you get the idea). The idea of this is to allow the person who is interested in the data to make the topic model work themselves without writing R code. In this particular project all the data hasn’t come in yet anyway so the dashboard will contain more data in the future. It may be that the first tranche of data contains four topics, and the final dataset six. Building a dashboard makes the enduser part of that decision making process.</p>
+<p>In fact, I actually build them for myself. A few years ago I was fitting a lot of structured topic models and it was such a pain in the neck fiddling around with the code that I just made a dashboard for myself so I could just sit and play around with it. The analysis itself took days, tens of hours, and the dashboard took an afternoon (to be fair, I’m probably a little faster than the average person with Shiny at least, because I have a lot of experience with it).</p>
+<p>If your users are not using your dashboards, ask yourself why that is so. If they aren’t engaged with data or don’t care about the metrics then you have a bigger problem than dashboards. Would they engage with a report? An email? A bullet point in a team meeting? Build what they want, not what you think they want or should want.</p>
+<p>Dashboards give you an opportunity to devolve analysis to your users. I work with a lot of text data. The users are the experts, not me. I want them to be able to do all the stuff I do in code but in a browser- sort, filter, summarise, aggregate, and even tune models (do they want five topics or fifteen? Do they want an overinclusive multilabel classification algorithm that captures all of a theme, or a conservative one that only shows them the highlights?).</p>
+<p>In my opinion the dashboard is the icing on the cake. The team and I are building a very large, complex dashboard summarising many types of data, in the hope of driving customers between the types (patient experience data users looking at staff sickness levels, clinical effectiveness data users looking at all-cause mortality). But the work is in uniting the data, in producing analytics that are meaningful and useful. I don’t think it’s terribly important whether it’s a dashboard or a report or just played over the PA every Monday morning (there’s an idea 😉). Engage people in data and analytics first, and then serve that need using all the tools at your disposal.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chrisbeeley.github.io/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

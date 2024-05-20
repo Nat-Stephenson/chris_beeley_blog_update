@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-10-02T09:00:14Z"
-guid: http://chrisbeeley.net/?p=1434
-id: 1434
 title: Analyst, analyse thyself
-url: /?p=1434
 ---
 
 I work in a small (growing) team of data scientists and we’re part of a larger analytic unit which has a focus on innovation in analytics (hence us) and public health methods. We have a pretty broad remit to do interesting and useful stuff and we focus on things that we think are useful (for example, applying data science methods to problems relating to equity of access to services) and things that people ask us to help with.

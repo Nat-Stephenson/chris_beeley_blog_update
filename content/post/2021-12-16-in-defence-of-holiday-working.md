@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-12-16T21:21:14Z"
-guid: https://chrisbeeley.net/?p=1591
-id: 1591
 title: In defence of holiday working
-url: /?p=1591
 ---
 
 This might be a little bit controversial, this post. If you hate it please don’t be offended, it’s just my opinion. Totally open to being completely wrong always, especially here.

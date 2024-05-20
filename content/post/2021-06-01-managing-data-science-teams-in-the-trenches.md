@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-06-01T12:11:00Z"
-guid: https://chrisbeeley.net/?p=1517
-id: 1517
 title: Managing data science teams in the trenches
-url: /?p=1517
 ---
 
 We’re systematically devaluing management and leadership in the analyst space, and I encounter a lot of people who think that a day with no code written is a day wasted. I do write code, but I do a lot of other valuable stuff too. I’ve written this post as someone who is very new to managing people with my personal opinion, so just like my posts on proxied SSL with Apache, there is your caveat emptor 🙂
@@ -23,4 +20,4 @@ This is pretty basic stuff, really. It feels a bit silly to have to spell it out
 
 I’ve never in my life had a manager who has the slightest idea what autoregression is or how to test the assumptions of OLS regression. I’m really happy now that I do manage people and that I do know what those things are, and I hope the people I manage can benefit from my understanding of what they’re doing (even if they usually know way more about it than I do- I can at least keep up if they explain it to me).
 
-(if you’ve read my [previous post](https://chrisbeeley.net/?p=1514) and you’re paying attention you’ll realise that I’ve just contradicted myself by saying firstly that analysts should do more than just write code all day, and then said in this post that a manager’s job is to help analysts write code all day. Forgive me. In reality the people in the trench have got other people in the trench, or possibly in a neighbouring trench, and it’s their job to stick their head in that trench and help that person write code instead of needing to get out of their trench, before coming back to their own trench. Indeed, really, the trench visitor is in fact in their own trench, and someone else sticks their head in there occasionally, but the analogy gets a bit convoluted and silly at this point. I think you get the idea, even if it doesn’t translate to actual trenches within trenches within trenches)
+(if you’ve read my [previous post]({{< ref "2021-05-31-what-do-we-want-from-senior-analysts-in-the-nhs.md" >}}) and you’re paying attention you’ll realise that I’ve just contradicted myself by saying firstly that analysts should do more than just write code all day, and then said in this post that a manager’s job is to help analysts write code all day. Forgive me. In reality the people in the trench have got other people in the trench, or possibly in a neighbouring trench, and it’s their job to stick their head in that trench and help that person write code instead of needing to get out of their trench, before coming back to their own trench. Indeed, really, the trench visitor is in fact in their own trench, and someone else sticks their head in there occasionally, but the analogy gets a bit convoluted and silly at this point. I think you get the idea, even if it doesn’t translate to actual trenches within trenches within trenches)

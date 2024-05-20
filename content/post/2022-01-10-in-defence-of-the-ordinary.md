@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2022-01-10T17:40:24Z"
-guid: https://chrisbeeley.net/?p=1599
-id: 1599
 title: In defence of the ordinary
-url: /?p=1599
 ---
 
 I think this might be a general cultural problem, but I notice it a lot in my field of healthcare analytics. There are lots of “case studies” and “pathfinders”, that kind of thing, groups of people who are doing amazing stuff.

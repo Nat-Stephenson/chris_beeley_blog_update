@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2022-05-22T12:18:25Z"
-guid: https://chrisbeeley.net/?p=1626
-id: 1626
 title: The Goldacre review- greatest hits
-url: /?p=1626
 ---
 
 I absolutely love the [Goldacare review](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis), I really can’t praise it enough, and I will be doing a lot of work based on it in the coming weeks and months looking at it from the perspective of my own Trust and, (with others) from the perspective of my ICS, and NHS-R. NHS-R has a couple of repos looking at matters related to the review ([statement on tools](https://github.com/nhs-r-community/statements-on-tools) and [NHS-R vision](https://github.com/nhs-r-community/nhs-r_vision)) and we need to do some thinking about stuff that particularly comes out of this review that we can look at (which I have started [doing on my own](https://chrisbeeley.github.io/notebook/docs/goldacre_review/nhs-r/), community effort will follow).

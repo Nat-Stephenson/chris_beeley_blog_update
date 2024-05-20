@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-08-05T17:53:38Z"
-guid: http://chrisbeeley.net/?p=1411
-id: 1411
 title: Shiny modules for beginners
-url: /?p=1411
 ---
 
 I’ve seen some discussion on the Internet about whether people learning Shiny should start with modules or if they’re an advanced topic. I’m not going to link to any examples because this post is definitely not me saying- hey look at this rubbish over here, here’s why it’s wrong. I’ve seen a couple of posts talking about it. But I just thought I would chip in my perspective.

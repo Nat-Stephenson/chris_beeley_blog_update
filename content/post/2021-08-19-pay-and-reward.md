@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-08-19T22:30:25Z"
-guid: https://chrisbeeley.net/?p=1545
-id: 1545
-spay_email:
-- ""
 title: Pay and reward
-url: /?p=1545
 ---
 
 I’m reading No Rules Rules, the Netflix management book. It’s really good, lots of interesting stuff in there about doing things differently and although clearly there’s a lot I can’t do in the NHS, there are lessons in there for sure.

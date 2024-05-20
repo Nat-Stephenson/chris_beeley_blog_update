@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-12-22T11:14:41Z"
-guid: https://chrisbeeley.net/?p=1595
-id: 1595
-spay_email:
-- ""
 title: In defence of looking at jobs
-url: /?p=1595
 ---
 
 Nobody should ever have to apologise for looking at jobs, however settled they are. Looking at jobs just means one of:

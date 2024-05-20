@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-09-17T16:56:25Z"
-guid: https://chrisbeeley.net/?p=1554
-id: 1554
-spay_email:
-- ""
 title: Data saves lives- and so does open code
-url: /?p=1554
 ---
 
 I’m reading [data saves lives](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data-draft/data-saves-lives-reshaping-health-and-social-care-with-data-draft). And look, it’s that thing that I say all the time, that I have pinned on my Twitter profile, the thing I’ve heard time and time again for a decade that everybody just stands around nodding at and nothing actually changes. I quote:

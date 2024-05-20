@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-01-29T22:47:49Z"
-guid: http://chrisbeeley.net/?p=1478
-id: 1478
 title: Accessing plot characteristics in Shiny modules
-url: /?p=1478
 ---
 
 It was my New Year’s resolution to blog more and that’s going really well because this is the first blog I’ve done all year and it’s nearly the end of January. Well, I suppose to be fair I did do [a post on our team blog](https://cdu-data-science-team.github.io/team-blog/posts/2021-01-20-a-new-github-release-and-future-projects/) but that feels like I’m making excuses.
@@ -17,9 +14,6 @@ We wanted to [access the height of a Shiny plot at runtime](https://github.com/r
 
 When I looked at the raw HTML (which I did, in desperation) I saw that the input was actually called “output\_mod\_sentiment\_ui\_1-sentiment\_plot\_upset”. The mod\_sentiment bit is the name spacing. So I got pretty close when I tried session$clientData$output\_mod\_sentiment\_ui\_1-sentiment\_plot\_upset\_width. But R thought that the hyphen was a minus, so that didn’t work either. Then the light dawned
 
-<div class="wp-block-syntaxhighlighter-code ">```
-<pre class="brush: r; title: ; notranslate" title="">
-session$clientData$`output_mod_sentiment_ui_1-sentiment_plot_upset_width`
-```
+session$clientData$\`output_mod_sentiment_ui_1-sentiment_plot_upset_width\`
 
-</div>That’s it. Simple, but it took me a while, so hopefully if you have the same problem you will find this post.
+That’s it. Simple, but it took me a while, so hopefully if you have the same problem you will find this post.

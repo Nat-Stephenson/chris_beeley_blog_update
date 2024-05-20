@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-10-19T17:16:21Z"
-guid: http://chrisbeeley.net/?p=1455
-id: 1455
 title: Serving RStudio Connect content to logged in and anonymous users
-url: /?p=1455
 ---
 
 We have our [patient feedback dashboard](https://involve.nottshc.nhs.uk:8443/experience/) in the open where anyone can see what Nottinghamshire Healthcare NHS Trust’s patients are saying about us. Now I’ve got a Connect licence I thought perhaps I might build another version for our staff where I put stuff that we can’t share- for example the comments of people who click the “I do not wish to share this comment” box.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-03-26T10:43:42Z"
-guid: https://chrisbeeley.net/?p=1495
-id: 1495
 title: SQL versus analytic tools
-url: /?p=1495
 ---
 
 From a [tweet from my NHS-R buddy John MacKintosh](https://twitter.com/_johnmackintosh/status/1374986918878965760?s=19)

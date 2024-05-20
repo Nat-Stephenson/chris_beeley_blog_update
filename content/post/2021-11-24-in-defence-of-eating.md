@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-11-24T15:07:03Z"
-guid: https://chrisbeeley.net/?p=1582
-id: 1582
-spay_email:
-- ""
 title: In defence of eating
-url: /?p=1582
 ---
 
 One weird thing in remote/ pandemic times is that people have started turning their cameras off when they eat. I’m all for the right to turn your camera off, I think you should be able to do that at any time without giving a reason, but I think it’s a shame if people think that they can’t eat on camera. I have therefore been glad to eat several large, difficult to eat things in meetings on camera recently, to perhaps give others the idea that it’s okay if they want to do it too.

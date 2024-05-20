@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-07-13T15:55:37Z"
-guid: http://chrisbeeley.net/?p=1395
-id: 1395
 title: Getting started in data science for healthcare
-url: /?p=1395
 ---
 
 I just recruited to a data science post at Nottinghamshire Healthcare NHS Trust and I’ve been asked for feedback by several people about how to get started in data science in healthcare, and indeed how to get a job in data science in healthcare. I will also be recruiting another data scientist for our team in a few months. This post is designed to give you a feel for what we were looking for in the job that I just recruited to, as well as to the job that is coming up. They’re slightly different skill sets as I will discuss.
@@ -31,4 +28,4 @@ Again, we need someone who can work in a team (no [hero coders](https://hackerno
 
 Some people have told me I’m wasting my time managing my own servers as a data scientist and I really need to get proper IT support, and maybe they’re right, but I’ve come this far, even if I am doing it wrong. I’ve been learning Linux server stuff on my own server for 7 years. If you want to learn this way without buying your own cloud server then just buy a Raspberry Pi and ssh into it from behind your firewall at home. Set up a LAMP stack, set up WordPress, set up the free versions of RStudio Server and Shiny Server, run plumber APIs, run PHP, write a Django application, whatever. You’ll get in the most hideous mess and tear your hair out for entire weekends and you’ll look back at those weekends fondly and be glad of all the learning you did that day 😀. And if you get in a complete mess just wipe the SD card and start again.
 
-As I say, this is all caveat emptor. Your mileage may vary. But if you want my opinions then these are they. Keep an eye on my Twitter if you’re interested in the job, and feel free to @ or DM me, or indeed send an email, my address is in my Twitter profile.
+As I say, this is all caveat emptor. Your mileage may vary. But if you want my opinions then these are they.

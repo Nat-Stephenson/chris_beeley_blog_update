@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-07-18T15:28:30Z"
-guid: https://chrisbeeley.net/?p=1533
-id: 1533
-spay_email:
-- ""
 title: Stop punishing people with data
-url: /?p=1533
 ---
 
 <div class="wp-block-jetpack-markdown">NHS data people know all about [Goodhart’s law](https://en.wikipedia.org/wiki/Goodhart%27s_law). First stated by Goodhart as the not very catchy

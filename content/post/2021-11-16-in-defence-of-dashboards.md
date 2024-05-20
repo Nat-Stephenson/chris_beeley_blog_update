@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-11-16T22:19:27Z"
-guid: https://chrisbeeley.net/?p=1574
-id: 1574
 title: In defence of dashboards
-url: /?p=1574
 ---
 
 I’ve had lively debates about dashboards with various people, including someone in my own team, and somebody on Twitter just mentioned that dashboards are often not used (this blog post will be my response to this tweet, not the first time I’ve answered a tweet with a blog and very on brand for me 😉).
@@ -15,7 +12,7 @@ I should acknowledge at the top that I’m The Dashboard Guy. I’ve written boo
 
 People say that dashboards proliferate, and that nobody uses them. That is quite true in a lot of cases. I’d like to suggest why that is so, and talk about when people do use them.
 
-The first thing to say is that in the NHS (which is where I have always and will always work) many staff are not engaged with data in general. They’re not engaged with data, they’re not engaged with analysis, they’re not engaged with reports, they’re just not engaged. [They see data as a punishment, a “test” they cannot win](https://chrisbeeley.net/?p=1533). They can’t see the point of it and it’s just a distraction at best and over-critical and unfair at worst.
+The first thing to say is that in the NHS (which is where I have always and will always work) many staff are not engaged with data in general. They’re not engaged with data, they’re not engaged with analysis, they’re not engaged with reports, they’re just not engaged. [They see data as a punishment, a “test” they cannot win]({{< ref "2021-07-18-stop-punishing-people-with-data.md" >}}). They can’t see the point of it and it’s just a distraction at best and over-critical and unfair at worst.
 
 So my first question would be what do you replace the dashboards with? What will they engage with? I became The Dashboard Guy because we used to make a 300 page report by hand every quarter. It took literal person weeks and every recipient was only interested in their four page chunk. It was ridiculously inefficient. But everybody did want their four page chunk. Dashboards are useful for data that people want to see.
 

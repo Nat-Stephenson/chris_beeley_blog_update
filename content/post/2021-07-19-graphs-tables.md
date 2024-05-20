@@ -3,12 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-07-19T17:30:17Z"
-guid: https://chrisbeeley.net/?p=1537
-id: 1537
-spay_email:
-- ""
 title: Graphs > tables
-url: /?p=1537
 ---
 
 One phenomenon that I find very strange in the NHS (and elsewhere, probably, I’ve never worked anywhere else) is the obsession people have with having tables of numbers instead of graphs. I have encountered this absolutely everywhere. People really want to know whether something is 21.4% of the whole or 19.2% of the whole and they can’t tell by looking at the beautiful graph that you’ve drawn.

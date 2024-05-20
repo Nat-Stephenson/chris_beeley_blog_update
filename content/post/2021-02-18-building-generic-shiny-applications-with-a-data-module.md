@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-02-18T16:13:18Z"
-guid: http://chrisbeeley.net/?p=1489
-id: 1489
 title: Building generic Shiny applications with a data module
-url: /?p=1489
 ---
 
 We’re rebuilding our patient experience dashboard at the moment, partly to incorporate some of the work that [we’re doing on text mining](https://github.com/CDU-data-science-team/positive_about_change_text_mining) and partly to connect it up to other types of information we have like staff experience and clinical outcomes. It has to be reusable because we’re using it as the basis of the text mining dashboard that we’re building for any provider trust to use with their friends and family test data. We’re trying to make everything reusable anyway partly because the different bits of the NHS should all cooperate and produce stuff together that everyone can use and partly because we’re realising that when you make code reusable the first person who can reuse it is you, 6 months later on a similar project.  

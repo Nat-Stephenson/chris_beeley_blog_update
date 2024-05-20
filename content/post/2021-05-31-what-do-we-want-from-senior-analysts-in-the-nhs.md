@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2021-05-31T12:02:03Z"
-guid: https://chrisbeeley.net/?p=1514
-id: 1514
 title: What do we want from senior analysts in the NHS?
-url: /?p=1514
 ---
 
 I’ve been meaning to write this for ages and I’ve just had a rather silly conversation on Twitter about managers and leaders in the NHS which has inspired me to get on with it. I think most people are agreed that we have A Problem with mangers and leaders in the analytic space. Much ink has been spilled in the subject, and I think that the two main conclusions of all this ink are broadly accepted by everyone. They are, briefly:
