@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-02-17T15:46:33Z"
-guid: https://chrisbeeley.net/?p=1190
-id: 1190
 title: Citing R packages in RMarkdown
-url: /?p=1190
 ---
 
 I haven’t really done much in the way of citing papers in the last couple of years, I’ve spent my time either messing around with Shiny servers or databases or writing RMarkdown reports- and being horribly ill, of course, haha!- see this blog, passim. Don’t worry, I’m as fit as a flea now 🙂

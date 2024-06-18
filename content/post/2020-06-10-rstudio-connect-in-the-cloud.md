@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-06-10T16:09:06Z"
-guid: http://chrisbeeley.net/?p=1380
-id: 1380
 title: RStudio Connect in the cloud
-url: /?p=1380
 ---
 
 I’ve been using RStudio stuff on the server for a long time. I started using Shiny community edition back in 2013 for an application that is totally open and so doesn’t need authenticating. Then two years ago I started deploying Shiny applications that people authenticated to behind our Trust firewall using Shiny Pro. I have wanted to use RStudio Connect for a long time but it was hard to get the funding together for it given how things are with austerity since the banking crisis.

@@ -4,11 +4,7 @@ categories:
 - Uncategorized
 date: "2020-04-03T18:14:49Z"
 guid: http://chrisbeeley.net/?p=1344
-id: 1344
-spay_email:
-- ""
 title: app.R and global.R
-url: /?p=1344
 ---
 
 I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book [Mastering Shiny](https://mastering-shiny.org/). There’s a couple of things that I’ve noticed where Shiny is moving on, so if you want to keep up to date I suggest you have a look. I’m going to pick out a few here. Firstly, note that in Shiny 1.5 (which is not released at the time of writing) all code in the R/ directory will be sourced automatically. This is a very good idea, I’ve got loads of source(“useful\_code.R”, local = TRUE) lines in some of my applications, so it gets rid of all that.

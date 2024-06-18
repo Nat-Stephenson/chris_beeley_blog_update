@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>The future of patient experience data at Nottinghamshire Healthcare | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.">
+    <meta name="generator" content="Hugo 0.127.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+      <meta name="author" content = "chrisbeeley">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/chris_beeley_blog/post/2019-04-05-the-future-of-patient-experience-data-at-nottinghamshire-healthcare/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/chris_beeley_blog/post/2019-04-05-the-future-of-patient-experience-data-at-nottinghamshire-healthcare/">
+  <meta property="og:title" content="The future of patient experience data at Nottinghamshire Healthcare">
+  <meta property="og:description" content="I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2019-04-05T10:50:20+00:00">
+    <meta property="article:modified_time" content="2019-04-05T10:50:20+00:00">
+
+  <meta itemprop="name" content="The future of patient experience data at Nottinghamshire Healthcare">
+  <meta itemprop="description" content="I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.">
+  <meta itemprop="datePublished" content="2019-04-05T10:50:20+00:00">
+  <meta itemprop="dateModified" content="2019-04-05T10:50:20+00:00">
+  <meta itemprop="wordCount" content="580">
+  <meta itemprop="keywords" content="Uncategorized">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The future of patient experience data at Nottinghamshire Healthcare">
+  <meta name="twitter:description" content="I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">The future of patient experience data at Nottinghamshire Healthcare</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-04-05T10:50:20Z">April 5, 2019</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.</p>
+<p>Anyone who’s spent any time with me in meetings will know I’m a stickler for writing things down, so here it is.</p>
+<p>I launched a Shiny application to explore our patient experience data about 6 years ago. It was pretty early days for Shiny and it seemed pretty whizzy and exciting at the time. Over time I added more features but it seemed less and less whizzy and exciting, and to be honest I was too busy nearly dying twice to worry about it (see this blog, passim, don’t worry I’m absolutely fine now)·</p>
+<p>Anyway, I’ve now launched a new version built with <a href="https://rstudio.github.io/shinydashboard/">shinydashboard</a> which can be found here <a href="http://suce.co.uk:8080/apps/SUCE/">http://suce.co.uk:8080/apps/SUCE/</a>. It launched a bit early at an event, so excuse any rough edges or bugs.</p>
+<p>So what’s the big idea, then? Well, it’s twofold. Firstly, I would like to integrate the staff experience data. My Trust has recently started staff about the experience they have working at the Trust and I have made sure that these datasets are tightly integrated. Ultimately I would like to build a dashboard that shows how staff and patients are on the same application. This will be of interest, e.g. to ward managers, who want to know how their staff and patients are. Further, it will facilitate analysis of the connection between staff and patient experience. The key design feature is summarising the data and allowing rapid drill down. So a service manager would start on a page with staff and patient experience data, but would notice something interesting, click it, and then be presented with more detail about that thing. Further clicks would lead to further drill down.</p>
+<p>So far, so ordinary. This is what all those private sector dashboard salespeople with the expensive watches they bought with taxpayers’ money all say. What I want to add as secret sauce (which will of course be open source, haha) is what I’ve taken to calling a recommendation engine for patient feedback. So when you buy something on Amazon it will say “people who bought that bought this, too.” And then you buy it and love it (I’ve bought loads of stuff using the Amazon recommendation engine. And listened to great music using Spotify’s).</p>
+<p>The big problem we have with experience data is discoverability. We have maybe 200,000 comments. How do you find the one you want? I’m trying to use machine learning to have the computer find other things you might be interested in. Reading some feedback about waiting lists? Here’s some more. Reading angry feedback? Here’s some more angry feedback. And feeding this engine staff and patient feedback data could make for a very powerful system. Lots of people are angry at their doctor? Well, look, all the doctors are fed up to. Join it with other systems. Food’s terrible? Well, look, 10% of the estates staff are off sick at the moment. 10% of the estates staff are off sick? Well, look, three months ago they were all miserable. And so on.</p>
+<p>It’s a very ambitious dream, but that’s my vision, and I’ll try as far as possible to build technologies that other Trusts can use. That is in itself quite tricky, so progress with that one in particular might be slow, but I’m trying to get more people on board. See how it goes.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

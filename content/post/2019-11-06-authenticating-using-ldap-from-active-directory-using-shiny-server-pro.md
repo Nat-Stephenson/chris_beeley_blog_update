@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-11-06T18:03:08Z"
-guid: http://chrisbeeley.net/?p=1242
-id: 1242
 title: Authenticating using LDAP from Active Directory using Shiny Server Pro
-url: /?p=1242
 ---
 
 Right, I promised I would write this a very long time ago and I still haven’t done it. I’ve just got back from the NHS-R community conference (see an upcoming post) and I’m in a sharing mood, and besides someone just asked me about this on Twitter.

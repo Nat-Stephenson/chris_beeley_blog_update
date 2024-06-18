@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-06-10T16:18:43Z"
-guid: http://chrisbeeley.net/?p=1388
-id: 1388
 title: RStudio Connect behind the firewall
-url: /?p=1388
 ---
 
 This is part II of what would otherwise have been a far-too-long post about configuring RStudio Connect. A bit of back story, particularly for those of you who might have hit this from a Google search (which does happen, JetPack tells me) and don’t know who the heck I am and what I do all day. Here’s what I said in part I:

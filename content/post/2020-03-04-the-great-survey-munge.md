@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-03-04T13:51:00Z"
-guid: http://chrisbeeley.net/?p=1307
-id: 1307
 title: The Great Survey Munge
-url: /?p=1307
 ---
 
 As I mentioned on Twitter the other day, I have this rather ugly spreadsheet that comes from some online survey software that requires quite a lot of cleaning in order to upload it to the database. I had an old version written in base R but the survey has changed so I’ve updated it to tidyverse.

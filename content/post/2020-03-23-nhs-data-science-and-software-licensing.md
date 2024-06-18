@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-03-23T13:04:45Z"
-guid: http://chrisbeeley.net/?p=1336
-id: 1336
 title: NHS data science and software licensing
-url: /?p=1336
 ---
 
 I’m writing something about software licensing and IP in NHS data science projects at the moment. I don’t think I ever dreamed about doing this, but I’ve noticed that a lot of people working in data science and related fields are confused about some of the issues and I would like to produce a set of facts (and opinions) which are based on a thorough reading of the subject and share them with interested parties. It’s a big job but I thought I’d trail a bit of it here and there as I go. Here’s the summary at the end of the licences section.

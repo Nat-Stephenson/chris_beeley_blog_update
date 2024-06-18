@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-03-17T18:27:09Z"
-guid: https://chrisbeeley.net/?p=1198
-id: 1198
 title: Suppress console output with ggplot, purrr, and RMarkdown
-url: /?p=1198
 ---
 
 So [I posted a while back](https://chrisbeeley.net/?p=1143) about producing several plots at once with RMarkdown and purrr and how to suppress the console output in the document.
@@ -18,8 +15,6 @@ For ggplot, you need to excellent function walk() which is like map() except itâ
 Bish bash bosh. Easy
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
-
 ```{r, message = FALSE, echo = FALSE}
 
 library(tidyverse)
@@ -32,5 +27,4 @@ walk(c("Plot1", "Plot 2", "Plot 3"), function(x) {
   print(p)
 })
 ```
-
 ```

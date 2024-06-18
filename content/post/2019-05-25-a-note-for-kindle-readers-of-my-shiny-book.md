@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-05-25T14:34:00Z"
-guid: https://chrisbeeley.net/?p=1216
-id: 1216
 title: A note for Kindle readers of my Shiny book
-url: /?p=1216
 ---
 
 Someone has been in touch with me to say that the Kindle version has no chapter numbers and they were finding it difficult to figure out which bit of the book went with which bit in the repository.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-12-08T12:36:07Z"
-guid: http://chrisbeeley.net/?p=1257
-id: 1257
 title: NHS-R conference
-url: /?p=1257
 ---
 
 So I recently just got back from the NHS-R community conference, which was amazing of course, and it’s got me in the mood to share, so I’m writing a few blog posts. I’ve got some more in depth stuff to say about where I think NHS-R is/ should be going, but this is the “feels” one.

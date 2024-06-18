@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-02-18T13:41:50Z"
-guid: http://chrisbeeley.net/?p=1287
-id: 1287
 title: Converting words on a survey dataset to numbers for analysis
-url: /?p=1287
 ---
 
 As always, I have very little time for blogging (sorry) but I just came up with a neat way of converting “Strongly Agree”, “Always”, all that stuff that you get on survey based datasets into numbers ready for analysis. It’s automatic, so it will play havoc with any word based questions- analyse them in a separate script.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-12-16T09:25:00Z"
-guid: http://chrisbeeley.net/?p=1263
-id: 1263
 title: My superpower (a talk I gave about being ill)
-url: /?p=1263
 ---
 
 So this post is nothing to do with R, or Linux, or statistics, or any of the usual stuff. It’s about me. It’s more than possible that you’re not very interested in that so consider yourself warned.

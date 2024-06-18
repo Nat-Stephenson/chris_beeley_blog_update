@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-01-19T09:58:21Z"
-guid: http://chrisbeeley.net/?p=1273
-id: 1273
 title: Decade round up post
-url: /?p=1273
 ---
 
 I’ve got into the habit of writing a yearly roundup blog post (see this blog, passim), based on a suggested framework by David Allen. Since this is the end of a decade I thought it would be fun to do one for the whole decade.

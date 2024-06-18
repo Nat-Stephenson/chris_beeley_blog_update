@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-03-19T18:56:03Z"
-guid: https://chrisbeeley.net/?p=1209
-id: 1209
 title: Producing RMarkdown reports with Plumber
-url: /?p=1209
 ---
 
 I wasn’t going to post this until I got it working on the server but I’ve got the wrong train ticket and am stuck in London St Pancras until 7pm so I thought I’d be productive and put it up now.

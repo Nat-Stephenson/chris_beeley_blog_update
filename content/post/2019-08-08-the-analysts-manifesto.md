@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-08-08T14:53:23Z"
-guid: https://chrisbeeley.net/?p=1222
-id: 1222
-title: The analysts&#8217; manifesto
-url: /?p=1222
+title: The analysts' manifesto
 ---
 
 I was at an event a little while ago and there was talk of change coming for healthcare analysts. With the advent of population health management we were going to finally get the recognition we as a profession deserve and would get the training and tools necessary to deliver the improvements we all know that data can give.

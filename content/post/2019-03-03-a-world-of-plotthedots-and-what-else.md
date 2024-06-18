@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-03-03T09:26:42Z"
-guid: https://chrisbeeley.net/?p=1195
-id: 1195
-title: 'A world of #plotthedots and&#8230; what else?'
-url: /?p=1195
+title: 'A world of #plotthedots and what else?'
 ---
 
 ![image](https://chrisbeeley.net/wp-content/uploads/2019/02/image.png)

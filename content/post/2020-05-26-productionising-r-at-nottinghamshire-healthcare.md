@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-05-26T17:18:50Z"
-guid: http://chrisbeeley.net/?p=1366
-id: 1366
 title: Productionising R at Nottinghamshire Healthcare
-url: /?p=1366
 ---
 
 I’m hopeful we’re moving into a bit of a new phase with using R in my Trust so I thought I’d outline the direction of travel, to see if it chimes with anyone else and just to keep people up to date about what we’re doing.

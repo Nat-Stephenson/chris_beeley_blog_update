@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-04-05T10:50:20Z"
-guid: https://chrisbeeley.net/?p=1214
-id: 1214
 title: The future of patient experience data at Nottinghamshire Healthcare
-url: /?p=1214
 ---
 
 I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.

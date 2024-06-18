@@ -3,11 +3,8 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-07-02T16:28:58Z"
-guid: https://chrisbeeley.net/?p=1218
-id: 1218
 title: Python, working together, and productionising code at Nottinghamshire Healthcare
   NHS Trust
-url: /?p=1218
 ---
 
 Someone just asked me a question on Twitter and I was most of the way through what would have been several tweets before I thought perhaps it would work better as a blog post. I’m going to answer the question first, and then talk some more about the context and what I’m hoping to achieve where I am and (with the advent of more collaborative working through the ICS) in the wider system. So I’ve been using scikit-learn to train a classifier to predict non attendance at healthcare appointments and the question to me was “What made you choose Python rather than R for this one? Which classifier are you using?”.

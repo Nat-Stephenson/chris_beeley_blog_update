@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Authenticating using LDAP from Active Directory using Shiny Server Pro | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Right, I promised I would write this a very long time ago and I still haven’t done it.">
+    <meta name="generator" content="Hugo 0.127.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+      <meta name="author" content = "chrisbeeley">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/chris_beeley_blog/post/2019-11-06-authenticating-using-ldap-from-active-directory-using-shiny-server-pro/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/chris_beeley_blog/post/2019-11-06-authenticating-using-ldap-from-active-directory-using-shiny-server-pro/">
+  <meta property="og:title" content="Authenticating using LDAP from Active Directory using Shiny Server Pro">
+  <meta property="og:description" content="Right, I promised I would write this a very long time ago and I still haven’t done it.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2019-11-06T18:03:08+00:00">
+    <meta property="article:modified_time" content="2019-11-06T18:03:08+00:00">
+
+  <meta itemprop="name" content="Authenticating using LDAP from Active Directory using Shiny Server Pro">
+  <meta itemprop="description" content="Right, I promised I would write this a very long time ago and I still haven’t done it.">
+  <meta itemprop="datePublished" content="2019-11-06T18:03:08+00:00">
+  <meta itemprop="dateModified" content="2019-11-06T18:03:08+00:00">
+  <meta itemprop="wordCount" content="975">
+  <meta itemprop="keywords" content="Uncategorized">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Authenticating using LDAP from Active Directory using Shiny Server Pro">
+  <meta name="twitter:description" content="Right, I promised I would write this a very long time ago and I still haven’t done it.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Authenticating using LDAP from Active Directory using Shiny Server Pro</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2019-11-06T18:03:08Z">November 6, 2019</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Right, I promised I would write this a very long time ago and I still haven’t done it. I’ve just got back from the NHS-R community conference (see an upcoming post) and I’m in a sharing mood, and besides someone just asked me about this on Twitter.</p>
+<p>So setting up LDAP based authentication on Shiny Server Pro via Windows Active Directory. Do note that this post is about using Active Directory. If you’re not doing that a lot of this stuff will not apply.</p>
+<p>I made the most most horrible mess of this when I tried, because quite frankly I didn’t have the slightest idea what I was doing. I’m sure your setup will be different from mine, but I can offer some general advice. Do read the documentation as well, obviously, this is only going to fill in the blanks, it’s not going to replace the <a href="https://docs.rstudio.com/shiny-server/">docs</a>.</p>
+<p>The first piece of advice I can give you is don’t try to get it working all at once in the configuration file. Unless you’re some sort of Linux security genius it’s not going to work. Instead use the <a href="https://linux.die.net/man/1/ldapsearch">ldapsearch</a> command to make sure that you’ve got the right server and your search string is correct. You’re going to need the help of IT who can tell you a bit about what the search string might look like. To give you a clue, here’s what I finally got working:</p>
+<p>ldapsearch -H ldap://xxx.xxx.nhs.uk/ -x -D “CN=User.name,OU=Group,OU=Group2,OU=Group3,DC=xxxx,DC=xxx,DC=nhs,DC=uk” -b “OU=Users All, DC=xxx,DC=xxxx,DC=nhs,DC=uk” -w password “(&amp;(cn=test.user))”</p>
+<p>You can see the location of the LDAP server at the beginning, I had to take the details out because I was told that publicising the server name poses a security risk. That first CN=User.Name is the LDAP user. You can just use yourself or IT can set you up a special LDAP login (you will probably once to switch to this once you’ve got everything working). Then in that string the next bit is where the user is in terms of their place on the tree and the DC bit is the domain and subdomain split up into bits. Again I’ve redacted it. Imagine it might say something like DC=mytree, DC=myorg, DC = nhs.uk if the LDAP server was on mytree.myorg.nhs.uk.</p>
+<p>Then the string after, the bit that says “OU=Users All…” shows where the person you’re searching for in the tree is. You can search for yourself, or someone else. There may be more than one OU group, depending on what IT tell you, and then the DC bit is the same as it was in the previous bit. Then you need -w password (this is yours or your LDAP user’s password) or if you don’t want to put your password into the terminal use</p>
+<p>-W which will prompt for your password. And the last bit as you can probably guess is the username of the person that you’re searching for. Once it works it will bring back a big list of all the groups and stuff that the user is registered in.</p>
+<p>So now you’ve got that working you can edit /etc/shiny-server/shiny-server.conf to add the authentication stuff. You probably already did something with it setting up application directories etc.<br>
+The thing that I got working was as follows (again with bits redacted, I’m afraid):</p>
+<p>auth_active_dir ldap://.nhs.uk/DC=xxx,DC=xxxx,DC=nhs,DC=uk xxx.xxxx.nhs.uk{</p>
+<p>base_bind “CN=user.name,OU=Location,ou=GroupXXX,OU=GroupYYY,{root}” “LDAP_user_password”;<br>
+user_bind_template “{username}@xxx”;<br>
+user_filter “sAMAccountName={username}”;<br>
+user_search_base “OU=GroupXXX”;<br>
+group_search_base “OU=GroupXXX,OU=GroupYYY”;<br>
+}</p>
+<p>Do have a look at the examples in the documentation as well, it will help you to understand what yours might look like. The base_bind line has the actual user name in the first bit, e.g. CN=chris.beeley or CN = ldap.user, and the actual password at the end. This is not very secure. Your connection is also being made over LDAP, not LDAPS. Also not very secure.</p>
+<p>Let’s fix both those problems now. Add an “s” to the server name at the beginning (ldaps://…). Then you’ll need to point to a certificate on the trusted_ca line. IT should be able to give you one. Note that it’s a ROOT certificate you need. IT gave me loads that were not root certificates which did not work. I ended up downloading it myself from the Intranet through Chrome which messed up the domain name and I never quite resolved it to be honest. It works, that ended up being enough by the end. Note also that the certificate must be in PEM format.</p>
+<p>auth_active_dir ldaps://.nhs.uk/DC=xxx,DC=xxxx,DC=nhs,DC=uk xxx.xxxx.nhs.uk{</p>
+<p>trusted_ca /…pathtodir/certificate3.pem;<br>
+base_bind “CN=user.name,OU=Location,ou=GroupXXX,OU=GroupYYY,{root}” “/pathtopassword/password.txt”;<br>
+user_bind_template “{username}@xxx”;<br>
+user_filter “sAMAccountName={username}”;<br>
+user_search_base “OU=GroupXXX”;<br>
+group_search_base “OU=GroupXXX,OU=GroupYYY”;<br>
+}</p>
+<p>You can see also that we’ve written the file path to a text file containing the password on the second line. It’s a good idea to modify the permissions of this so only root can read it, to keep it safe.<br>
+That’s it! You’ve done it! Well done! That took me weeks.</p>
+<p>Wait! One more thing. You now have your staff putting their actual usernames and passwords into a web form over HTTP. This is VERY insecure. We need to secure over SSL. This is pretty easy. You just need a key and a certificate for the server from your IT department. Tell Shiny to listen on 443 (instead of, say, 3838) as below and put the key and certificate file path in. So the top of your config will look like this.</p>
+<p>server {</p>
+<h1 id="instruct-this-server-to-listen-on-port-443-the-default-port-for-https-traffic">Instruct this server to listen on port 443, the default port for HTTPS traffic</h1>
+<p>listen 443;</p>
+<p>ssl /etc/shiny-server/KEY.key /etc/shiny-server/certificate.cer;</p>
+<p>… etc.</p>
+<p>Your users can now connect at https://serveraddress</p>
+<p>That’s really it now. Well done. Have a cup of tea to relax and celebrate a job well done. I apologise that this post is a little light on details, it will be very different I think depending on where you are, but if I’d read this post before I’d started it would have helped me, and I hope it helps you too.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

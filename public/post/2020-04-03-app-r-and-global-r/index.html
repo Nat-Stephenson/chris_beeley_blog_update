@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>app.R and global.R | </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book Mastering Shiny.">
+    <meta name="generator" content="Hugo 0.127.0">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+      <meta name="author" content = "chrisbeeley">
+    
+
+    
+<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/chris_beeley_blog/post/2020-04-03-app-r-and-global-r/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/chris_beeley_blog/post/2020-04-03-app-r-and-global-r/">
+  <meta property="og:title" content="app.R and global.R">
+  <meta property="og:description" content="I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book Mastering Shiny.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2020-04-03T18:14:49+00:00">
+    <meta property="article:modified_time" content="2020-04-03T18:14:49+00:00">
+
+  <meta itemprop="name" content="app.R and global.R">
+  <meta itemprop="description" content="I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book Mastering Shiny.">
+  <meta itemprop="datePublished" content="2020-04-03T18:14:49+00:00">
+  <meta itemprop="dateModified" content="2020-04-03T18:14:49+00:00">
+  <meta itemprop="wordCount" content="573">
+  <meta itemprop="keywords" content="Uncategorized">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="app.R and global.R">
+  <meta name="twitter:description" content="I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book Mastering Shiny.">
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">app.R and global.R</h1>
+      
+      <p class="tracked">
+        By <strong>chrisbeeley</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-04-03T18:14:49Z">April 3, 2020</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I’m doing some Shiny training this year and I want to teach whatever the new thinking is so I’ve been reading Hadley Wickham’s online book <a href="https://mastering-shiny.org/">Mastering Shiny</a>. There’s a couple of things that I’ve noticed where Shiny is moving on, so if you want to keep up to date I suggest you have a look. I’m going to pick out a few here. Firstly, note that in Shiny 1.5 (which is not released at the time of writing) all code in the R/ directory will be sourced automatically. This is a very good idea, I’ve got loads of source(“useful_code.R”, local = TRUE) lines in some of my applications, so it gets rid of all that.</p>
+<p>Something else that’s different is modules are working slightly differently, which I haven’t bothered to absorb yet, I’ve enough on my plate with {golem} but if you’re using modules I suggest to keep abreast and have a look at the <a href="https://mastering-shiny.org/scaling-modules.html">section on modules</a>.</p>
+<p>The thing that has just pricked up <a href="https://twitter.com/ChrisBeeley/status/1245729113597530117">various ears on Twitter</a>, though, is the lack of an option on the RStudio option to create separate server.R and ui.R files when creating a new Shiny application through the wizard. I was very surprised when I noticed this. And indeed if you look at Hadley’s book there is no mention of server.R and ui.R, it’s all just app.R. He suggests that if you are building a large application you hive off the logic (in Shiny 1.5, in the R/ folder, or for now by calling source(“file.R, local = TRUE).</p>
+<p>But then straight away you’re wondering about where that leaves global.R. For the uninitiated, global.R is a separate file that’s really useful when you’re deploying to a server because it is run only once when the application is run the first time and then will serve its contents to any applications. Its contents is also available to ui.R, which can be helpful setting up the UI based on what’s in the data.</p>
+<p>As I mentioned I want to teach where the world is going so I’m trying to do things the new way (I have never taught app.R because, honestly, I hate it, but I guess with the new source R/ folder I can see the reasoning, and I’m not going to argue with the folks down at RStudio anyway 🙂 )</p>
+<p>I wasn’t sure about where app.R fitted in with global.R and running on a server so I have written a test application. <a href="https://gist.github.com/ChrisBeeley/cfddc35235f6119c326d7f70e8ad9120">You can see the code here</a>, I’m sorry it won’t run because you don’t have the data and being honest I can’t be bothered to deploy it properly somewhere where you can get it but you get the idea.</p>
+<p>The first time the code runs the Sys.sleep(10) runs and you get a big pause. But, sure enough, when you go back it doesn’t run and you get straight in. You can see also that the contents of the datafile are available to the UI (choices = unique(ae_attendances$Name). Lastly, take my word for it that if you add a file in to the folder called “restart.txt” then it will rerun (and generate the 10 second pause) the next time you go to the application, <a href="https://docs.rstudio.com/shiny-server/#restarting-an-application">just as I used to do with global.R</a>.</p>
+<p>That’s all I know at the moment. I hope this is clear and useful (and correct!), it’s all based on stuff I have cobbled together today looking at Hadley’s book and messing around.</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/chris_beeley_blog/" >
+    &copy; 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -3,20 +3,17 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-01-20T17:41:39Z"
-guid: https://chrisbeeley.net/?p=1186
-id: 1186
 title: Data science accelerator lesson one- build a pipeline and ship the code!
-url: /?p=1186
 ---
 
 My exciting news is that I was accepted onto the [data science accelerator](https://www.gov.uk/government/publications/data-science-accelerator-programme/introduction-to-the-data-science-accelerator) and have been doing it since late December. My project, basically, is all about using natural language processing to better understand the patient experience data that we collect (and, if I have time, the staff experience data too). Here are the goals:
 
-1\) Using an unsupervised technique, generate a novel way of categorising the text data to give us a different perspective. We already have tagged data but I would like to interrogate the usefulness of the tags that we have used  
-2\) a. Generate a system that, given a comment or set of comments, can find other comments within the data that are semantically similar. Note that this system will need to run live on the server, since it would be impossible to store the semantic similarity of every comment to every other comment  
-3\) b. Generate a system that, instead of searching by word, searches by similarity to that word  
-3\) Produce a supervised learning algorithm which can be trained on a sample of tagged comments and then produce tags for comments that it has not previously seen  
-4\) a. Produce a sentiment analysis function that can tag every comment in a database with how positive or negative it is  
-4\) b. Produce reporting functions that can compute overall sentiment for a group of documents (e.g. of a particular service area) and optionally describe the change in sentiment over time
+1) Using an unsupervised technique, generate a novel way of categorising the text data to give us a different perspective. We already have tagged data but I would like to interrogate the usefulness of the tags that we have used  
+    1) Generate a system that, given a comment or set of comments, can find other comments within the data that are semantically similar. Note that this system will need to run live on the server, since it would be impossible to store the semantic similarity of every comment to every other comment  
+    2) Generate a system that, instead of searching by word, searches by similarity to that word  
+3) Produce a supervised learning algorithm which can be trained on a sample of tagged comments and then produce tags for comments that it has not previously seen  
+    1) Produce a sentiment analysis function that can tag every comment in a database with how positive or negative it is  
+    2) Produce reporting functions that can compute overall sentiment for a group of documents (e.g. of a particular service area) and optionally describe the change in sentiment over time
 
 I’m not really sure if I’m going to get through all of it but I’ve made a decent start. I’ve made a [Trello board](https://trello.com/b/GlmtpsqB/data-science-accelerator) and there’s a [GitHub](https://github.com/ChrisBeeley/naturallanguageprocessing) too.
 

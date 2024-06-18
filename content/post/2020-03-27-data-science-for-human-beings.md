@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-03-27T10:46:57Z"
-guid: http://chrisbeeley.net/?p=1341
-id: 1341
 title: Data science for human beings
-url: /?p=1341
 ---
 
 Someone just emailed me to ask me about getting into data science. They knew all the usual stuff, linear algebra, Python, all that stuff, so I thought I’d talk about the other side of data science. It’s all stuff I say whenever I talk about data science, but I’ve never written it down so I thought I may as well blog it.

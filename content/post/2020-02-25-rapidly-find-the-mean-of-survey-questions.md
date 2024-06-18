@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2020-02-25T14:18:00Z"
-guid: http://chrisbeeley.net/?p=1292
-id: 1292
 title: Rapidly find the mean of survey questions
-url: /?p=1292
 ---
 
 Following on from the last blog post, I’ve got quite a nice way of generating lots of means from a survey dataset. This one relies on the fact that I’m averaging questions that go 2.1, 2.2, 2.3, and 3.1, 3.2, 3.3, so I can look for all questions that start with “2.”, “3.”, etc.
