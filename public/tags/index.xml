@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>http://localhost:1313/chris_beeley_blog/tags/</link>
+    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Jan 2016 14:53:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HTML</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/HTML/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/HTML/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/HTML/</link>
+      <pubDate>Wed, 13 Jan 2016 14:53:54 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/HTML/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/R/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/R/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/R/</link>
+      <pubDate>Wed, 13 Jan 2016 14:53:54 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/R/</guid>
       <description></description>
     </item>
     <item>
       <title>Tables</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/tables/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/tables/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/tables/</link>
+      <pubDate>Wed, 13 Jan 2016 14:53:54 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/tables/</guid>
       <description></description>
     </item>
     <item>
       <title>Animation</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/animation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/animation/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/animation/</link>
+      <pubDate>Fri, 09 Mar 2012 12:33:22 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/animation/</guid>
       <description></description>
     </item>
     <item>
       <title>Ggplot2</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/ggplot2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/ggplot2/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/ggplot2/</link>
+      <pubDate>Fri, 09 Mar 2012 12:33:22 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/ggplot2/</guid>
       <description></description>
     </item>
     <item>
       <title>Visualisation</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/Visualisation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/Visualisation/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/Visualisation/</link>
+      <pubDate>Fri, 09 Mar 2012 12:33:22 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/Visualisation/</guid>
       <description></description>
     </item>
     <item>
       <title>Pie Chart</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/pie-chart/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/pie-chart/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/</link>
+      <pubDate>Mon, 02 Jan 2012 11:48:49 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/</guid>
       <description></description>
     </item>
     <item>
       <title>Patient Survey</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/patient-survey/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/patient-survey/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/patient-survey/</link>
+      <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/patient-survey/</guid>
       <description></description>
     </item>
     <item>
       <title>Simulation</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/simulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/simulation/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/simulation/</link>
+      <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/simulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Sweave</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/sweave/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/sweave/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/sweave/</link>
+      <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/sweave/</guid>
       <description></description>
     </item>
     <item>
       <title>Mean</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/mean/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/mean/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/mean/</link>
+      <pubDate>Thu, 01 Sep 2011 06:36:40 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/mean/</guid>
       <description></description>
     </item>
     <item>
       <title>Median</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/median/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/median/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/median/</link>
+      <pubDate>Thu, 01 Sep 2011 06:36:40 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/median/</guid>
       <description></description>
     </item>
     <item>
       <title>Interest Rates</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/Interest-rates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/Interest-rates/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/Interest-rates/</link>
+      <pubDate>Wed, 10 Aug 2011 16:29:34 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/Interest-rates/</guid>
       <description></description>
     </item>
     <item>
       <title>RStudio</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/RStudio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/RStudio/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/RStudio/</link>
+      <pubDate>Wed, 10 Aug 2011 16:29:34 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/RStudio/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Visualisation</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/data-visualisation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/data-visualisation/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/data-visualisation/</link>
+      <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/data-visualisation/</guid>
       <description></description>
     </item>
     <item>
       <title>Text Mining</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/text-mining/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/text-mining/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/text-mining/</link>
+      <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/text-mining/</guid>
       <description></description>
     </item>
     <item>
       <title>Word Clouds</title>
-      <link>http://localhost:1313/chris_beeley_blog/tags/word-clouds/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/tags/word-clouds/</guid>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/word-clouds/</link>
+      <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/tags/word-clouds/</guid>
       <description></description>
     </item>
   </channel>

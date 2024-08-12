@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Visualisation on </title>
-    <link>http://localhost:1313/chris_beeley_blog/tags/data-visualisation/</link>
+    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/data-visualisation/</link>
     <description>Recent content in Data Visualisation on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Aug 2011 15:59:52 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/data-visualisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fun with wordclouds</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=25/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</link>
       <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=25/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</guid>
       <description>As always, I’m late to this party, and wordclouds have come under fire in recent times, e.</description>
     </item>
     <item>
       <title>The patient survey: past, present and future</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=8/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=8/</link>
       <pubDate>Mon, 01 Aug 2011 14:55:47 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=8/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=8/</guid>
       <description>Within my organisation we have something known as the Service User and Carer Experience Survey, often abbreviated to the SUCE, or in more natural spoken English, the patient survey.</description>
     </item>
   </channel>

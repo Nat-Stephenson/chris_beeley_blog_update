@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simulation on </title>
-    <link>http://localhost:1313/chris_beeley_blog/tags/simulation/</link>
+    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/simulation/</link>
     <description>Recent content in Simulation on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Oct 2011 06:22:03 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/simulation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simulating data</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=133/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</link>
       <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=133/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</guid>
       <description>I try to publish as much of my work as I can on the internet, where the people who own the data agree (my little bit of the website is here) but very often I can’t publish the data because of issues with ongoing projects, other publications, various levels of confidentiality of data, and so on.</description>
     </item>
   </channel>

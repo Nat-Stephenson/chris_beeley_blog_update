@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pie Chart on </title>
-    <link>http://localhost:1313/chris_beeley_blog/tags/pie-chart/</link>
+    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/</link>
     <description>Recent content in Pie Chart on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2012 11:48:49 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/pie-chart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stupidest pie chart of the year 2011</title>
-      <link>http://localhost:1313/chris_beeley_blog/?p=171/</link>
+      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</link>
       <pubDate>Mon, 02 Jan 2012 11:48:49 +0000</pubDate>
-      <guid>http://localhost:1313/chris_beeley_blog/?p=171/</guid>
+      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</guid>
       <description>I’ve just been looking at the Stupidest bar chart of the year 2011 and I’ve been inspired to submit my Stupidest pie chart of the year 2011.</description>
     </item>
   </channel>
