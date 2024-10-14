@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-11-16T14:28:40Z"
-guid: https://chrisbeeley.net/?p=1173
-id: 1173
 title: A tidy text talk and some stuff from my Shiny book
-url: /?p=1173
 ---
 
 This is just a quick post to show some of the stuff that I’ve published/ presented/ put on GitHub recently.

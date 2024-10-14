@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2019-01-08T21:41:49Z"
-guid: https://chrisbeeley.net/?p=1181
-id: 1181
 title: New Year&#8217;s post
-url: /?p=1181
 ---
 
 So this is my annual New Year’s post, it’s an idea from David Allen that I’ve done [before](https://chrisbeeley.net/?p=1052).

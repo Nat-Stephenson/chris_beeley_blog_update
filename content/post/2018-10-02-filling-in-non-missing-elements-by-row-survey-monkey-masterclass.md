@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-10-02T10:17:27Z"
-guid: https://chrisbeeley.net/?p=1155
-id: 1155
 title: Filling in non missing elements by row (Survey Monkey masterclass)
-url: /?p=1155
 ---
 
 There must be other people out there doing this, so I’ll share this neat thing I found today. Quite often, you’ll have a dataset that has a lot of columns, only one of which will have something in it for each row. Survey Monkey, in particular, produces these kinds of sheets if you use branching logic. So if you work in one bit of the Trust, your team name will be found in one column, but if you branched elsewhere in the survey because you work somewhere else, it is in another column. Lots of columns, but each individual has only one non-missing element in each (because they only work in one place and only see that question once).

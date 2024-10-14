@@ -13,7 +13,7 @@
       <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=796/</link>
       <pubDate>Wed, 13 Jan 2016 14:53:54 +0000</pubDate>
       <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=796/</guid>
-      <description>I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.</description>
+      <description>&lt;p&gt;I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-09-03T08:41:32Z"
-guid: https://chrisbeeley.net/?p=1147
-id: 1147
 title: Jupyter, Python, interactive web frameworks, and more
-url: /?p=1147
 ---
 
 A couple of days ago on Twitter I said the following:

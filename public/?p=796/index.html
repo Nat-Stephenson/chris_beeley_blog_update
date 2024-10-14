@@ -6,8 +6,8 @@
     
     <title>Make your own HTML tables in R | </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.">
-    <meta name="generator" content="Hugo 0.131.0">
+    <meta name="description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.">
+    <meta name="generator" content="Hugo 0.135.0">
     
     
     
@@ -38,7 +38,7 @@
 
     <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=796/">
   <meta property="og:title" content="Make your own HTML tables in R">
-  <meta property="og:description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.">
+  <meta property="og:description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -49,14 +49,14 @@
     <meta property="article:tag" content="Tables">
 
   <meta itemprop="name" content="Make your own HTML tables in R">
-  <meta itemprop="description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.">
+  <meta itemprop="description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.">
   <meta itemprop="datePublished" content="2016-01-13T14:53:54+00:00">
   <meta itemprop="dateModified" content="2016-01-13T14:53:54+00:00">
   <meta itemprop="wordCount" content="199">
   <meta itemprop="keywords" content="HTML,R,Tables">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Make your own HTML tables in R">
-  <meta name="twitter:description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated.">
+  <meta name="twitter:description" content="I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.">
 
 	
   </head>
@@ -136,25 +136,25 @@
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I’ve avoid writing HTML tables by hand in R, reasoning that it would be far too complicated. But the problem with using packages like pander and rmarkdown, much as I love those packages, is you can’t fine tune the outputs. So if a colleague asks you to add little extra touches for a report you can’t really do it.</p>
 <p>So it was a nice surprise to find that it’s actually not that hard. Here’s a table with 3 columns which looks very nice with bootstrap (don’t know what the styling options are on WordPress so it just looks unformatted here)</p>
 <table>
-<thead>
-<tr>
-<th>Service quality</th>
-<th>95</th>
-<th>90</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Promoter</td>
-<td>90</td>
-<td>85</td>
-</tr>
-<tr>
-<td>SUCE returns</td>
-<td>1000</td>
-<td>1200</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: left">Service quality</th>
+          <th style="text-align: left">95</th>
+          <th style="text-align: left">90</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Promoter</td>
+          <td style="text-align: left">90</td>
+          <td style="text-align: left">85</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">SUCE returns</td>
+          <td style="text-align: left">1000</td>
+          <td style="text-align: left">1200</td>
+      </tr>
+  </tbody>
 </table>
 <p>Code:</p>
 <pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-07-12T14:02:53Z"
-guid: https://chrisbeeley.net/?p=1124
-id: 1124
 title: 'Shiny Pro in a Windows/ NHS environment, part 1: The curse of Kerberos'
-url: /?p=1124
 ---
 
 Right, here goes. Let’s tell the story. I’ve been working on this for months, not because it’s particularly hard, but because I really didn’t know what I was doing. We are a health trust in the UK (NHS), and we’ve been using Shiny on a privately hosted Linode server (Ubuntu) in the cloud for a long time. You can see it [here](http://109.74.194.173:8080/apps/SUCE/). We’ve done this (hosted it in the wild) because none of the data is private. It’s patient experience data. We want it to be public. If anything, we want people to steal it. To be honest it’s looking a bit tatty. I was proud of it in 2012, now not so much. I’m working on a new version.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-10-02T13:55:24Z"
-guid: https://chrisbeeley.net/?p=1157
-id: 1157
 title: The shinyverse
-url: /?p=1157
 ---
 
 I’m pretty sure I’ve made up the word shinyverse, to refer to all the packages that either use or complement Shiny. This is a non-exhaustive list of shinyverse packages, mainly for my benefit when I inevitably forget, but if it’s useful for you too then that’s good too.

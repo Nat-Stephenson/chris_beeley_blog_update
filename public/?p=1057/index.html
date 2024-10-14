@@ -6,8 +6,8 @@
     
     <title>One weird trick to getting column types right with read_csv | </title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time.">
-    <meta name="generator" content="Hugo 0.131.0">
+    <meta name="description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time. However, I’m glad I did, because there is, as they say in the click bait world, one weird trick to get your column types right with read_csv. read_csv (or the other delimited file reading functions like read_tsv) does a brilliant job guessing what column types things are but by default it only looks at 1000 rows. Fine for most datasets, but actually I have more than one dataset where the first 1000 rows are missing, which doesn’t help the parser at all. So do it manually and get it right. But what a pain, all that typing, right? Wrong. Just do this:">
+    <meta name="generator" content="Hugo 0.135.0">
     
     
     
@@ -38,7 +38,7 @@
 
     <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=1057/">
   <meta property="og:title" content="One weird trick to getting column types right with read_csv">
-  <meta property="og:description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time.">
+  <meta property="og:description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time. However, I’m glad I did, because there is, as they say in the click bait world, one weird trick to get your column types right with read_csv. read_csv (or the other delimited file reading functions like read_tsv) does a brilliant job guessing what column types things are but by default it only looks at 1000 rows. Fine for most datasets, but actually I have more than one dataset where the first 1000 rows are missing, which doesn’t help the parser at all. So do it manually and get it right. But what a pain, all that typing, right? Wrong. Just do this:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="post">
@@ -46,14 +46,14 @@
     <meta property="article:modified_time" content="2018-02-22T13:05:51+00:00">
 
   <meta itemprop="name" content="One weird trick to getting column types right with read_csv">
-  <meta itemprop="description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time.">
+  <meta itemprop="description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time. However, I’m glad I did, because there is, as they say in the click bait world, one weird trick to get your column types right with read_csv. read_csv (or the other delimited file reading functions like read_tsv) does a brilliant job guessing what column types things are but by default it only looks at 1000 rows. Fine for most datasets, but actually I have more than one dataset where the first 1000 rows are missing, which doesn’t help the parser at all. So do it manually and get it right. But what a pain, all that typing, right? Wrong. Just do this:">
   <meta itemprop="datePublished" content="2018-02-22T13:05:51+00:00">
   <meta itemprop="dateModified" content="2018-02-22T13:05:51+00:00">
   <meta itemprop="wordCount" content="332">
   <meta itemprop="keywords" content="Uncategorized">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="One weird trick to getting column types right with read_csv">
-  <meta name="twitter:description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time.">
+  <meta name="twitter:description" content="Using read_csv from the tidyverse is so easy that I didn’t bother to look at the readr documentation for a long time. However, I’m glad I did, because there is, as they say in the click bait world, one weird trick to get your column types right with read_csv. read_csv (or the other delimited file reading functions like read_tsv) does a brilliant job guessing what column types things are but by default it only looks at 1000 rows. Fine for most datasets, but actually I have more than one dataset where the first 1000 rows are missing, which doesn’t help the parser at all. So do it manually and get it right. But what a pain, all that typing, right? Wrong. Just do this:">
 
 	
   </head>

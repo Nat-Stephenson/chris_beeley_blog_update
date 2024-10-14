@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-06-13T12:31:04Z"
-guid: https://chrisbeeley.net/?p=1116
-id: 1116
 title: Passing strings as variables from a Shiny app into dplyr
-url: /?p=1116
 ---
 
 I’ve been sort of waiting until I understood this thoroughly, and I was going to write a very detailed blog post about it, and although I do understand it a lot better now than I did, I’m still not at the point where I would write an authoritative blog post about it confidently because there are too many things that I don’t understand.

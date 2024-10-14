@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-10-16T16:23:37Z"
-guid: https://chrisbeeley.net/?p=1159
-id: 1159
 title: Produce tables in loop
-url: /?p=1159
 ---
 
 Another one for me before I forget, I seem to have terrible problems writing headings and tables in a loop in RMarkdown. Everything gets crushed together because the line returns don’t seem to work properly and either the table or the headings get mangled. Well here it is, the thing I just did that worked:
