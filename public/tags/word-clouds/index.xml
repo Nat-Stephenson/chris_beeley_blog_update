@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Word Clouds on </title>
-    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/word-clouds/</link>
-    <description>Recent content in Word Clouds on </description>
+    <title>Word Clouds on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/word-clouds/</link>
+    <description>Recent content in Word Clouds on Chris Beeley&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Aug 2011 15:59:52 +0000</lastBuildDate>
-    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/word-clouds/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/word-clouds/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fun with wordclouds</title>
-      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</link>
+      <link>http://localhost:1313/chris_beeley_blog/?p=25/</link>
       <pubDate>Tue, 02 Aug 2011 15:59:52 +0000</pubDate>
-      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</guid>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=25/</guid>
       <description>&lt;p&gt;As always, I’m late to this party, and wordclouds have come under fire in recent times, e.g. here: &lt;a href=&#34;http://www.drewconway.com/zia/?p=2624&#34;&gt;drewconway.com&lt;/a&gt;. From my point of view they’re eye-catching, and I hope that by putting them up on a website or in a report they might cause people to linger and look in more detail at other pieces of data and visualisation. That’s all I’m going to say for now, I’m sure I’ll talk again about what’s attractive to data scientists and statisticians and what’s attractive to the general public, but let’s leave it for now.&lt;/p&gt;</description>
     </item>
   </channel>

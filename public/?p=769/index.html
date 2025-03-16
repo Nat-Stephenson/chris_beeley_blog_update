@@ -1,136 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Sharing files from host machine on virtualbox | </title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for Shiny is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like Docker which package up whole environments at the operating system level and help you to manage dependencies (amongst other things) are starting to spring up and in the R world things like packrat roll up packages into bundles in order that all package versions are the same and dependencies satisfied.">
-    <meta name="generator" content="Hugo 0.135.0">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-      <meta name="author" content = "chrisbeeley">
-    
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
 
-    
-<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="https://chrisbeeley.github.io/chris_beeley_blog/?p=769/">
-    
-
-    <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=769/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=769/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
   <meta property="og:title" content="Sharing files from host machine on virtualbox">
   <meta property="og:description" content="I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for Shiny is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like Docker which package up whole environments at the operating system level and help you to manage dependencies (amongst other things) are starting to spring up and in the R world things like packrat roll up packages into bundles in order that all package versions are the same and dependencies satisfied.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2015-09-30T11:45:28+00:00">
     <meta property="article:modified_time" content="2015-09-30T11:45:28+00:00">
 
-  <meta itemprop="name" content="Sharing files from host machine on virtualbox">
-  <meta itemprop="description" content="I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for Shiny is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like Docker which package up whole environments at the operating system level and help you to manage dependencies (amongst other things) are starting to spring up and in the R world things like packrat roll up packages into bundles in order that all package versions are the same and dependencies satisfied.">
-  <meta itemprop="datePublished" content="2015-09-30T11:45:28+00:00">
-  <meta itemprop="dateModified" content="2015-09-30T11:45:28+00:00">
-  <meta itemprop="wordCount" content="590">
-  <meta itemprop="keywords" content="Uncategorized">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Sharing files from host machine on virtualbox">
-  <meta name="twitter:description" content="I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for Shiny is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like Docker which package up whole environments at the operating system level and help you to manage dependencies (amongst other things) are starting to spring up and in the R world things like packrat roll up packages into bundles in order that all package versions are the same and dependencies satisfied.">
+<title>Chris Beeley&#39;s blog | Sharing files from host machine on virtualbox</title>
 
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
   
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
         
+      >posts</a>
       
-    </a>
-    <div class="flex-l items-center">
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
       
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
+    </li>
+    </ol>
+  </nav>
 
     </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
     
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">Sharing files from host machine on virtualbox</h1>
-      
-      <p class="tracked">
-        By <strong>chrisbeeley</strong>
-      </p>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2015-09-30T11:45:28Z">September 30, 2015</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for <a href="http://shiny.rstudio.com/">Shiny</a> is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like <a href="https://www.docker.com/">Docker</a> which package up whole environments at the operating system level and help you to <a href="https://deis.com/blog/2015/sailing-past-dependency-hell-with-docker">manage dependencies</a> (amongst other things) are starting to spring up and in the R world things like <a href="https://rstudio.github.io/packrat/">packrat</a> roll up packages into bundles in order that all package versions are the same and dependencies satisfied.</p>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Sharing files from host machine on virtualbox</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2015-09-30T11:45:28&#43;00:00">September 30, 2015</time>
+            </li>
+            <li class="breadcrumb-item small">
+              3 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>I’ve really started getting into virtual machines recently. Firstly because I like to try different flavours of Linux and constantly reinstalling partitions is starting to get a bit of a drag, especially when it often takes ages to get the graphical desktop to work because of my silly graphics card. Secondly, and more importantly, because I’m finding if you want to do programming, or especially write about programming, you often need a “clean” system or a system set up a particular way to test things and work on multiple things at once. So the code I write for <a href="http://shiny.rstudio.com/">Shiny</a> is based on the newest 0.12 version. However, my server is all the way back on 0.7 for various reasons to do with browser compatibility. So this means I need a local 0.7 installation to test programs that I’m updating on the server. Or sometimes it can be important to check what the dependencies for your programs are. You may have installed something a year ago that makes everything work beautifully that you’ve long since forgotten about, and if you tell someone else to do what you’re doing it won’t work on their machine. In the Linux world technologies like <a href="https://www.docker.com/">Docker</a> which package up whole environments at the operating system level and help you to <a href="https://deis.com/blog/2015/sailing-past-dependency-hell-with-docker">manage dependencies</a> (amongst other things) are starting to spring up and in the R world things like <a href="https://rstudio.github.io/packrat/">packrat</a> roll up packages into bundles in order that all package versions are the same and dependencies satisfied.</p>
 <p>I haven’t learned those technologies yet so I’m going to stick with virtualisation for now (Docker is probably a bit of a sledgehammer to crack a nut for me, anyway, really).</p>
 <p>I am mainly making this post because I keep forgetting how to access the host file system on the guest system, so I’ll be able to refer to it in future. I hope it helps you. It’s based on Ubuntu. Some of it is probably similar in other OS’s, I really have no idea I’m afraid.</p>
 <p>Go to Devices (on the Virtualbox host machine, i.e. on the window that contains the graphical environment of the guest machine) and select Insert Guest Additions CD image. It will be mounted for you. You need to find out where it’s mounted so you can access it from the terminal. Mine mounted at /media/chris/VBOXADDITIONS_4.3.10_93012/.</p>
@@ -149,37 +96,45 @@ sudo sh ./VBoxLinuxAdditions.run
 
 sudo adduser yourusername vboxsf
 </code></pre><p>Restart and it should all work. I restarted the <em>virtual</em> machine after each stage, just in case. If it still doesn’t work, sorry, off to the forums with you.</p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
+
+      </article>
       
-      
-      </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=757/">
+            <span>previous: </span>
+            <span>Single file Shiny app to take GET parameters and return date range input boxes</span>
+        </a>
+        
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chrisbeeley.github.io/chris_beeley_blog/" >
-    &copy; 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=783/">
+            <span>next: </span>
+            <span>G&#43;&#43; error compiling on R</span>
+        </a>
+        
+    </div>
 </div>
-</div>
+    </div>
   </div>
-</footer>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
 
-  </body>
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

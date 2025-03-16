@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
+  <meta property="og:title" content="Producing headings in Word files programmatically using knitr">
+  <meta property="og:description" content="I love knitr. Sometimes I have to send people documents in Word. It works beautifully except when I want to produce headings programmatically in code using cat(). This is fine in HTML:
+``` sapply(headings, function(x){ cat(paste0(&#34;&lt;h1&gt;&#34;, x, &#34;&lt;/h1&gt;&#34;)) cat(paste0(&#34;&lt;p&gt;&#34;, rep(&#34;Some text here&#34;, 10), &#34;&lt;/p&gt;&#34;)) }) ``` However, when writing Word .docx files using Rmarkdown the heading tags are not recognised. Well, they’re not printed, so they obviously are recognised, but they don’t work.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2015-09-01T15:54:49+00:00">
+    <meta property="article:modified_time" content="2015-09-01T15:54:49+00:00">
+
+<title>Chris Beeley&#39;s blog | Producing headings in Word files programmatically using knitr</title>
+
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
+  
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
+
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Producing headings in Word files programmatically using knitr</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2015-09-01T15:54:49&#43;00:00">September 1, 2015</time>
+            </li>
+            <li class="breadcrumb-item small">
+              1 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>I love <a href="http://yihui.name/knitr/">knitr</a>. Sometimes I have to send people documents in Word. It works beautifully except when I want to produce headings programmatically in code using cat(). This is fine in HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>```
+</span></span><span style="display:flex;"><span>sapply(headings, function(x){
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  cat(paste0(&#34;&lt;h1&gt;&#34;, x, &#34;&lt;/h1&gt;&#34;))
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  cat(paste0(&#34;&lt;p&gt;&#34;, rep(&#34;Some text here&#34;, 10), &#34;&lt;/p&gt;&#34;))
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>```</span></span></code></pre></div>
+<p>However, when writing Word .docx files using <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a> the heading tags are not recognised. Well, they’re not printed, so they obviously are recognised, but they don’t work.</p>
+<p>I’ve struggled for a long time to understand how to produce headings in Rmarkdown and to be honest in the past I’ve actually done it with a lot of guesswork and some silly hacky unnecessary code. Today I have finally figured out a foolproof way to do it very easily every time, so I present the <a href="https://gist.github.com/ChrisBeeley/90889f6d8c4746af2fbf017117e6603c">whole document</a>(as a gist because the markup makes Hugo go weird) to you and to my future self when I inevitably forget how to do it.</p>
+<p>That’s it! Don’t forget the invisible() because otherwise if you use lists and things like that you’ll get the names of the list at the end.</p>
+
+      </article>
+      
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=748/">
+            <span>previous: </span>
+            <span>Digikam crashes on startup</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=757/">
+            <span>next: </span>
+            <span>Single file Shiny app to take GET parameters and return date range input boxes</span>
+        </a>
+        
+    </div>
+</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

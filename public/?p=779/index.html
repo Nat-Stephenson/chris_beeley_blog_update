@@ -1,136 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Backing up a remote MySQL database on a remote server using cron | </title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.">
-    <meta name="generator" content="Hugo 0.135.0">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-      <meta name="author" content = "chrisbeeley">
-    
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
 
-    
-<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="https://chrisbeeley.github.io/chris_beeley_blog/?p=779/">
-    
-
-    <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=779/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=779/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
   <meta property="og:title" content="Backing up a remote MySQL database on a remote server using cron">
-  <meta property="og:description" content="This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.">
+  <meta property="og:description" content="This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.
+I have a remote server running a MySQL database. I wish to backup this server daily. I would rather do this on my other remote server than on my local machine because, obviously, my server is always switched on whereas my local machine isn’t. So the task is to dump a MySQL database to a file and upload it to a remote server.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2016-04-01T15:33:30+00:00">
     <meta property="article:modified_time" content="2016-04-01T15:33:30+00:00">
 
-  <meta itemprop="name" content="Backing up a remote MySQL database on a remote server using cron">
-  <meta itemprop="description" content="This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.">
-  <meta itemprop="datePublished" content="2016-04-01T15:33:30+00:00">
-  <meta itemprop="dateModified" content="2016-04-01T15:33:30+00:00">
-  <meta itemprop="wordCount" content="557">
-  <meta itemprop="keywords" content="Uncategorized">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Backing up a remote MySQL database on a remote server using cron">
-  <meta name="twitter:description" content="This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.">
+<title>Chris Beeley&#39;s blog | Backing up a remote MySQL database on a remote server using cron</title>
 
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
   
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
         
+      >posts</a>
       
-    </a>
-    <div class="flex-l items-center">
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
       
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
+    </li>
+    </ol>
+  </nav>
 
     </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
     
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">Backing up a remote MySQL database on a remote server using cron</h1>
-      
-      <p class="tracked">
-        By <strong>chrisbeeley</strong>
-      </p>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2016-04-01T15:33:30Z">April 1, 2016</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.</p>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Backing up a remote MySQL database on a remote server using cron</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2016-04-01T15:33:30&#43;00:00">April 1, 2016</time>
+            </li>
+            <li class="breadcrumb-item small">
+              3 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>This is more a collection of links, really, than a proper blog post, but I just spent quite a while figuring out how all of these different technologies all fit together to do the job I wanted so if you want to do what it says on the tin of this blog post then you should find it useful.</p>
 <p>I have a remote server running a MySQL database. I wish to backup this server daily. I would rather do this on my other remote server than on my local machine because, obviously, my server is always switched on whereas my local machine isn’t. So the task is to dump a MySQL database to a file and upload it to a remote server.</p>
 <p>To begin, you’re going to make sure that the server with the MySQL database on it can access the other server. This is easiest using ssh key login. I use this for all my servers and all of my local machines. There is a summary <a href="https://help.ubuntu.com/community/SSH/OpenSSH/Keys">here</a>. The beauty of using a key based login is it eliminates the need for passwords, which is not only secure in general but also means you do not need to store passwords in cron scripts or anywhere else on the computer which is highly insecure. Unless you really know what you’re doing you should never do this.</p>
 <p>Next you’ll need to create a user on your MySQL and give it SELECT privileges so it can read the data to make the backup. This is very simple</p>
@@ -142,37 +90,45 @@
 <p>find ~/backupDB -type f -mtime +31 -exec rm {} +</p>
 <p>BE VERY CAREFUL with this command. If you run it with the wrong directory or have any strange errors with it you may find yourself deleting a lot of files that you did not want to delete. ALWAYS be safe and test by running find ~/backupDB -type f -mtime +31 first and reviewing the files which come back. Only when you’re happy that it’s finding the right files should you add -exec rm{} +</p>
 <p>I haven’t added this to a cron job, partly because it doesn’t seem worth the risk (the command is safe in my environment today, but always be wary of <a href="https://en.wikipedia.org/wiki/User_error">PEBKAC</a>, even for yourself), and also because it means I can choose when to flush the old database files, just in case I find some current problem in the database which I can fix with an older version.</p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
+
+      </article>
       
-      
-      </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=796/">
+            <span>previous: </span>
+            <span>Make your own HTML tables in R</span>
+        </a>
+        
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chrisbeeley.github.io/chris_beeley_blog/" >
-    &copy; 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=824/">
+            <span>next: </span>
+            <span>Open document formats and why we need them</span>
+        </a>
+        
+    </div>
 </div>
-</div>
+    </div>
   </div>
-</footer>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
 
-  </body>
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

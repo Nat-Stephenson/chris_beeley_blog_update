@@ -1,0 +1,28 @@
+title = "Chris Beeley's blog"
+theme = "not-much"
+languageCode = "en-us"
+baseURL = "https://chrisbeeley.github.io/chris_beeley_blog/"
+
+[params]
+theme = "dark"
+palette = "catpuccin"
+showThemeNotice = true
+showPostsSummary = true
+
+
+# Navigation
+[menu]
+ 
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/ChrisBeeley/chris_beeley_blog"
+    weight = 4

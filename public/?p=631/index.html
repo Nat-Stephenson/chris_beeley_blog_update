@@ -1,136 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Web application development with R using Shiny new version of code | </title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, Web application development with R using Shiny. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).">
-    <meta name="generator" content="Hugo 0.135.0">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-      <meta name="author" content = "chrisbeeley">
-    
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
 
-    
-<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="https://chrisbeeley.github.io/chris_beeley_blog/?p=631/">
-    
-
-    <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=631/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=631/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
   <meta property="og:title" content="Web application development with R using Shiny new version of code">
   <meta property="og:description" content="The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, Web application development with R using Shiny. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2014-05-10T20:54:21+00:00">
     <meta property="article:modified_time" content="2014-05-10T20:54:21+00:00">
 
-  <meta itemprop="name" content="Web application development with R using Shiny new version of code">
-  <meta itemprop="description" content="The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, Web application development with R using Shiny. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).">
-  <meta itemprop="datePublished" content="2014-05-10T20:54:21+00:00">
-  <meta itemprop="dateModified" content="2014-05-10T20:54:21+00:00">
-  <meta itemprop="wordCount" content="258">
-  <meta itemprop="keywords" content="Uncategorized">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Web application development with R using Shiny new version of code">
-  <meta name="twitter:description" content="The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, Web application development with R using Shiny. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).">
+<title>Chris Beeley&#39;s blog | Web application development with R using Shiny new version of code</title>
 
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
   
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
         
+      >posts</a>
       
-    </a>
-    <div class="flex-l items-center">
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
       
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
+    </li>
+    </ol>
+  </nav>
 
     </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
     
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">Web application development with R using Shiny new version of code</h1>
-      
-      <p class="tracked">
-        By <strong>chrisbeeley</strong>
-      </p>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2014-05-10T20:54:21Z">May 10, 2014</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, <a href="http://www.packtpub.com/web-application-development-with-r-using-shiny/book">Web application development with R using Shiny</a>. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).</p>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Web application development with R using Shiny new version of code</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2014-05-10T20:54:21&#43;00:00">May 10, 2014</time>
+            </li>
+            <li class="breadcrumb-item small">
+              2 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>The new version of Shiny (0.9) is wonderful, hopefully I will talk about it again soon, but it does break the code in my book, <a href="http://www.packtpub.com/web-application-development-with-r-using-shiny/book">Web application development with R using Shiny</a>. It’s only a small difference, the selectInput() function used to ask for preselected elements to be given as the name of a list (i.e. the friendly version that appears to users in the UI, “Egg Salad”) whereas now it asks for the actual value (“eggSalad”, e.g.).</p>
 <p>I wrote the book with 0.7 and I want to stay true to what’s in the book so I’ve added a couple of lines in to the <a href="https://github.com/ChrisBeeley/GoogleAnalyticsAdvanced">Google Analytics Advanced</a> application to make it work with 0.9 and 0.7.</p>
 <p>The code now starts with a version check like this:</p>
 <pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
@@ -147,37 +94,45 @@ if(packageCheck[1] == 0 &amp; packageCheck[2] &lt; 9){
 }
 </code></pre><p>And there is one place in server.R and one in ui.R that checks whether that is true or false and changes its behaviour accordingly. It’s probably quicker for you to just control-F to shinyOld once in each codefile than have me tell you where they are.</p>
 <p>As far as I can tell it now works beautifully on 0.9, please do let me know on here or on Twitter @chrisbeeley and I’ll be glad to have a look. Or if you have any other questions or comments I’m always glad to talk about them.</p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
+
+      </article>
       
-      
-      </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=624/">
+            <span>previous: </span>
+            <span>Shiny server working on Windows based virtual machine</span>
+        </a>
+        
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chrisbeeley.github.io/chris_beeley_blog/" >
-    &copy; 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=641/">
+            <span>next: </span>
+            <span>Learn to program, or loads of other stuff, for free</span>
+        </a>
+        
+    </div>
 </div>
-</div>
+    </div>
   </div>
-</footer>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
 
-  </body>
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

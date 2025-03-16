@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
+  <meta property="og:title" content="Posts">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+<title>Chris Beeley&#39;s blog | Posts</title>
+
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
+  
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
+
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-10-16T16:23:37&#43;00:00">October 16, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-10-16-produce-tables-in-loop/">Produce tables in loop</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Another one for me before I forget, I seem to have terrible problems writing headings and tables in a loop in RMarkdown. Everything gets crushed together because the line returns don’t seem to work properly and either the table or the headings get mangled. Well here it is, the thing I just did that worked:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+for(i in 1:2){
+
+  cat(&#34;Heading &#34;, i, &#34;\n&#34;)
+  
+  cat(&#34;===========================&#34;)
+  
+  pandoc.table(iris)
+}
+</code></pre><p>That’s it! Don’t put any other weird “\n”s or [HTML line breaks which I now realise WordPress will interpret literally] in. You don’t need them!</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-10-02T13:55:24&#43;00:00">October 2, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-10-02-the-shinyverse/">The shinyverse</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>I’m pretty sure I’ve made up the word shinyverse, to refer to all the packages that either use or complement Shiny. This is a non-exhaustive list of shinyverse packages, mainly for my benefit when I inevitably forget, but if it’s useful for you too then that’s good too.</p>
+<p><a href="https://cran.r-project.org/web/packages/shiny.semantic/index.html">shiny.semantic</a> adds support for the Semantic UI library to Shiny. Useful if you want your Shiny apps to look a bit different or there’s something in the library that you need.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-10-02T10:17:27&#43;00:00">October 2, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-10-02-filling-in-non-missing-elements-by-row-survey-monkey-masterclass/">Filling in non missing elements by row (Survey Monkey masterclass)</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>There must be other people out there doing this, so I’ll share this neat thing I found today. Quite often, you’ll have a dataset that has a lot of columns, only one of which will have something in it for each row. Survey Monkey, in particular, produces these kinds of sheets if you use branching logic. So if you work in one bit of the Trust, your team name will be found in one column, but if you branched elsewhere in the survey because you work somewhere else, it is in another column. Lots of columns, but each individual has only one non-missing element in each (because they only work in one place and only see that question once).</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-09-18T20:29:27&#43;00:00">September 18, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-09-18-in-praise-of-awkward-questions/">In praise of awkward questions</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>I went to a conference last week, more of a meet up really, and they presented the results of the work that we’ve all been doing, indicating that there were several statistically significant improvements in the expected direction.</p>
+<p>I’m sure the analysis is well intentioned and basically correct, so I didn’t really have any problem with it, but my arm shot up anyway, because I wanted to see more details of the analysis. The results were so good, I was just curious to see how they were so good really- what were the 95% confidence intervals, the sample sizes, alpha levels, just the nitty gritty of the analysis so I could really get all the detail of it.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-09-03T08:41:32&#43;00:00">September 3, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-09-03-jupyter-python-interactive-web-frameworks-and-more/">Jupyter, Python, interactive web frameworks, and more</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>A couple of days ago on Twitter I said the following:</p>
+<blockquote>
+<p>“Increasingly, RStudio’s products are so good that I feel a lot of my advice to my organisation is “buy a lot of RStudio products”. I love RStudio (I have a tattoo of their logo on my arm, even!) and they clearly give a lot of stuff away (we used their products for nothing for *years*). But I wish I could at least acknowledge some competition in this arena. As far as I can see, if you want to develop a cutting edge data science team with R, it’s RStudio all the way.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-08-17T15:06:06&#43;00:00">August 17, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-08-17-producing-several-plots-at-once-with-rmarkdown-and-purrr/">Producing several plots at once with RMarkdown and purrr</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>This is a very simple example of using purrr and RMarkdown to produce several plots all at once.</p>
+<pre tabindex="0"><code>invisible( # suppress console output from hist()
+  map(c(5, 6, 7), function(x) { # values to feed to filter function
+    
+    iris %&gt;%
+      filter(Sepal.Length &lt; x) %&gt;% # just Sepal.Length &lt; 5, 6, and 7
+      pull(Petal.Width) %&gt;% # extract Petal.Width vector
+      hist(breaks = 20, main = paste0(&#34;Histogram of &lt; &#34;, x)) # graph
+  })
+)
+</code></pre>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-07-12T14:02:53&#43;00:00">July 12, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-07-12-shiny-pro-in-a-windows-nhs-environment-part-1-the-curse-of-kerberos/">Shiny Pro in a Windows/ NHS environment, part 1: The curse of Kerberos</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Right, here goes. Let’s tell the story. I’ve been working on this for months, not because it’s particularly hard, but because I really didn’t know what I was doing. We are a health trust in the UK (NHS), and we’ve been using Shiny on a privately hosted Linode server (Ubuntu) in the cloud for a long time. You can see it <a href="http://109.74.194.173:8080/apps/SUCE/">here</a>. We’ve done this (hosted it in the wild) because none of the data is private. It’s patient experience data. We want it to be public. If anything, we want people to steal it. To be honest it’s looking a bit tatty. I was proud of it in 2012, now not so much. I’m working on a new version.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-06-13T12:31:04&#43;00:00">June 13, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2018-06-13-passing-strings-as-variables-from-a-shiny-app-into-dplyr/">Passing strings as variables from a Shiny app into dplyr</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>I’ve been sort of waiting until I understood this thoroughly, and I was going to write a very detailed blog post about it, and although I do understand it a lot better now than I did, I’m still not at the point where I would write an authoritative blog post about it confidently because there are too many things that I don’t understand.</p>
+<p>However, I’m aware that there are people out there right now who are trying to write dplyr code that takes strings as variable inputs, passed in from a Shiny interface, and I know how difficult it is to Google, because I Googled it myself. So I’m going to at least show you what to do, and talk a bit about it, and then maybe I’ll come back to it when I’ve understood it better myself.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-05-29T09:11:06&#43;00:00">May 29, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/?p=1104/">Selectively hide text with JavaScript in RMarkdown</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>I guess this is one of those where I kind of did know it was possible, really. If I’d thought it through. But I’ve always not been sure how easy it would be and I’ve been in too much of a rush.</p>
+<p>So I’m trying to move my organisation onto HTML instead of Word. HTML is easier to output and parse, and it’s interactive with a bit of JavaScript. I used the DT package in R to put some tables into an RMarkdown document and of course that’s very nice because they’re pageable, orderable, and searchable out of the box.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
+      <time class="small" datetime="2018-05-15T10:54:04&#43;00:00">May 15, 2018</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/?p=1098/">Recoding to NA with dplyr</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>Just very quickly again, still horribly busy, but this has been annoying me for ages and I finally figured it out. When you’re using recode from dplyr, you can’t recode to NA if you’re recoding to other things that aren’t NA, because it complains that the types aren’t compatible. So don’t do this:</p>
+<pre tabindex="0"><code>&lt;pre class=&#34;brush: r; title: ; notranslate&#34; title=&#34;&#34;&gt;
+
+  mutate(Relationship = recode(Relationship, &#34;Co-Habiting&#34; = &#34;Co&#34;, 
+    &#34;Divorced&#34; = &#34;Di&#34;, &#34;Married&#34; = &#34;Ma&#34;, &#34;Civil partnership&#34; = &#34;CI&#34;
+    &#34;Single&#34; = &#34;Si&#34;, &#34;Widowed&#34; = &#34;Wi&#34;, &#34;Separated&#34; = &#34;Se&#34;, 
+    &#34;Prefer not to say&#34; = NA))
+</code></pre><p>Use na_if() instead:</p>
+      </p>
+      
+    </div>
+    
+    
+    
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item">
+          <a href="/chris_beeley_blog/posts/page/6/">← back</a>
+        </li>
+        
+        
+        <li class="breadcrumb-item">
+          <a href="/chris_beeley_blog/posts/page/8/">next →</a>
+        </li>
+        
+      </ol>
+    </nav>
+    
+  </div>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

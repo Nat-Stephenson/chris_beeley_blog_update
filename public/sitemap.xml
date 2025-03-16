@@ -2,601 +2,604 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/</loc>
+    <lastmod>2025-03-14T20:02:50+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/</loc>
+    <lastmod>2025-03-14T20:02:50+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2025-03-16-value-thought/</loc>
+    <lastmod>2025-03-14T20:02:50+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2024-10-14-application-form-advice/</loc>
     <lastmod>2024-10-14T20:02:50+01:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-10-14-application-form-advice/</loc>
-    <lastmod>2024-10-14T20:02:50+01:00</lastmod>
-  </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/</loc>
-    <lastmod>2024-10-14T20:02:50+01:00</lastmod>
-  </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-08-12-job-questions/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2024-08-12-job-questions/</loc>
     <lastmod>2024-08-12T09:25:49+01:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-08-06-strategy/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2024-08-06-strategy/</loc>
     <lastmod>2024-06-18T14:05:57+01:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-05-04-decisions-decisions/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2024-05-04-decisions-decisions/</loc>
     <lastmod>2024-05-12T11:45:29+01:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2024-03-25-new-year-new-blog/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2024-03-25-new-year-new-blog/</loc>
     <lastmod>2024-03-25T20:26:51+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/categories/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/categories/</loc>
     <lastmod>2023-02-14T15:19:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2023-02-14-data-science-panel-questions/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2023-02-14-data-science-panel-questions/</loc>
     <lastmod>2023-02-14T15:19:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/categories/Uncategorized/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/categories/uncategorized/</loc>
     <lastmod>2023-02-14T15:19:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-08-23-rap-a-10-year-journey/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-08-23-rap-a-10-year-journey/</loc>
     <lastmod>2022-08-23T15:03:17+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-23-data-science-for-dummies-goldacre/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-06-23-data-science-for-dummies-goldacre/</loc>
     <lastmod>2022-06-23T15:45:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-06-16-we-need-more-than-black-box-systems-goldacre/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-06-16-we-need-more-than-black-box-systems-goldacre/</loc>
     <lastmod>2022-06-16T13:42:09+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-05-29-the-prevalence-of-code-sharing-goldacre/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-05-29-the-prevalence-of-code-sharing-goldacre/</loc>
     <lastmod>2022-05-29T10:04:11+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-05-22-the-goldacre-review-greatest-hits/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-05-22-the-goldacre-review-greatest-hits/</loc>
     <lastmod>2022-05-22T12:18:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2022-01-10-in-defence-of-the-ordinary/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2022-01-10-in-defence-of-the-ordinary/</loc>
     <lastmod>2022-01-10T17:40:24+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-12-22-in-defence-of-looking-at-jobs/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-12-22-in-defence-of-looking-at-jobs/</loc>
     <lastmod>2021-12-22T11:14:41+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-12-16-in-defence-of-holiday-working/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-12-16-in-defence-of-holiday-working/</loc>
     <lastmod>2021-12-16T21:21:14+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-11-24-in-defence-of-eating/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-11-24-in-defence-of-eating/</loc>
     <lastmod>2021-11-24T15:07:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-11-16-in-defence-of-dashboards/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-11-16-in-defence-of-dashboards/</loc>
     <lastmod>2021-11-16T22:19:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-11-13-make-statistics-sexy/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-11-13-make-statistics-sexy/</loc>
     <lastmod>2021-11-13T23:12:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-09-17-data-saves-lives-and-so-does-open-code/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-09-17-data-saves-lives-and-so-does-open-code/</loc>
     <lastmod>2021-09-17T16:56:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-08-19-pay-and-reward/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-08-19-pay-and-reward/</loc>
     <lastmod>2021-08-19T22:30:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-07-19-graphs-tables/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-07-19-graphs-tables/</loc>
     <lastmod>2021-07-19T17:30:17+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-07-18-stop-punishing-people-with-data/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-07-18-stop-punishing-people-with-data/</loc>
     <lastmod>2021-07-18T15:28:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-07-14-shoddy-data/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-07-14-shoddy-data/</loc>
     <lastmod>2021-07-14T16:42:02+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-06-01-managing-data-science-teams-in-the-trenches/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-06-01-managing-data-science-teams-in-the-trenches/</loc>
     <lastmod>2021-06-01T12:11:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-05-31-what-do-we-want-from-senior-analysts-in-the-nhs/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-05-31-what-do-we-want-from-senior-analysts-in-the-nhs/</loc>
     <lastmod>2021-05-31T12:02:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-03-26-sql-versus-analytic-tools/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-03-26-sql-versus-analytic-tools/</loc>
     <lastmod>2021-03-26T10:43:42+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-02-18-building-generic-shiny-applications-with-a-data-module/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-02-18-building-generic-shiny-applications-with-a-data-module/</loc>
     <lastmod>2021-02-18T16:13:18+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2021-01-29-accessing-plot-characteristics-in-shiny-modules/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2021-01-29-accessing-plot-characteristics-in-shiny-modules/</loc>
     <lastmod>2021-01-29T22:47:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-10-19-serving-rstudio-connect-content-to-logged-in-and-anonymous-users/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-10-19-serving-rstudio-connect-content-to-logged-in-and-anonymous-users/</loc>
     <lastmod>2020-10-19T17:16:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-10-02-analyst-analyse-thyself/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-10-02-analyst-analyse-thyself/</loc>
     <lastmod>2020-10-02T09:00:14+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-08-05-shiny-modules-for-beginners/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-08-05-shiny-modules-for-beginners/</loc>
     <lastmod>2020-08-05T17:53:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-07-13-getting-started-in-data-science-for-healthcare/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-07-13-getting-started-in-data-science-for-healthcare/</loc>
     <lastmod>2020-07-13T15:55:37+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-06-10-rstudio-connect-behind-the-firewall/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-06-10-rstudio-connect-behind-the-firewall/</loc>
     <lastmod>2020-06-10T16:18:43+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-06-10-rstudio-connect-in-the-cloud/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-06-10-rstudio-connect-in-the-cloud/</loc>
     <lastmod>2020-06-10T16:09:06+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-05-26-productionising-r-at-nottinghamshire-healthcare/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-05-26-productionising-r-at-nottinghamshire-healthcare/</loc>
     <lastmod>2020-05-26T17:18:50+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-04-03-app-r-and-global-r/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-04-03-app-r-and-global-r/</loc>
     <lastmod>2020-04-03T18:14:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-03-27-data-science-for-human-beings/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-03-27-data-science-for-human-beings/</loc>
     <lastmod>2020-03-27T10:46:57+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-03-23-nhs-data-science-and-software-licensing/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-03-23-nhs-data-science-and-software-licensing/</loc>
     <lastmod>2020-03-23T13:04:45+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-03-04-the-great-survey-munge/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-03-04-the-great-survey-munge/</loc>
     <lastmod>2020-03-04T13:51:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-02-25-rapidly-find-the-mean-of-survey-questions/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-02-25-rapidly-find-the-mean-of-survey-questions/</loc>
     <lastmod>2020-02-25T14:18:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-02-18-converting-words-on-a-survey-dataset-to-numbers-for-analysis/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-02-18-converting-words-on-a-survey-dataset-to-numbers-for-analysis/</loc>
     <lastmod>2020-02-18T13:41:50+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2020-01-19-decade-round-up-post/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2020-01-19-decade-round-up-post/</loc>
     <lastmod>2020-01-19T09:58:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-12-16-my-superpower-a-talk-i-gave-about-being-ill/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-12-16-my-superpower-a-talk-i-gave-about-being-ill/</loc>
     <lastmod>2019-12-16T09:25:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-12-08-nhs-r-conference/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-12-08-nhs-r-conference/</loc>
     <lastmod>2019-12-08T12:36:07+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-11-06-authenticating-using-ldap-from-active-directory-using-shiny-server-pro/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-11-06-authenticating-using-ldap-from-active-directory-using-shiny-server-pro/</loc>
     <lastmod>2019-11-06T18:03:08+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-10-31-add-label-to-shinydashboard/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-10-31-add-label-to-shinydashboard/</loc>
     <lastmod>2019-10-31T11:38:12+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-08-08-the-analysts-manifesto/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-08-08-the-analysts-manifesto/</loc>
     <lastmod>2019-08-08T14:53:23+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-07-02-python-working-together-and-productionising-code-at-nottinghamshire-healthcare-nhs-trust/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-07-02-python-working-together-and-productionising-code-at-nottinghamshire-healthcare-nhs-trust/</loc>
     <lastmod>2019-07-02T16:28:58+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-05-25-a-note-for-kindle-readers-of-my-shiny-book/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-05-25-a-note-for-kindle-readers-of-my-shiny-book/</loc>
     <lastmod>2019-05-25T14:34:00+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-04-05-the-future-of-patient-experience-data-at-nottinghamshire-healthcare/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-04-05-the-future-of-patient-experience-data-at-nottinghamshire-healthcare/</loc>
     <lastmod>2019-04-05T10:50:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-03-31-adding-line-returns-in-rmarkdown-in-a-loop/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-03-31-adding-line-returns-in-rmarkdown-in-a-loop/</loc>
     <lastmod>2019-03-31T16:48:05+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-03-19-producing-rmarkdown-reports-with-plumber/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-03-19-producing-rmarkdown-reports-with-plumber/</loc>
     <lastmod>2019-03-19T18:56:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-03-17-suppress-console-output-with-ggplot-purrr-and-rmarkdown/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-03-17-suppress-console-output-with-ggplot-purrr-and-rmarkdown/</loc>
     <lastmod>2019-03-17T18:27:09+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-03-03-a-world-of-plotthedots-and-what-else/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-03-03-a-world-of-plotthedots-and-what-else/</loc>
     <lastmod>2019-03-03T09:26:42+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-02-17-citing-r-packages-in-rmarkdown/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-02-17-citing-r-packages-in-rmarkdown/</loc>
     <lastmod>2019-02-17T15:46:33+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-02-03-dplyr-function-to-replace-nested-ifelse-like-sql-case-when/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-02-03-dplyr-function-to-replace-nested-ifelse-like-sql-case-when/</loc>
     <lastmod>2019-02-03T17:45:39+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-01-20-data-science-accelerator-lesson-one-build-a-pipeline-and-ship-the-code/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-01-20-data-science-accelerator-lesson-one-build-a-pipeline-and-ship-the-code/</loc>
     <lastmod>2019-01-20T17:41:39+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2019-01-08-new-years-post/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2019-01-08-new-years-post/</loc>
     <lastmod>2019-01-08T21:41:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-11-16-a-tidy-text-talk-and-some-stuff-from-my-shiny-book/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-11-16-a-tidy-text-talk-and-some-stuff-from-my-shiny-book/</loc>
     <lastmod>2018-11-16T14:28:40+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1170/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1170/</loc>
     <lastmod>2018-11-13T17:07:50+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-10-16-produce-tables-in-loop/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-10-16-produce-tables-in-loop/</loc>
     <lastmod>2018-10-16T16:23:37+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-10-02-the-shinyverse/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-10-02-the-shinyverse/</loc>
     <lastmod>2018-10-02T13:55:24+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-10-02-filling-in-non-missing-elements-by-row-survey-monkey-masterclass/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-10-02-filling-in-non-missing-elements-by-row-survey-monkey-masterclass/</loc>
     <lastmod>2018-10-02T10:17:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-09-18-in-praise-of-awkward-questions/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-09-18-in-praise-of-awkward-questions/</loc>
     <lastmod>2018-09-18T20:29:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-09-03-jupyter-python-interactive-web-frameworks-and-more/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-09-03-jupyter-python-interactive-web-frameworks-and-more/</loc>
     <lastmod>2018-09-03T08:41:32+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-08-17-producing-several-plots-at-once-with-rmarkdown-and-purrr/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-08-17-producing-several-plots-at-once-with-rmarkdown-and-purrr/</loc>
     <lastmod>2018-08-17T15:06:06+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-07-12-shiny-pro-in-a-windows-nhs-environment-part-1-the-curse-of-kerberos/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-07-12-shiny-pro-in-a-windows-nhs-environment-part-1-the-curse-of-kerberos/</loc>
     <lastmod>2018-07-12T14:02:53+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2018-06-13-passing-strings-as-variables-from-a-shiny-app-into-dplyr/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2018-06-13-passing-strings-as-variables-from-a-shiny-app-into-dplyr/</loc>
     <lastmod>2018-06-13T12:31:04+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1104/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1104/</loc>
     <lastmod>2018-05-29T09:11:06+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1098/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1098/</loc>
     <lastmod>2018-05-15T10:54:04+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1096/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1096/</loc>
     <lastmod>2018-05-01T09:11:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1092/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1092/</loc>
     <lastmod>2018-04-17T12:39:42+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1077/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1077/</loc>
     <lastmod>2018-03-22T09:48:39+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1064/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1064/</loc>
     <lastmod>2018-03-08T18:47:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1057/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1057/</loc>
     <lastmod>2018-02-22T13:05:51+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1047/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1047/</loc>
     <lastmod>2018-02-09T10:30:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1052/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1052/</loc>
     <lastmod>2018-01-26T21:31:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1042/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1042/</loc>
     <lastmod>2018-01-22T16:27:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1032/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1032/</loc>
     <lastmod>2018-01-05T12:12:36+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1037/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1037/</loc>
     <lastmod>2017-12-20T15:21:32+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1030/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1030/</loc>
     <lastmod>2017-12-08T16:54:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1025/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1025/</loc>
     <lastmod>2017-11-21T11:14:13+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1016/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1016/</loc>
     <lastmod>2017-11-17T20:44:58+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1017/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1017/</loc>
     <lastmod>2017-09-15T09:05:04+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=1023/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=1023/</loc>
     <lastmod>2017-07-02T09:57:15+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=983/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=983/</loc>
     <lastmod>2017-05-23T14:17:18+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=957/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=957/</loc>
     <lastmod>2017-04-21T12:39:35+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=955/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=955/</loc>
     <lastmod>2017-04-20T11:27:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=936/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=936/</loc>
     <lastmod>2017-04-13T16:19:59+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=904/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=904/</loc>
     <lastmod>2017-03-10T11:31:23+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=886/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=886/</loc>
     <lastmod>2017-03-10T11:28:06+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=871/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=871/</loc>
     <lastmod>2017-01-12T15:12:35+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=861/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=861/</loc>
     <lastmod>2016-10-05T13:13:56+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=824/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=824/</loc>
     <lastmod>2016-06-01T20:20:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=779/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=779/</loc>
     <lastmod>2016-04-01T15:33:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/HTML/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/html/</loc>
     <lastmod>2016-01-13T14:53:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=796/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=796/</loc>
     <lastmod>2016-01-13T14:53:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/R/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/r/</loc>
     <lastmod>2016-01-13T14:53:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/tables/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/tables/</loc>
     <lastmod>2016-01-13T14:53:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/</loc>
     <lastmod>2016-01-13T14:53:54+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=783/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=783/</loc>
     <lastmod>2015-11-18T18:36:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=769/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=769/</loc>
     <lastmod>2015-09-30T11:45:28+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=757/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=757/</loc>
     <lastmod>2015-09-17T14:09:47+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/post/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/</loc>
     <lastmod>2015-09-01T15:54:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=748/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=748/</loc>
     <lastmod>2015-08-31T09:32:56+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=740/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=740/</loc>
     <lastmod>2015-06-12T09:32:01+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=731/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=731/</loc>
     <lastmod>2015-06-05T09:26:26+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=726/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=726/</loc>
     <lastmod>2015-06-05T09:13:26+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=722/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=722/</loc>
     <lastmod>2015-05-22T15:34:11+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=717/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=717/</loc>
     <lastmod>2015-01-31T22:02:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=710/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=710/</loc>
     <lastmod>2014-12-23T21:46:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=703/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=703/</loc>
     <lastmod>2014-10-24T11:45:15+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=696/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=696/</loc>
     <lastmod>2014-09-09T14:14:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=689/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=689/</loc>
     <lastmod>2014-08-13T12:06:41+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=682/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=682/</loc>
     <lastmod>2014-08-08T17:01:57+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=671/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=671/</loc>
     <lastmod>2014-07-06T14:06:26+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=657/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=657/</loc>
     <lastmod>2014-06-20T21:03:47+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=654/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=654/</loc>
     <lastmod>2014-06-17T09:31:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=644/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=644/</loc>
     <lastmod>2014-06-09T17:21:08+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=641/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=641/</loc>
     <lastmod>2014-06-06T22:00:11+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=631/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=631/</loc>
     <lastmod>2014-05-10T20:54:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=624/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=624/</loc>
     <lastmod>2014-05-08T21:00:15+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=530/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=530/</loc>
     <lastmod>2014-04-24T13:26:19+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=609/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=609/</loc>
     <lastmod>2014-03-29T13:27:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=593/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=593/</loc>
     <lastmod>2014-03-23T14:41:14+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=603/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=603/</loc>
     <lastmod>2014-03-19T21:20:13+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=590/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=590/</loc>
     <lastmod>2014-03-19T10:09:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=578/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=578/</loc>
     <lastmod>2014-02-12T17:10:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=571/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=571/</loc>
     <lastmod>2014-02-10T21:37:25+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=564/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=564/</loc>
     <lastmod>2013-12-23T12:05:43+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=554/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=554/</loc>
     <lastmod>2013-12-04T21:00:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=551/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=551/</loc>
     <lastmod>2013-11-30T09:11:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=537/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=537/</loc>
     <lastmod>2013-11-08T17:00:44+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=520/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=520/</loc>
     <lastmod>2013-10-24T06:14:08+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=511/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=511/</loc>
     <lastmod>2013-10-22T19:02:44+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=487/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=487/</loc>
     <lastmod>2013-10-19T10:47:41+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=481/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=481/</loc>
     <lastmod>2013-09-17T10:35:09+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=474/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=474/</loc>
     <lastmod>2013-09-15T16:07:26+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=467/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=467/</loc>
     <lastmod>2013-08-11T23:17:48+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=462/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=462/</loc>
     <lastmod>2013-08-02T17:51:44+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=454/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=454/</loc>
     <lastmod>2013-06-28T14:25:59+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=414/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=414/</loc>
     <lastmod>2013-06-18T08:48:31+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=412/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=412/</loc>
     <lastmod>2013-06-11T14:50:58+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=405/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=405/</loc>
     <lastmod>2013-06-06T19:54:51+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=402/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=402/</loc>
     <lastmod>2013-05-30T11:21:04+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=400/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=400/</loc>
     <lastmod>2013-05-28T08:10:20+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=398/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=398/</loc>
     <lastmod>2013-05-14T11:06:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=380/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=380/</loc>
     <lastmod>2013-04-14T08:24:21+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=378/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=378/</loc>
     <lastmod>2013-04-14T08:21:26+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=371/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=371/</loc>
     <lastmod>2013-03-20T14:36:08+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=303/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=303/</loc>
     <lastmod>2013-02-08T17:43:28+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=302/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=302/</loc>
     <lastmod>2012-12-07T11:14:48+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=293/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=293/</loc>
     <lastmod>2012-12-02T21:37:09+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=255/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=255/</loc>
     <lastmod>2012-09-17T20:14:39+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=239/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=239/</loc>
     <lastmod>2012-07-25T08:49:43+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=230/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=230/</loc>
     <lastmod>2012-07-08T13:34:32+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=219/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=219/</loc>
     <lastmod>2012-05-07T08:38:08+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=218/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=218/</loc>
     <lastmod>2012-04-26T19:57:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=215/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=215/</loc>
     <lastmod>2012-04-11T10:01:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=209/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=209/</loc>
     <lastmod>2012-04-07T10:02:59+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=205/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=205/</loc>
     <lastmod>2012-04-05T14:11:35+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=203/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=203/</loc>
     <lastmod>2012-04-02T08:08:31+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=199/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=199/</loc>
     <lastmod>2012-03-24T12:05:59+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/animation/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/animation/</loc>
     <lastmod>2012-03-09T12:33:22+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=189/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=189/</loc>
     <lastmod>2012-03-09T12:33:22+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/ggplot2/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/ggplot2/</loc>
     <lastmod>2012-03-09T12:33:22+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/Visualisation/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/visualisation/</loc>
     <lastmod>2012-03-09T12:33:22+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=187/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=187/</loc>
     <lastmod>2012-03-05T13:42:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=182/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=182/</loc>
     <lastmod>2012-02-20T15:36:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/pie-chart/</loc>
     <lastmod>2012-01-02T11:48:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=171/</loc>
     <lastmod>2012-01-02T11:48:49+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=166/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=166/</loc>
     <lastmod>2012-01-01T00:01:27+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=159/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=159/</loc>
     <lastmod>2011-12-29T14:02:37+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=147/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=147/</loc>
     <lastmod>2011-11-16T16:44:38+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/patient-survey/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/patient-survey/</loc>
     <lastmod>2011-10-03T06:22:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=133/</loc>
     <lastmod>2011-10-03T06:22:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/simulation/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/simulation/</loc>
     <lastmod>2011-10-03T06:22:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/sweave/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/sweave/</loc>
     <lastmod>2011-10-03T06:22:03+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=108/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=108/</loc>
     <lastmod>2011-09-12T16:54:30+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/mean/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/mean/</loc>
     <lastmod>2011-09-01T06:36:40+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/median/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/median/</loc>
     <lastmod>2011-09-01T06:36:40+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=99/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=99/</loc>
     <lastmod>2011-09-01T06:36:40+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=87/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=87/</loc>
     <lastmod>2011-08-20T07:05:32+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=83/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=83/</loc>
     <lastmod>2011-08-17T19:38:16+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=74/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=74/</loc>
     <lastmod>2011-08-16T19:20:29+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=61/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=61/</loc>
     <lastmod>2011-08-15T19:16:14+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=46/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=46/</loc>
     <lastmod>2011-08-10T16:29:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/Interest-rates/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/interest-rates/</loc>
     <lastmod>2011-08-10T16:29:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/RStudio/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/rstudio/</loc>
     <lastmod>2011-08-10T16:29:34+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=40/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=40/</loc>
     <lastmod>2011-08-03T15:38:24+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/data-visualisation/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/data-visualisation/</loc>
     <lastmod>2011-08-02T15:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=25/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=25/</loc>
     <lastmod>2011-08-02T15:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/text-mining/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/text-mining/</loc>
     <lastmod>2011-08-02T15:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/tags/word-clouds/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/tags/word-clouds/</loc>
     <lastmod>2011-08-02T15:59:52+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=8/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=8/</loc>
     <lastmod>2011-08-01T14:55:47+00:00</lastmod>
   </url><url>
-    <loc>https://chrisbeeley.github.io/chris_beeley_blog/?p=5/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/?p=5/</loc>
     <lastmod>2011-08-01T12:05:37+00:00</lastmod>
   </url>
 </urlset>

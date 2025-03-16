@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mean on </title>
-    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/mean/</link>
-    <description>Recent content in Mean on </description>
+    <title>Mean on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/mean/</link>
+    <description>Recent content in Mean on Chris Beeley&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Sep 2011 06:36:40 +0000</lastBuildDate>
-    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/mean/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/mean/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Misleading means and medians</title>
-      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=99/</link>
+      <link>http://localhost:1313/chris_beeley_blog/?p=99/</link>
       <pubDate>Thu, 01 Sep 2011 06:36:40 +0000</pubDate>
-      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=99/</guid>
-      <description>&lt;p&gt;Over at &lt;a href=&#34;http://exploringdatablog.blogspot.com/2011/08/some-additional-thoughts-on-useless.html&#34;&gt;this&lt;/a&gt; excellent blog there is an interesting discussion about times when means and medians can be deceptive, particularly in the case where two variables with equal means have very different distributions. I chimed in myself and mentioned some of the examples which I come across in my work. Here is a particularly egregious example, measurement of self-esteem in patients on psychiatric wards in England and Belgium-&lt;/p&gt;</description>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=99/</guid>
+      <description>&lt;p&gt;Over at &lt;a href=&#34;http://exploringdatablog.blogspot.com/2011/08/some-additional-thoughts-on-useless.html&#34;&gt;this&lt;/a&gt; excellent blog there is an interesting discussion about times when means and medians can be deceptive, particularly in the case where two variables with equal means have very different distributions. I chimed in myself and mentioned some of the examples which I come across in my work. Here is a particularly egregious example, measurement of self-esteem in patients on psychiatric wards in England and Belgium-&lt;/p&gt;&#xA;&lt;p&gt;England mean&lt;br&gt;&#xA;3.4&lt;br&gt;&#xA;Belgium mean&lt;br&gt;&#xA;3.2&lt;br&gt;&#xA;England median&lt;br&gt;&#xA;3.3&lt;br&gt;&#xA;Belgium median&lt;br&gt;&#xA;3.2&lt;br&gt;&#xA;England sd&lt;br&gt;&#xA;1.2&lt;br&gt;&#xA;Belgium sd&lt;br&gt;&#xA;0.9&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

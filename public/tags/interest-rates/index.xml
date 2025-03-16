@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interest Rates on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/interest-rates/</link>
+    <description>Recent content in Interest Rates on Chris Beeley&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2011 16:29:34 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/interest-rates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How do interest rates affect the way my mortgage is paid off?</title>
+      <link>http://localhost:1313/chris_beeley_blog/?p=46/</link>
+      <pubDate>Wed, 10 Aug 2011 16:29:34 +0000</pubDate>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=46/</guid>
+      <description>&lt;p&gt;With a baby on the way my wife and I have become very interested in the interest rate on our mortgage, and how it might go up or down, and how that will affect whether we overpay to build up some equity, etc. etc. etc. As you will know if you’ve ever thought about your mortgage payments, it’s all quite complicated and difficult to think about.&lt;/p&gt;&#xA;&lt;p&gt;For a bit of fun I thought I would produce a graph which summarises the value of the mortgage over time as well as the proportion of the money which is spent on capital and interest payments. The repayment is fixed for a given value of interest, so a stacked barchart will have a fixed height, with a different proportion of the bar coming from capital and interest payments over time.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

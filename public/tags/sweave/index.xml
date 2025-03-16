@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sweave on </title>
-    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/sweave/</link>
-    <description>Recent content in Sweave on </description>
+    <title>Sweave on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/sweave/</link>
+    <description>Recent content in Sweave on Chris Beeley&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Oct 2011 06:22:03 +0000</lastBuildDate>
-    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/sweave/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/sweave/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simulating data</title>
-      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</link>
+      <link>http://localhost:1313/chris_beeley_blog/?p=133/</link>
       <pubDate>Mon, 03 Oct 2011 06:22:03 +0000</pubDate>
-      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=133/</guid>
-      <description>&lt;p&gt;I try to publish as much of my work as I can on the internet, where the people who own the data agree (my little bit of the website is &lt;a href=&#34;http://www.institutemh.org.uk/-about-us-/our-evaluation-service&#34;&gt;here&lt;/a&gt;) but very often I can’t publish the data because of issues with ongoing projects, other publications, various levels of confidentiality of data, and so on.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=133/</guid>
+      <description>&lt;p&gt;I try to publish as much of my work as I can on the internet, where the people who own the data agree (my little bit of the website is &lt;a href=&#34;http://www.institutemh.org.uk/-about-us-/our-evaluation-service&#34;&gt;here&lt;/a&gt;) but very often I can’t publish the data because of issues with ongoing projects, other publications, various levels of confidentiality of data, and so on.&lt;/p&gt;&#xA;&lt;p&gt;So I’ve decided to try to simulate the data whenever there is an issue with publication. It’s very easy and it’s an excellent way for me to be able to show people my work without any of the issues that come from showing real data. The code is below, it comes in two parts for the first set of variables because we fiddled with the questionnaire a bit after Time 8 in the dataset.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

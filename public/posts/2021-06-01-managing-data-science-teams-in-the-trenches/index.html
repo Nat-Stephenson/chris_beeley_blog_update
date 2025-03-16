@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2021-06-01-managing-data-science-teams-in-the-trenches/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
+  <meta property="og:title" content="Managing data science teams in the trenches">
+  <meta property="og:description" content="We’re systematically devaluing management and leadership in the analyst space, and I encounter a lot of people who think that a day with no code written is a day wasted. I do write code, but I do a lot of other valuable stuff too. I’ve written this post as someone who is very new to managing people with my personal opinion, so just like my posts on proxied SSL with Apache, there is your caveat emptor 🙂">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-06-01T12:11:00+00:00">
+    <meta property="article:modified_time" content="2021-06-01T12:11:00+00:00">
+
+<title>Chris Beeley&#39;s blog | Managing data science teams in the trenches</title>
+
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
+  
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
+
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Managing data science teams in the trenches</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2021-06-01T12:11:00&#43;00:00">June 1, 2021</time>
+            </li>
+            <li class="breadcrumb-item small">
+              4 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>We’re systematically devaluing management and leadership in the analyst space, and I encounter a lot of people who think that a day with no code written is a day wasted. I do write code, but I do a lot of other valuable stuff too. I’ve written this post as someone who is very new to managing people with my personal opinion, so just like my posts on proxied SSL with Apache, there is your caveat emptor 🙂</p>
+<p>The people I manage like to get in the zone and write code. I think of it as like they’re digging a trench. They’re not getting out of the trench, they’re not sticking their head out, they’re just digging. And it’s efficient, they’re digging fast, and it’s rewarding too. They’re working on interesting problems and solving them and it feels good. My job is just to stick my head in the trench occasionally.</p>
+<p>“What are you digging there? Oh yes, I like it, nice. You know, you could use that other tool over there on that bit. And actually, have you thought about trying this other technique? Let me show you, pass me the chisel. Okay, great. Let me know if you get stuck”</p>
+<p>next trench… “Hey, that looks good, what is it? I like this trench, I like this bit. You know, you’re actually going the wrong way, though, you’ve gone off at an angle. Come up here and I’ll show you. See that trench over there? We’re trying to get there. Just jump back in and I’ll help you get it pointing in the right direction”</p>
+<p>next trench… “Hey, this trench is taking ages, isn’t it?! We need to finish it soon, really. I think we maybe need to not finish some bits of it for now. Which are the really important bits, do you think? Okay, let’s keep this bit. This other bit, I know you love it, and I love it too. It’s really clever what you’ve done. But we can’t ship on time with it. I think we need to come back to it later, or maybe just chalk it up to experience and maybe we can do it next time”</p>
+<p>This is pretty basic stuff, really. It feels a bit silly to have to spell it out. The point I’m trying to make is that the people getting in the trench occasionally are helping the people in the trench <em>stay in the trench</em> and that’s good for them and good for the project. And that’s my test for all the stuff that we do. Code review. Standup. Appraisals. Hack days. Overall, is it helping them stay in the trench, digging quickly and solving problems, or is it just a silly distraction?</p>
+<p>I’ve never in my life had a manager who has the slightest idea what autoregression is or how to test the assumptions of OLS regression. I’m really happy now that I do manage people and that I do know what those things are, and I hope the people I manage can benefit from my understanding of what they’re doing (even if they usually know way more about it than I do- I can at least keep up if they explain it to me).</p>
+<p>(if you’ve read my <a href="http://localhost:1313/chris_beeley_blog/posts/2021-05-31-what-do-we-want-from-senior-analysts-in-the-nhs/">previous post</a> and you’re paying attention you’ll realise that I’ve just contradicted myself by saying firstly that analysts should do more than just write code all day, and then said in this post that a manager’s job is to help analysts write code all day. Forgive me. In reality the people in the trench have got other people in the trench, or possibly in a neighbouring trench, and it’s their job to stick their head in that trench and help that person write code instead of needing to get out of their trench, before coming back to their own trench. Indeed, really, the trench visitor is in fact in their own trench, and someone else sticks their head in there occasionally, but the analogy gets a bit convoluted and silly at this point. I think you get the idea, even if it doesn’t translate to actual trenches within trenches within trenches)</p>
+
+      </article>
+      
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/posts/2021-05-31-what-do-we-want-from-senior-analysts-in-the-nhs/">
+            <span>previous: </span>
+            <span>What do we want from senior analysts in the NHS?</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/posts/2021-07-14-shoddy-data/">
+            <span>next: </span>
+            <span>Shoddy data</span>
+        </a>
+        
+    </div>
+</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

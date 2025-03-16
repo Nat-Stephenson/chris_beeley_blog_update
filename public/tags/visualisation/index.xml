@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualisation on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/visualisation/</link>
+    <description>Recent content in Visualisation on Chris Beeley&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Mar 2012 12:33:22 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Because it&amp;#8217;s Friday- animated graphs</title>
+      <link>http://localhost:1313/chris_beeley_blog/?p=189/</link>
+      <pubDate>Fri, 09 Mar 2012 12:33:22 +0000</pubDate>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=189/</guid>
+      <description>&lt;p&gt;I’ve been analysing some data and we’re a bit unsure, as we often are, as to its quality. We have a variety of clinicians rating C.tot and R.tot over a four year period for a set of patients. To summarise, there was some concern that people are rating C.tot consistently and well but not so with R.tot (I’m not going to explain the variables or where they come from because it’s not relevant and it’s an internal dataset we’re not ready to share yet).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

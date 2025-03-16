@@ -1,136 +1,84 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    
-    <title>Super easy heatmaps of postcodes | </title>
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.">
-    <meta name="generator" content="Hugo 0.135.0">
-    
-    
-    
-    
-      <meta name="robots" content="noindex, nofollow">
-    
-    
-      <meta name="author" content = "chrisbeeley">
-    
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
 
-    
-<link rel="stylesheet" href="/chris_beeley_blog/ananke/css/main.min.css" >
-
-
-
-    
-
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="https://chrisbeeley.github.io/chris_beeley_blog/?p=239/">
-    
-
-    <meta property="og:url" content="https://chrisbeeley.github.io/chris_beeley_blog/?p=239/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=239/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
   <meta property="og:title" content="Super easy heatmaps of postcodes">
-  <meta property="og:description" content="Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.">
+  <meta property="og:description" content="Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.
+Special thanks, of course, go to David Kahle and Hadley Wickham, progenitors of the mighty ggmap package and also to the fine folk at geonames who freely distribute postcodes from around the world in .csv format.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
+    <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2012-07-25T08:49:43+00:00">
     <meta property="article:modified_time" content="2012-07-25T08:49:43+00:00">
 
-  <meta itemprop="name" content="Super easy heatmaps of postcodes">
-  <meta itemprop="description" content="Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.">
-  <meta itemprop="datePublished" content="2012-07-25T08:49:43+00:00">
-  <meta itemprop="dateModified" content="2012-07-25T08:49:43+00:00">
-  <meta itemprop="wordCount" content="273">
-  <meta itemprop="keywords" content="Uncategorized">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Super easy heatmaps of postcodes">
-  <meta name="twitter:description" content="Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by these amazing blog posts.">
+<title>Chris Beeley&#39;s blog | Super easy heatmaps of postcodes</title>
 
-	
-  </head>
-
-  <body class="ma0 avenir bg-near-white">
-
-    
-   
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
   
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
 
-  <header>
-    <div class="bg-black">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l justify-between items-center center">
-    <a href="/chris_beeley_blog/" class="f3 fw2 hover-white no-underline white-90 dib">
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
       
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
         
+      >posts</a>
       
-    </a>
-    <div class="flex-l items-center">
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
       
-
-      
-      
-<div class="ananke-socials">
-  
-</div>
+    </li>
+    </ol>
+  </nav>
 
     </div>
-  </div>
-</nav>
-
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  
-  <article class="flex-l flex-wrap justify-between mw8 center ph3">
-    <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-          
-        Posts
-      </aside>
-      
-
-
-
-
-
-
-
-
-
-
-  <div id="sharing" class="mt3 ananke-socials">
     
-  </div>
-
-
-      <h1 class="f1 athelas mt3 mb1">Super easy heatmaps of postcodes</h1>
-      
-      <p class="tracked">
-        By <strong>chrisbeeley</strong>
-      </p>
-      
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2012-07-25T08:49:43Z">July 25, 2012</time>
-      
-
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by <a href="http://blog.revolutionanalytics.com/2012/07/making-beautiful-maps-in-r-with-ggmap.html">these</a> amazing <a href="http://stevendkay.wordpress.com/2010/04/21/plotting-postcode-density-heatmaps-in-r/">blog posts</a>.</p>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Super easy heatmaps of postcodes</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2012-07-25T08:49:43&#43;00:00">July 25, 2012</time>
+            </li>
+            <li class="breadcrumb-item small">
+              2 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>Whatever I want to do, there are always intrepid explorers who’ve been there and blogged it, and so the satisfaction of my long held desire to get to know more about how Nottinghamshire Healthcare’s services are spread geographically has been wonderfully expedited by <a href="http://blog.revolutionanalytics.com/2012/07/making-beautiful-maps-in-r-with-ggmap.html">these</a> amazing <a href="http://stevendkay.wordpress.com/2010/04/21/plotting-postcode-density-heatmaps-in-r/">blog posts</a>.</p>
 <p>Special thanks, of course, go to David Kahle and Hadley Wickham, progenitors of the mighty <a href="http://cran.r-project.org/web/packages/ggmap/index.html">ggmap</a> package and also to the fine folk at <a href="http://www.geonames.org/">geonames</a> who freely distribute postcodes from around the world in .csv format.</p>
 <p>With the thanks out of the way, there’s almost no work for me to do at all, and I’ve produced this lovely heatmap with absolutely minimal coding. I can’t tell you what it represents, I’m afraid, because I haven’t cleared the data for release, and actually it doesn’t represent anything particularly interesting at the moment. I need to do some preparation of the data but I naturally did this bit first because it’s more fun.</p>
 <p><a href="http://chrisbeeley.net/wp-content/uploads/2012/07/map2.png"><img src="http://chrisbeeley.net/wp-content/uploads/2012/07/map2.png?w=300" alt="" title="Map">Click to expand!</a></p>
@@ -153,37 +101,45 @@ myMap + stat_bin2d(bins=80, aes(x=Long, y=Lat), alpha=.6, data=mywhere) +
   scale_fill_gradient(low = &#34;blue&#34;, high =&#34;red&#34;)
   # plot with a bit of transparency
 </code></pre><p>Note finally that you can use Google’s map API to give you latitudes and longitudes from postcode data (using the geocode() function), but you are limited to 2500 queries per day. I had many more than that so I needed to download the postcode data.</p>
-<ul class="pa0">
-  
-</ul>
-<div class="mt6 instapaper_ignoref">
+
+      </article>
       
-      
-      </div>
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=230/">
+            <span>previous: </span>
+            <span>Easy tables for publication</span>
+        </a>
+        
     </div>
-
-    <aside class="w-30-l mt6-l">
-
-
-
-
-</aside>
-
-  </article>
-
-    </main>
-    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://chrisbeeley.github.io/chris_beeley_blog/" >
-    &copy; 
-  </a>
-    <div>
-<div class="ananke-socials">
-  
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/?p=255/">
+            <span>next: </span>
+            <span>But I do want to be data (cross posted)</span>
+        </a>
+        
+    </div>
 </div>
-</div>
+    </div>
   </div>
-</footer>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
 
-  </body>
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
+  
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
+<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2021-02-18-building-generic-shiny-applications-with-a-data-module/">
+  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
+  <meta property="og:title" content="Building generic Shiny applications with a data module">
+  <meta property="og:description" content="We’re rebuilding our patient experience dashboard at the moment, partly to incorporate some of the work that we’re doing on text mining and partly to connect it up to other types of information we have like staff experience and clinical outcomes. It has to be reusable because we’re using it as the basis of the text mining dashboard that we’re building for any provider trust to use with their friends and family test data. We’re trying to make everything reusable anyway partly because the different bits of the NHS should all cooperate and produce stuff together that everyone can use and partly because we’re realising that when you make code reusable the first person who can reuse it is you, 6 months later on a similar project.
+So we have a patient experience dashboard that we want to hook up to our other data in our own context, and we have other trusts who want to take what we produce and hook their stuff in to it. An obvious approach is to use modules in Shiny and have a data module at the heart of the operation, which can take account of the different datasets available in each context. The next level would be a “summary type” module which would bring together all of the inputs and outputs for a particular type of data- one for patient experience, one for staff experience, etc. And the bottom level would be submodules which would carry out the individual tasks- one module to produce graphical summaries, one to produce downloadable reports, etc. We would use the {golem} package for all the reasons that we normally use {golem} (help with dependencies, packaging, testing, and deployment)
+The basic structure would look like this:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2021-02-18T16:13:18+00:00">
+    <meta property="article:modified_time" content="2021-02-18T16:13:18+00:00">
+
+<title>Chris Beeley&#39;s blog | Building generic Shiny applications with a data module</title>
+
+    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
+  
+      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
+
+      <script src="/chris_beeley_blog/js/main.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+  
+<body
+    class="dark"
+>
+  
+  <main>
+    
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      
+  <nav aria-label="breadcrumb" class="small">
+    <ol class="breadcrumb fw-bold">
+    <li class="breadcrumb-item">
+      <a href="/chris_beeley_blog/posts"
+        class="text-decoration-underline link-offset-3"
+        
+      >posts</a>
+      
+    </li>
+    <li class="breadcrumb-item">
+      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
+        
+          target="_blank" rel="noopener noreferrer"
+        
+      >github</a>
+      
+    </li>
+    </ol>
+  </nav>
+
+    </div>
+    
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">Building generic Shiny applications with a data module</h1>
+        
+        
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              <time datetime="2021-02-18T16:13:18&#43;00:00">February 18, 2021</time>
+            </li>
+            <li class="breadcrumb-item small">
+              6 minutes
+            </li>
+          </ol>
+        </div>
+      </header>
+      <article>
+        <p>We’re rebuilding our patient experience dashboard at the moment, partly to incorporate some of the work that <a href="https://github.com/CDU-data-science-team/positive_about_change_text_mining">we’re doing on text mining</a> and partly to connect it up to other types of information we have like staff experience and clinical outcomes. It has to be reusable because we’re using it as the basis of the text mining dashboard that we’re building for any provider trust to use with their friends and family test data. We’re trying to make everything reusable anyway partly because the different bits of the NHS should all cooperate and produce stuff together that everyone can use and partly because we’re realising that when you make code reusable the first person who can reuse it is you, 6 months later on a similar project.<br>
+So we have a patient experience dashboard that we want to hook up to our other data in our own context, and we have other trusts who want to take what we produce and hook their stuff in to it. An obvious approach is to use modules in Shiny and have a data module at the heart of the operation, which can take account of the different datasets available in each context. The next level would be a “summary type” module which would bring together all of the inputs and outputs for a particular type of data- one for patient experience, one for staff experience, etc. And the bottom level would be submodules which would carry out the individual tasks- one module to produce graphical summaries, one to produce downloadable reports, etc. We would use the <a href="https://cran.r-project.org/web/packages/golem/index.html">{golem} package</a> for all the reasons that we normally use {golem} (help with dependencies, packaging, testing, and deployment)<br>
+The basic structure would look like this:</p>
+<ul>
+<li>Data module. This module would be responsible for loading ALL data, patient experience data and any other datasets that the person deploying the application might want- clinical outcomes, staff experience, whatever it might be. This module would contain upload and download features as appropriate (users may wish to upload their own data or download processed data) but it would in the main merely draw from databases, process the data into a useful form, and prepare them to be imported into the other modules</li>
+<li>Function module. Each of these modules is responsible for a particular type of data (staff, patient, clinical outcome). In some trusts the dashboard wouldn’t have access to data of all of the necessary types and these modules would not show in these contexts.</li>
+<li>Sub modules. Each function module would have access to submodules which do different tasks- draw graphs, make reports, etc. Because some types of data are quite similar (e.g. staff and patient experience data) there is potential to reuse these modules in some areas.</li>
+</ul>
+<p>Although this is a nice approach there are lots of different ways of achieving this and I’m hoping for a bit of guidance as to which might work best.</p>
+<ol>
+<li>“Automatic dictator” data module. This would be a data module that works with no instruction from the person deploying the application and which instructs all the other modules. This data module would simply attempt to load all of the data, catch any errors that result in doing so, report them to the user (in an unobtrusive format- “No staff data found”) and then instruct which of the function modules should appear. Further, it would export not only dataframes but also a set of instructions to the function modules as to how to carry out their processing. For example, there may be just one or several free text questions in a patient experience function module. The data module would determine that and would export with the dataframe a description of the dataset for the use of each function module</li>
+<li>“Automatic” data module. As above, except it would not export instructions, but just data. Function modules would be responsible for understanding the shape of the data and would instruct their submodules accordingly.</li>
+<li>“Programmable” data module. This data module would accept a list of options within the run_app() function and would therefore be set up individually within each trust. For example, the run_app() function might be passed list(patient_experience = c(TRUE, 2, 5), staff_experience = c(FALSE)), indicating to draw the patient experience function module with 2 free text questions and 5 Likert-type questions, and to omit staff experience. In practice the options list would need to be longer, but this is just to illustrate the principle. The data module would load and process the data according to the arguments in run_app(). It could then either instruct the function modules as in the dictator data module or leave it up to them as in the automatic dictator module.</li>
+<li>“Dumb” data module. This data module would be dumb. It would just load the data, process, and export it to the other modules. The function modules would be expected to react intelligently to the presence or absence of data and to make sense of the structure of the data. I don’t think this example would work well because there would be nothing to turn off the function modules, which mean there would be blank tabs in the application, but I’m including it for the sake of completeness in case it gives me or anyone else an idea at a later stage.</li>
+</ol>
+<p>Most of the options, except 4, are pretty similar, but they have a lot of scope to change the overall way that the application is programmed. Leaving stuff up to the function modules is probably more flexible but it may be that all the function modules need tweaks in different trusts, which is not really what we want. Having an automatic dictator model is very attractive in that you should just be able to seal the whole thing and deploy it anywhere but the reduced flexibility inherent in that approach may make it more difficult to actually get it working in different contexts. In practice some of it is probably a bit of a grey area anyway- I don’t think you could have a completely dumb data module, and nor could you have a completely dumb function module. Even the submodules will have various degrees of “dumb”. It’s more about getting an idea of where you build the flexibility and how much control you give each module over its behaviour.<br>
+I’ve written this blog post to show it to one person whom I will now ask politely on Twitter for their opinion but if anybody else has any thoughts I would be very glad to hear them. It’s better to tweet @chrisbeeley because I don’t seem to get email notifications from blog comments for some reason.</p>
+
+      </article>
+      
+
+      <div class="row">
+    <div class="col-md">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/posts/2021-01-29-accessing-plot-characteristics-in-shiny-modules/">
+            <span>previous: </span>
+            <span>Accessing plot characteristics in Shiny modules</span>
+        </a>
+        
+    </div>
+    <div class="col-md text-md-end">
+        
+        <a href="http://localhost:1313/chris_beeley_blog/posts/2021-03-26-sql-versus-analytic-tools/">
+            <span>next: </span>
+            <span>SQL versus analytic tools</span>
+        </a>
+        
+    </div>
+</div>
+    </div>
+  </div>
+  <footer>
+    <div class="container mt-4 pb-1">
+    <p class="small opacity-75">
+        
+        
+        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
+        
+    </p>
+</div>
+
+  </footer>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pie Chart on </title>
-    <link>https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/</link>
-    <description>Recent content in Pie Chart on </description>
+    <title>Pie Chart on Chris Beeley&#39;s blog</title>
+    <link>http://localhost:1313/chris_beeley_blog/tags/pie-chart/</link>
+    <description>Recent content in Pie Chart on Chris Beeley&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2012 11:48:49 +0000</lastBuildDate>
-    <atom:link href="https://chrisbeeley.github.io/chris_beeley_blog/tags/pie-chart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/chris_beeley_blog/tags/pie-chart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stupidest pie chart of the year 2011</title>
-      <link>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</link>
+      <link>http://localhost:1313/chris_beeley_blog/?p=171/</link>
       <pubDate>Mon, 02 Jan 2012 11:48:49 +0000</pubDate>
-      <guid>https://chrisbeeley.github.io/chris_beeley_blog/?p=171/</guid>
-      <description>&lt;p&gt;I’ve just been looking at the &lt;a href=&#34;http://blog.infoadvisors.com/index.php/2011/12/22/stupidest-bar-chart-of-2011-congrats-klout/&#34;&gt;Stupidest bar chart of the year 2011&lt;/a&gt; and I’ve been inspired to submit my Stupidest pie chart of the year 2011. I won’t say from where I obtained it and I’ve drawn the data myself to save from annoying the original authors. And here it is (click to enlarge):&lt;/p&gt;</description>
+      <guid>http://localhost:1313/chris_beeley_blog/?p=171/</guid>
+      <description>&lt;p&gt;I’ve just been looking at the &lt;a href=&#34;http://blog.infoadvisors.com/index.php/2011/12/22/stupidest-bar-chart-of-2011-congrats-klout/&#34;&gt;Stupidest bar chart of the year 2011&lt;/a&gt; and I’ve been inspired to submit my Stupidest pie chart of the year 2011. I won’t say from where I obtained it and I’ve drawn the data myself to save from annoying the original authors. And here it is (click to enlarge):&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://chrisbeeley.net/wp-content/uploads/2012/01/rplot01.png&#34;&gt;&lt;img src=&#34;http://chrisbeeley.net/wp-content/uploads/2012/01/rplot01.png?w=300&#34; alt=&#34;&#34; title=&#34;Stupidest pie chart of the year, 2011&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It represents the amount of maternity and paternity leave available in different countries. Pie charts are often not a very good idea, but in this case they are the worst possible idea. Pie charts should be used when the whole pie has some meaning. A whole customer base, individuals living in Nottinghamshire, something like that. The whole of these pies represents- what? The total amount of leave in these countries. This has no real world meaning at all, and the whole point of the pie chart is lost.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
