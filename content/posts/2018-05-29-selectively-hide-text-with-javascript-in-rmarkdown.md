@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-05-29T09:11:06Z"
-guid: https://chrisbeeley.net/?p=1104
-id: 1104
 title: Selectively hide text with JavaScript in RMarkdown
-url: /?p=1104
 ---
 
 I guess this is one of those where I kind of did know it was possible, really. If I’d thought it through. But I’ve always not been sure how easy it would be and I’ve been in too much of a rush.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-01-22T16:27:34Z"
-guid: http://chrisbeeley.net/?p=1042
-id: 1042
 title: Gathering data (wide to long) in the tidyverse
-url: /?p=1042
 ---
 
 I seem to have a pretty severe mental block about the gather() function from dplyr so this is yet another post that to be honest is basically for me to refer to in 6 months when I forget all this stuff. So I’m going to address the mental block I have very specifically and show some code; hopefully it will help someone else out there.

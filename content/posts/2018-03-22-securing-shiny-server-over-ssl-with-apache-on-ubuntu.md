@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-03-22T09:48:39Z"
-guid: https://chrisbeeley.net/?p=1077
-id: 1077
 title: Securing Shiny Server over SSL with Apache on Ubuntu
-url: /?p=1077
 ---
 
 Well, I couldn’t find a guide for precisely this on the Internet, securing your Shiny Server over SSL (with Apache), but I did find the following links which were very useful and which I only adapted slightly.

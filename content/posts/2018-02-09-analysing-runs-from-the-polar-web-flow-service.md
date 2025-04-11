@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-02-09T10:30:27Z"
-guid: http://chrisbeeley.net/?p=1047
-id: 1047
 title: Analysing runs from the Polar web flow service
-url: /?p=1047
 ---
 
 Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run? For this analysis I have used the Polar Flow web service to download two attempts at the same [Parkrun](http://www.parkrun.org.uk/forestrec/), recorded on a Polar M600 (which I love, by the way, if you’re looking for a running/ smartwatch recommendation).

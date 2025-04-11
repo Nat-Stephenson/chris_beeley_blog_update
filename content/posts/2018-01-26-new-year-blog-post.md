@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-01-26T21:31:27Z"
-guid: http://chrisbeeley.net/?p=1052
-id: 1052
 title: New Year blog post
-url: /?p=1052
 ---
 
 So my favourite productivity guru, David Allen, he of [Getting Things Done](https://gettingthingsdone.com/) fame, has a suggestion for a New Year review that you should carry out each year. His [suggested structure](https://www.improvisedlife.com/2012/01/09/david-allens-potent-questions-for-a-new-year/) can be found here.

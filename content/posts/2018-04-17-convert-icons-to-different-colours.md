@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-04-17T12:39:42Z"
-guid: https://chrisbeeley.net/?p=1092
-id: 1092
 title: Convert icons to different colours
-url: /?p=1092
 ---
 
 I’m horribly, horribly busy (stay tuned until mid May-ish to hear about what I’ve been up to) but I’ve just done something so quickly and easily that I couldn’t resist sharing it.

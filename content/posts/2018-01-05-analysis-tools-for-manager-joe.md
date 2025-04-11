@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-01-05T12:12:36Z"
-guid: http://chrisbeeley.net/?p=1032
-id: 1032
 title: Analysis tools for Manager Joe
-url: /?p=1032
 ---
 
 I’m using someone else’s data today. It’s absolutely hideously laid out. I could munge it into R but it would take absolutely ages and I’m just not doing enough with it for that to be worth doing.

@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-05-01T09:11:34Z"
-guid: https://chrisbeeley.net/?p=1096
-id: 1096
 title: Checking memory usage in R
-url: /?p=1096
 ---
 
 Wow, I cannot believe I didn’t blog this. I just tried to find it on my own blog and I must have forgotten. Anyway, it’s [an answer I gave on Stack Overflow](https://stackoverflow.com/a/48953571/486245) a little while ago, to do with measuring how much memory your R objects are using.

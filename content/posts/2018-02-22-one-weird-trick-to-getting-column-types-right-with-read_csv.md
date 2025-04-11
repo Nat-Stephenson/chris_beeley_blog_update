@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-02-22T13:05:51Z"
-guid: http://chrisbeeley.net/?p=1057
-id: 1057
 title: One weird trick to getting column types right with read_csv
-url: /?p=1057
 ---
 
 Using read\_csv from the tidyverse is so easy that I didn’t bother to look at the [readr documentation](https://cran.r-project.org/web/packages/readr/README.html) for a long time. However, I’m glad I did, because there is, as they say in the click bait world, one weird trick to get your column types right with read\_csv. read\_csv (or the other delimited file reading functions like read\_tsv) does a brilliant job guessing what column types things are but by default it only looks at 1000 rows. Fine for most datasets, but actually I have more than one dataset where the first 1000 rows are missing, which doesn’t help the parser at all. So do it manually and get it right. But what a pain, all that typing, right? Wrong. Just do this:

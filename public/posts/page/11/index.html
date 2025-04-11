@@ -62,16 +62,160 @@
     <div class="row mb-3">
       
       
+      <time class="small" datetime="2015-09-01T15:54:49&#43;00:00">September 1, 2015</time>
+      <h2 class="h5"><a href="/chris_beeley_blog/posts/2015-09-01-producing-headings-in-word-files-programmatically-using-knitr/">Producing headings in Word files programmatically using knitr</a></h2>
+      
+      <p class="small opacity-75 post-summary">
+        <p>I love <a href="http://yihui.name/knitr/">knitr</a>. Sometimes I have to send people documents in Word. It works beautifully except when I want to produce headings programmatically in code using cat(). This is fine in HTML:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span>```
+</span></span><span style="display:flex;"><span>sapply(headings, function(x){
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  cat(paste0(&#34;&lt;h1&gt;&#34;, x, &#34;&lt;/h1&gt;&#34;))
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>  cat(paste0(&#34;&lt;p&gt;&#34;, rep(&#34;Some text here&#34;, 10), &#34;&lt;/p&gt;&#34;))
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>})
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>```</span></span></code></pre></div>
+<p>However, when writing Word .docx files using <a href="http://rmarkdown.rstudio.com/">Rmarkdown</a> the heading tags are not recognised. Well, they’re not printed, so they obviously are recognised, but they don’t work.</p>
+      </p>
+      
+    </div>
+    
+    <div class="row mb-3">
+      
+      
       <time class="small" datetime="2015-08-31T09:32:56&#43;00:00">August 31, 2015</time>
       <h2 class="h5"><a href="/chris_beeley_blog/?p=748/">Digikam crashes on startup</a></h2>
       
       <p class="small opacity-75 post-summary">
         <p>To be honest, this post is really designed as a reminder to me in case I ever reinstall my OS, but it will probably get a bit of Google juice and could possibly help somebody else.</p>
 <p>If you’re using <a href="https://www.digikam.org/">Digikam</a> (a fine piece of software for organising your photos, well worth a look) and you find that it crashes on startup with Linux Mint, then</p>
-<pre tabindex="0"><code>&lt;pre class=&#34;brush: bash; title: ; notranslate&#34; title=&#34;&#34;&gt;
 
-sudo apt-get install kdelibs-bin kdelibs5-data kdelibs5-plugins
-</code></pre>
+
+
+<div class="goat svg-container ">
+  
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      font-family="Menlo,Lucida Console,monospace"
+      
+        viewBox="0 0 512 57"
+      >
+      <g transform='translate(8,16)'>
+<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>&lt;</text>
+<text text-anchor='middle' x='0' y='36' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='8' y='36' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='16' y='36' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='24' y='36' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>c</text>
+<text text-anchor='middle' x='40' y='36' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='48' y='36' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='56' y='36' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='64' y='36' fill='currentColor' style='font-size:1em'>-</text>
+<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='72' y='36' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='80' y='4' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='80' y='36' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='88' y='36' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='96' y='4' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='104' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='112' y='36' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='120' y='36' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='128' y='36' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='136' y='36' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='144' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='152' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='168' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='168' y='36' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>h</text>
+<text text-anchor='middle' x='176' y='36' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>;</text>
+<text text-anchor='middle' x='184' y='36' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='192' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='200' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='208' y='36' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='216' y='36' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='224' y='36' fill='currentColor' style='font-size:1em'>-</text>
+<text text-anchor='middle' x='232' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='232' y='36' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>:</text>
+<text text-anchor='middle' x='240' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='248' y='36' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>;</text>
+<text text-anchor='middle' x='264' y='36' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='272' y='36' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>o</text>
+<text text-anchor='middle' x='280' y='36' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='288' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='288' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='296' y='4' fill='currentColor' style='font-size:1em'>r</text>
+<text text-anchor='middle' x='296' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='304' y='36' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='312' y='36' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='320' y='36' fill='currentColor' style='font-size:1em'>5</text>
+<text text-anchor='middle' x='328' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='328' y='36' fill='currentColor' style='font-size:1em'>-</text>
+<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='336' y='36' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='344' y='36' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='352' y='36' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='360' y='36' fill='currentColor' style='font-size:1em'>a</text>
+<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='376' y='36' fill='currentColor' style='font-size:1em'>k</text>
+<text text-anchor='middle' x='384' y='4' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='384' y='36' fill='currentColor' style='font-size:1em'>d</text>
+<text text-anchor='middle' x='392' y='4' fill='currentColor' style='font-size:1em'>t</text>
+<text text-anchor='middle' x='392' y='36' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='400' y='4' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='400' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='408' y='4' fill='currentColor' style='font-size:1em'>e</text>
+<text text-anchor='middle' x='408' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='416' y='4' fill='currentColor' style='font-size:1em'>=</text>
+<text text-anchor='middle' x='416' y='36' fill='currentColor' style='font-size:1em'>b</text>
+<text text-anchor='middle' x='424' y='4' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='424' y='36' fill='currentColor' style='font-size:1em'>s</text>
+<text text-anchor='middle' x='432' y='4' fill='currentColor' style='font-size:1em'>"</text>
+<text text-anchor='middle' x='432' y='36' fill='currentColor' style='font-size:1em'>5</text>
+<text text-anchor='middle' x='440' y='4' fill='currentColor' style='font-size:1em'>&gt;</text>
+<text text-anchor='middle' x='440' y='36' fill='currentColor' style='font-size:1em'>-</text>
+<text text-anchor='middle' x='448' y='36' fill='currentColor' style='font-size:1em'>p</text>
+<text text-anchor='middle' x='456' y='36' fill='currentColor' style='font-size:1em'>l</text>
+<text text-anchor='middle' x='464' y='36' fill='currentColor' style='font-size:1em'>u</text>
+<text text-anchor='middle' x='472' y='36' fill='currentColor' style='font-size:1em'>g</text>
+<text text-anchor='middle' x='480' y='36' fill='currentColor' style='font-size:1em'>i</text>
+<text text-anchor='middle' x='488' y='36' fill='currentColor' style='font-size:1em'>n</text>
+<text text-anchor='middle' x='496' y='36' fill='currentColor' style='font-size:1em'>s</text>
+</g>
+
+    </svg>
+  
+</div>
       </p>
       
     </div>
@@ -180,20 +324,6 @@ sudo apt-get install kdelibs-bin kdelibs5-data kdelibs5-plugins
       
       <p class="small opacity-75 post-summary">
         <p>This post is in response to a question on Twitter, but it may be of interest to others. I produced a Shiny app for querying Google Analytics data for my <a href="https://www.packtpub.com/web-development/web-application-development-r-using-shiny">book</a>. The data on the live version which lives <a href="http://chrisbeeley.net:8080/shiny/GA/">here</a> is automatically pulled in via the API each time the application is run. That code cannot live on my <a href="https://github.com/ChrisBeeley">GitHub</a> because it needs the username and password for the API. So I’m reproducing it here. It’s very simple and is based on the wonderful R package rga which can be found <a href="https://github.com/skardhamar/rga">here</a>. Obviously the XXXXXXXs have got real things in the real version, this is the redacted version.</p>
-      </p>
-      
-    </div>
-    
-    <div class="row mb-3">
-      
-      
-      <time class="small" datetime="2014-08-13T12:06:41&#43;00:00">August 13, 2014</time>
-      <h2 class="h5"><a href="/chris_beeley_blog/?p=689/">Book review: PHP Cookbook by David Sklar and Adam Trachtenberg</a></h2>
-      
-      <p class="small opacity-75 post-summary">
-        <p>This is a book review of <a href="http://www.oreilly.com/pub/reviewproduct/1911">PHP Cookbook</a> by David Sklar, and Adam Trachtenberg.</p>
-<p>Full disclosure: I received this book free under O’Reilly’s Reader Review Program.</p>
-<p>This is a very comprehensive book indeed. I’m relatively new to PHP programming and I used this book in two different ways. Firstly, as a straightforward cover to cover read, and secondly, as a bit of practice and to make this review a bit more realistic, to help me write a little toy application that I am developing in idle moments in the hope that I can scale it up and use it in my job.</p>
       </p>
       
     </div>

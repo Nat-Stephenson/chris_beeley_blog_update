@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2018-03-08T18:47:49Z"
-guid: http://chrisbeeley.net/?p=1064
-id: 1064
 title: Scraping the RStudio webinar list
-url: /?p=1064
 ---
 
 I only just found this list of [RStudio webinars](https://www.rstudio.com/resources/webinars/), there’s loads of stuff on there, I really need to plow through a lot of it. What I really wanted was a list of them with links that I could archive and edit and rearrange so I could show which ones I am interested in, which I’ve already watched, and so on.
