@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-12-08T16:54:38Z"
-guid: http://chrisbeeley.net/?p=1030
-id: 1030
 title: Font size of code in .Rpres presentations
-url: /?p=1030
 ---
 
 I don’t know if I even knew about the [.Rpres presentation feature](https://support.rstudio.com/hc/en-us/sections/200130218-R-Presentations) in RStudio v. 0.98 and above. As I think I mentioned I’ve been rather ill for the last couple of years and I’m afraid I kind of fell out of touch with things a bit. Anyway, I’m all better now and I’m going to be giving a talk at the [R User Group in Nottingham](https://www.meetup.com/NottinghamR-Nottingham-R-Users-Group/) (which I love profoundly) so I thought I’d do it this new sexy way.

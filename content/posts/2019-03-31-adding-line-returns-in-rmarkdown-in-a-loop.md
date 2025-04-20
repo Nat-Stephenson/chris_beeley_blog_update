@@ -11,8 +11,6 @@ Another one that’s for me when I forget. The internet seems strangely reluctan
 Sometimes you are writing an RMarkdown document and wish to produce text with line returns between each piece. I can never work out how to do it. It’s very simple. Just two spaces and then \\n. Like this ” \\n”. Here’s some real code with it in.
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
-
   team_numbers %>% 
     mutate(print = paste0(TeamN, TeamC, "  \n  \n")) %>% 
     pull(print) %>% 

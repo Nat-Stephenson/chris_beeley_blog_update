@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-04-21T12:39:35Z"
-guid: http://chrisbeeley.net/?p=957
-id: 957
 title: Quarters and modulo arithmetic
-url: /?p=957
 ---
 
 This is another post that’s mainly for my benefit when I inevitably forget. I’m working with dates in PHP which, unlike MySQL, does not have a built in quarter function for extracting the quarter from a year.

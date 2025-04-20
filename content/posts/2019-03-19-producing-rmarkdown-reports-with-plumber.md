@@ -19,7 +19,6 @@ So I hit upon the idea of doing it with Plumber (<https://www.rplumber.io/>). Th
 Just getting any old RMarkdown to render to HTML is pretty easy. Have a look at the Plumber documentation, obviously, but basically you’re looking at
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
 
 #* @serializer contentType list(type="application/html")
 #* @get /test
@@ -34,7 +33,6 @@ If you run this API on your machine it will be available at localhost:8000/test 
 Easy so far. I had two problems. The first one was including parameters. For all I know this is possible with the include\_rmd function but I couldn’t work it out so I found I had to use rmarkdown::render in the function. Like this:
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
 
 #* @serializer contentType list(type="application/html")
 #* @get /html
@@ -53,7 +51,6 @@ This API will be available on localhost:8000/html?team=301 (or whatever you want
 The RMarkdown just looks like this:
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
 ---
 title: Quarterly report
 output: html_document
@@ -70,8 +67,6 @@ You can see you define the params in the YAML and then they’re available with 
 Okay, getting there now. The last headache I had was making a Word document. This is only difficult because I didn’t know to put the correct application type in the serializer bit on the first line that defines the API. You just need this:
 
 ```
-<pre class="brush: r; title: ; notranslate" title="">
-
 #* @serializer contentType list(type="application/vnd.openxmlformats-officedocument.wordprocessingml.document")
 #* @get /word
 function(team){

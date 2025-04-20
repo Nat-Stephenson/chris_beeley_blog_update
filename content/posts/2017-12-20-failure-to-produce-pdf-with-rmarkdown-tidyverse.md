@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-12-20T15:21:32Z"
-guid: http://chrisbeeley.net/?p=1037
-id: 1037
 title: Failure to produce pdf with RMarkdown tidyverse
-url: /?p=1037
 ---
 
 I’m using tidyverse for everything now, as I’ve mentioned in previous posts, when I want a cup of tea I just run:

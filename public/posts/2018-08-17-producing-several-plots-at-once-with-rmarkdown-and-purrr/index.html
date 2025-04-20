@@ -10,7 +10,7 @@
   <meta property="og:site_name" content="Chris Beeley&#39;s blog">
   <meta property="og:title" content="Producing several plots at once with RMarkdown and purrr">
   <meta property="og:description" content="This is a very simple example of using purrr and RMarkdown to produce several plots all at once.
-i n v m } i a ) s p i i ( r b c i f p h l ( s i u i e 5 l l s ( , % t l t &gt; e ( ( # 6 % r P b , ( e r s S t e u 7 e a a p ) p l k p , a . s r l W e f . i = s u L d s n e t 2 c n h 0 c t g ) , o i t n o h % m s n &gt; a o ( &lt; % i l x n e ) x # ) = o { e u % x p t # &gt; t a p % r s u v a t t a # c e l t 0 f u j ( r e u P &#34; o s s e H m t t i t a s h o S l t i e . o s f p W g t e a i r ( e l d a ) d . t m L h t e o o n v f g e f t c &lt; i h t l o &#34; t &lt; r , e r 5 x , ) f ) u 6 n , # c t a g i n r o d a n p 7 h">
+invisible( # suppress console output from hist() map(c(5, 6, 7), function(x) { # values to feed to filter function iris %&gt;% filter(Sepal.Length &lt; x) %&gt;% # just Sepal.Length &lt; 5, 6, and 7 pull(Petal.Width) %&gt;% # extract Petal.Width vector hist(breaks = 20, main = paste0(&#34;Histogram of &lt; &#34;, x)) # graph }) )">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -72,283 +72,23 @@ i n v m } i a ) s p i i ( r b c i f p h l ( s i u i e 5 l l s ( , % t l t &gt; e
               <time datetime="2018-08-17T15:06:06&#43;00:00">August 17, 2018</time>
             </li>
             <li class="breadcrumb-item small">
-              2 minutes
+              1 minutes
             </li>
           </ol>
         </div>
       </header>
       <article>
         <p>This is a very simple example of using purrr and RMarkdown to produce several plots all at once.</p>
-
-
-
-<div class="goat svg-container ">
-  
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      font-family="Menlo,Lucida Console,monospace"
-      
-        viewBox="0 0 552 153"
-      >
-      <g transform='translate(8,16)'>
-<text text-anchor='middle' x='0' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='8' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='16' y='4' fill='currentColor' style='font-size:1em'>v</text>
-<text text-anchor='middle' x='16' y='20' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='16' y='116' fill='currentColor' style='font-size:1em'>}</text>
-<text text-anchor='middle' x='24' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='24' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='24' y='116' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='32' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='32' y='20' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='32' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='40' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='40' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='40' y='52' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='48' y='4' fill='currentColor' style='font-size:1em'>b</text>
-<text text-anchor='middle' x='48' y='20' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='48' y='52' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='48' y='68' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='48' y='84' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='48' y='100' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='56' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='56' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='56' y='52' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='56' y='68' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='56' y='84' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='56' y='100' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='64' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='64' y='20' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='64' y='68' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='64' y='84' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='64' y='100' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='72' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='72' y='20' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='72' y='52' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='72' y='68' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='72' y='84' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='72' y='100' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='80' y='52' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='80' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='80' y='84' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='80' y='100' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='88' y='4' fill='currentColor' style='font-size:1em'>#</text>
-<text text-anchor='middle' x='88' y='20' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='88' y='52' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='88' y='68' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='88' y='84' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='88' y='100' fill='currentColor' style='font-size:1em'>b</text>
-<text text-anchor='middle' x='96' y='20' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='96' y='68' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='96' y='84' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='96' y='100' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='104' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='104' y='68' fill='currentColor' style='font-size:1em'>S</text>
-<text text-anchor='middle' x='104' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='104' y='100' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='112' y='4' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='112' y='20' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='112' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='112' y='84' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='112' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='120' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='120' y='20' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='120' y='68' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='120' y='84' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='120' y='100' fill='currentColor' style='font-size:1em'>k</text>
-<text text-anchor='middle' x='128' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='128' y='20' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='128' y='68' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='128' y='84' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='128' y='100' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='136' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='136' y='68' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='136' y='84' fill='currentColor' style='font-size:1em'>W</text>
-<text text-anchor='middle' x='144' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='144' y='20' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='144' y='68' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='144' y='84' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='144' y='100' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='152' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='152' y='20' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='152' y='68' fill='currentColor' style='font-size:1em'>L</text>
-<text text-anchor='middle' x='152' y='84' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='160' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='160' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='160' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='160' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='160' y='100' fill='currentColor' style='font-size:1em'>2</text>
-<text text-anchor='middle' x='168' y='20' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='168' y='68' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='168' y='84' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='168' y='100' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='176' y='4' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='176' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='176' y='68' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='176' y='84' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='176' y='100' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='184' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='184' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='184' y='68' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='192' y='4' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='192' y='20' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='192' y='68' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='192' y='84' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='192' y='100' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='200' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='200' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='200' y='84' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='200' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='208' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='208' y='20' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='208' y='68' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='208' y='84' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='208' y='100' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='216' y='4' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='216' y='20' fill='currentColor' style='font-size:1em'>x</text>
-<text text-anchor='middle' x='216' y='100' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='224' y='4' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='224' y='20' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='224' y='68' fill='currentColor' style='font-size:1em'>x</text>
-<text text-anchor='middle' x='224' y='84' fill='currentColor' style='font-size:1em'>#</text>
-<text text-anchor='middle' x='232' y='68' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='232' y='100' fill='currentColor' style='font-size:1em'>=</text>
-<text text-anchor='middle' x='240' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='240' y='20' fill='currentColor' style='font-size:1em'>{</text>
-<text text-anchor='middle' x='240' y='84' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='248' y='4' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='248' y='68' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='248' y='84' fill='currentColor' style='font-size:1em'>x</text>
-<text text-anchor='middle' x='248' y='100' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='256' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='256' y='20' fill='currentColor' style='font-size:1em'>#</text>
-<text text-anchor='middle' x='256' y='68' fill='currentColor' style='font-size:1em'>&gt;</text>
-<text text-anchor='middle' x='256' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='256' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='264' y='4' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='264' y='68' fill='currentColor' style='font-size:1em'>%</text>
-<text text-anchor='middle' x='264' y='84' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='264' y='100' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='272' y='4' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='272' y='20' fill='currentColor' style='font-size:1em'>v</text>
-<text text-anchor='middle' x='272' y='84' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='272' y='100' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='280' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='280' y='20' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='280' y='68' fill='currentColor' style='font-size:1em'>#</text>
-<text text-anchor='middle' x='280' y='84' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='280' y='100' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='288' y='20' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='288' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='288' y='100' fill='currentColor' style='font-size:1em'>0</text>
-<text text-anchor='middle' x='296' y='4' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='296' y='20' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='296' y='68' fill='currentColor' style='font-size:1em'>j</text>
-<text text-anchor='middle' x='296' y='100' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='304' y='4' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='304' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='304' y='68' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='304' y='84' fill='currentColor' style='font-size:1em'>P</text>
-<text text-anchor='middle' x='304' y='100' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='312' y='4' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='312' y='20' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='312' y='68' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='312' y='84' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='312' y='100' fill='currentColor' style='font-size:1em'>H</text>
-<text text-anchor='middle' x='320' y='4' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='320' y='68' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='320' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='320' y='100' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='328' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='328' y='84' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='328' y='100' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='336' y='4' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='336' y='20' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='336' y='68' fill='currentColor' style='font-size:1em'>S</text>
-<text text-anchor='middle' x='336' y='84' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='336' y='100' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='344' y='4' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='344' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='344' y='84' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='344' y='100' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='352' y='4' fill='currentColor' style='font-size:1em'>s</text>
-<text text-anchor='middle' x='352' y='20' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='352' y='68' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='352' y='84' fill='currentColor' style='font-size:1em'>W</text>
-<text text-anchor='middle' x='352' y='100' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='360' y='4' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='360' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='360' y='68' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='360' y='84' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='360' y='100' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='368' y='4' fill='currentColor' style='font-size:1em'>(</text>
-<text text-anchor='middle' x='368' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='368' y='68' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='368' y='84' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='368' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='376' y='4' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='376' y='20' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='376' y='68' fill='currentColor' style='font-size:1em'>.</text>
-<text text-anchor='middle' x='376' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='376' y='100' fill='currentColor' style='font-size:1em'>m</text>
-<text text-anchor='middle' x='384' y='68' fill='currentColor' style='font-size:1em'>L</text>
-<text text-anchor='middle' x='384' y='84' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='392' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='392' y='68' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='392' y='100' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='400' y='20' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='400' y='68' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='400' y='84' fill='currentColor' style='font-size:1em'>v</text>
-<text text-anchor='middle' x='400' y='100' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='408' y='68' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='408' y='84' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='416' y='20' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='416' y='68' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='416' y='84' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='416' y='100' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='424' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='424' y='68' fill='currentColor' style='font-size:1em'>h</text>
-<text text-anchor='middle' x='424' y='84' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='432' y='20' fill='currentColor' style='font-size:1em'>l</text>
-<text text-anchor='middle' x='432' y='84' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='432' y='100' fill='currentColor' style='font-size:1em'>"</text>
-<text text-anchor='middle' x='440' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='440' y='68' fill='currentColor' style='font-size:1em'>&lt;</text>
-<text text-anchor='middle' x='440' y='84' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='440' y='100' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='448' y='20' fill='currentColor' style='font-size:1em'>e</text>
-<text text-anchor='middle' x='456' y='20' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='456' y='68' fill='currentColor' style='font-size:1em'>5</text>
-<text text-anchor='middle' x='456' y='100' fill='currentColor' style='font-size:1em'>x</text>
-<text text-anchor='middle' x='464' y='68' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='464' y='100' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='472' y='20' fill='currentColor' style='font-size:1em'>f</text>
-<text text-anchor='middle' x='472' y='100' fill='currentColor' style='font-size:1em'>)</text>
-<text text-anchor='middle' x='480' y='20' fill='currentColor' style='font-size:1em'>u</text>
-<text text-anchor='middle' x='480' y='68' fill='currentColor' style='font-size:1em'>6</text>
-<text text-anchor='middle' x='488' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='488' y='68' fill='currentColor' style='font-size:1em'>,</text>
-<text text-anchor='middle' x='488' y='100' fill='currentColor' style='font-size:1em'>#</text>
-<text text-anchor='middle' x='496' y='20' fill='currentColor' style='font-size:1em'>c</text>
-<text text-anchor='middle' x='504' y='20' fill='currentColor' style='font-size:1em'>t</text>
-<text text-anchor='middle' x='504' y='68' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='504' y='100' fill='currentColor' style='font-size:1em'>g</text>
-<text text-anchor='middle' x='512' y='20' fill='currentColor' style='font-size:1em'>i</text>
-<text text-anchor='middle' x='512' y='68' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='512' y='100' fill='currentColor' style='font-size:1em'>r</text>
-<text text-anchor='middle' x='520' y='20' fill='currentColor' style='font-size:1em'>o</text>
-<text text-anchor='middle' x='520' y='68' fill='currentColor' style='font-size:1em'>d</text>
-<text text-anchor='middle' x='520' y='100' fill='currentColor' style='font-size:1em'>a</text>
-<text text-anchor='middle' x='528' y='20' fill='currentColor' style='font-size:1em'>n</text>
-<text text-anchor='middle' x='528' y='100' fill='currentColor' style='font-size:1em'>p</text>
-<text text-anchor='middle' x='536' y='68' fill='currentColor' style='font-size:1em'>7</text>
-<text text-anchor='middle' x='536' y='100' fill='currentColor' style='font-size:1em'>h</text>
-</g>
-
-    </svg>
-  
-</div>
-
+<pre tabindex="0"><code>invisible( # suppress console output from hist()
+  map(c(5, 6, 7), function(x) { # values to feed to filter function
+    
+    iris %&gt;%
+      filter(Sepal.Length &lt; x) %&gt;% # just Sepal.Length &lt; 5, 6, and 7
+      pull(Petal.Width) %&gt;% # extract Petal.Width vector
+      hist(breaks = 20, main = paste0(&#34;Histogram of &lt; &#34;, x)) # graph
+  })
+)
+</code></pre>
       </article>
       
 

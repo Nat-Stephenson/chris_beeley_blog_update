@@ -10,8 +10,7 @@ As always, I have very little time for blogging (sorry) but I just came up with 
 
 Here it is
 
-<div class="wp-block-syntaxhighlighter-code ">```
-<pre class="brush: r; title: ; notranslate" title="">
+```
 library(tidyverse)
 
 survey <- map_df(survey, function(x) {
@@ -56,4 +55,4 @@ survey <- map_df(survey, function(x) {
 
 ```
 
-</div>Glorious. R makes it too easy, really, I think, sometimes 🙂
+Glorious. R makes it too easy, really, I think, sometimes 🙂

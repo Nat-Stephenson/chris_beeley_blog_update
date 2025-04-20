@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-07-02T09:57:15Z"
-guid: http://chrisbeeley.net/?p=1023
-id: 1023
 title: One editor to rule them all- Atom
-url: /?p=1023
 ---
 
 I’m very happy using RStudio for all my R code. It goes without saying that the support for R coding built into RStudio is phenomenal. If you don’t know loads of cool stuff RStudio does, you’re missing out, but that’s a blog post on its own.

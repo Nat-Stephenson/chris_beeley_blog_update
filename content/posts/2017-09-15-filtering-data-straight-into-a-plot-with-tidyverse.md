@@ -3,10 +3,7 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-09-15T09:05:04Z"
-guid: http://chrisbeeley.net/?p=1017
-id: 1017
 title: Filtering data straight into a plot with tidyverse
-url: /?p=1017
 ---
 
 I’m still trying to go full tidyverse, as I believe I mentioned a while back. It’s clearly a highly useful approach, but on top of this I see a load of code in blogs and tutorials that uses a tidy approach. So unless I learn it I’m not going to have a lot of luck reading it. I saw somebody do the following a little while back and I really like it so I thought I’d share it.

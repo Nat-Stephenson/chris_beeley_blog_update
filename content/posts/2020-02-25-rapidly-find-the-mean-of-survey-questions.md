@@ -8,8 +8,7 @@ title: Rapidly find the mean of survey questions
 
 Following on from the last blog post, I’ve got quite a nice way of generating lots of means from a survey dataset. This one relies on the fact that I’m averaging questions that go 2.1, 2.2, 2.3, and 3.1, 3.2, 3.3, so I can look for all questions that start with “2.”, “3.”, etc.
 
-<div class="wp-block-syntaxhighlighter-code ">```
-<pre class="brush: r; title: ; notranslate" title="">
+```
 library(tidyverse)
 
 survey <- survey %>% bind_cols(
@@ -28,4 +27,4 @@ survey <- survey %>% bind_cols(
 )
 ```
 
-</div>This returns the original dataset plus the averages of each question, labelled “Question 2”, “Question 3”, etc.
+This returns the original dataset plus the averages of each question, labelled “Question 2”, “Question 3”, etc.

@@ -3,10 +3,8 @@ author: chrisbeeley
 categories:
 - Uncategorized
 date: "2017-11-21T11:14:13Z"
-guid: http://chrisbeeley.net/?p=1025
 id: 1025
 title: Better Git commit messages
-url: /?p=1025
 ---
 
 Something else I’m trying to be better at is using Git. I did use it, briefly, a few years back but I never quite got the hang of it and I’ve reverted to the bad habit of having MainCode/ and TestingCode/ and TryNewFunction/ folders filled with near identical code.
