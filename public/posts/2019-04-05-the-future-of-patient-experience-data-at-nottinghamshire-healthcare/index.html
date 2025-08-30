@@ -1,85 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
-  
+<html><head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
-<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2019-04-05-the-future-of-patient-experience-data-at-nottinghamshire-healthcare/">
-  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
-  <meta property="og:title" content="The future of patient experience data at Nottinghamshire Healthcare">
-  <meta property="og:description" content="I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.
-Anyone who’s spent any time with me in meetings will know I’m a stickler for writing things down, so here it is.
-I launched a Shiny application to explore our patient experience data about 6 years ago. It was pretty early days for Shiny and it seemed pretty whizzy and exciting at the time. Over time I added more features but it seemed less and less whizzy and exciting, and to be honest I was too busy nearly dying twice to worry about it (see this blog, passim, don’t worry I’m absolutely fine now)·">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2019-04-05T10:50:20+00:00">
-    <meta property="article:modified_time" content="2019-04-05T10:50:20+00:00">
+  <title>The future of patient experience data at Nottinghamshire Healthcare | Chris Beeley&#39;s blog</title>
 
-<title>Chris Beeley&#39;s blog | The future of patient experience data at Nottinghamshire Healthcare</title>
-
-    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
-  
-      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
-
-      <script src="/chris_beeley_blog/js/main.js"></script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
 
   
-<body
-    class="dark"
->
-  
-  <main>
-    
-  <div class="container pt-5">
-    <div class="row mt-5 pt-5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+<body><nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="../../">Chris Beeley&#39;s blog</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto">
+
       
-  <nav aria-label="breadcrumb" class="small">
-    <ol class="breadcrumb fw-bold">
-    <li class="breadcrumb-item">
-      <a href="/chris_beeley_blog/posts"
-        class="text-decoration-underline link-offset-3"
-        
-      >posts</a>
-      
-    </li>
-    <li class="breadcrumb-item">
-      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
-        
-          target="_blank" rel="noopener noreferrer"
-        
-      >github</a>
-      
-    </li>
-    </ol>
-  </nav>
 
-    </div>
-    
-    <div class="post">
-      <header class="mb-4">
-        <h1 class="text-uppercase">The future of patient experience data at Nottinghamshire Healthcare</h1>
-        
-        
-        <div aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item small">
-              <time datetime="2019-04-05T10:50:20&#43;00:00">April 5, 2019</time>
-            </li>
-            <li class="breadcrumb-item small">
-              3 minutes
-            </li>
-          </ol>
-        </div>
-      </header>
-      <article>
-        <p>I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.</p>
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="../../chris_beeley_blog/posts/" title="posts">posts</a>
+
+        </li>
+
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="https://github.com/ChrisBeeley/chris_beeley_blog" title="GitHub">github</a>
+
+        </li>
+
+      
+
+    </ul>
+
+  </div>
+
+</nav>
+  <h1>The future of patient experience data at Nottinghamshire Healthcare</h1>
+
+  
+  
+  <time datetime="2019-04-05T10:50:20&#43;00:00">April 5, 2019</time>
+
+  <p>I’ve talked about my plans for patient experience data in quite a few different forums recently, but it just occurred to me that it isn’t written down anywhere.</p>
 <p>Anyone who’s spent any time with me in meetings will know I’m a stickler for writing things down, so here it is.</p>
 <p>I launched a Shiny application to explore our patient experience data about 6 years ago. It was pretty early days for Shiny and it seemed pretty whizzy and exciting at the time. Over time I added more features but it seemed less and less whizzy and exciting, and to be honest I was too busy nearly dying twice to worry about it (see this blog, passim, don’t worry I’m absolutely fine now)·</p>
 <p>Anyway, I’ve now launched a new version built with <a href="https://rstudio.github.io/shinydashboard/">shinydashboard</a> which can be found here <a href="http://suce.co.uk:8080/apps/SUCE/">http://suce.co.uk:8080/apps/SUCE/</a>. It launched a bit early at an event, so excuse any rough edges or bugs.</p>
@@ -88,44 +80,37 @@ I launched a Shiny application to explore our patient experience data about 6 ye
 <p>The big problem we have with experience data is discoverability. We have maybe 200,000 comments. How do you find the one you want? I’m trying to use machine learning to have the computer find other things you might be interested in. Reading some feedback about waiting lists? Here’s some more. Reading angry feedback? Here’s some more angry feedback. And feeding this engine staff and patient feedback data could make for a very powerful system. Lots of people are angry at their doctor? Well, look, all the doctors are fed up to. Join it with other systems. Food’s terrible? Well, look, 10% of the estates staff are off sick at the moment. 10% of the estates staff are off sick? Well, look, three months ago they were all miserable. And so on.</p>
 <p>It’s a very ambitious dream, but that’s my vision, and I’ll try as far as possible to build technologies that other Trusts can use. That is in itself quite tricky, so progress with that one in particular might be slow, but I’m trying to get more people on board. See how it goes.</p>
 
-      </article>
-      
-
-      <div class="row">
-    <div class="col-md">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2019-03-31-adding-line-returns-in-rmarkdown-in-a-loop/">
-            <span>previous: </span>
-            <span>Adding line returns in RMarkdown in a loop</span>
-        </a>
-        
-    </div>
-    <div class="col-md text-md-end">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2019-05-25-a-note-for-kindle-readers-of-my-shiny-book/">
-            <span>next: </span>
-            <span>A note for Kindle readers of my Shiny book</span>
-        </a>
-        
-    </div>
-</div>
-    </div>
-  </div>
-  <footer>
-    <div class="container mt-4 pb-1">
-    <p class="small opacity-75">
-        
-        
-        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
-        
-    </p>
-</div>
-
-  </footer>
-
-  </main>
-
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<footer class="footer mt-5">
+
+  <div class="container">
+
+    <table class="table table-sm">
+
+      <caption>Hugo Variables for current page</caption>
+
+      <tr><th>Name</th><td>The future of patient experience data at Nottinghamshire Healthcare</td></tr>
+
+      <tr><th>Kind</th><td>page</td></tr>
+
+      <tr><th>Type</th><td>posts</td></tr>
+
+      <tr><th>List Page</th><td>.Pages</td></tr>
+
+      <tr><th>IsPage</th><td>true</td></tr>
+
+      <tr><th>IsHome</th><td>true</td></tr>
+
+      <tr><th>Next</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2019-05-25-a-note-for-kindle-readers-of-my-shiny-book.md</td></tr>
+
+      <tr><th>Prev</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2019-03-31-adding-line-returns-in-rmarkdown-in-a-loop.md</td></tr>
+
+      <tr><th>Section</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/_index.md</td></tr>
+
+    </table>
+
+  </div>
+
+</footer></body>
 </html>

@@ -1,84 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
-  
+<html><head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
-<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2019-11-06-authenticating-using-ldap-from-active-directory-using-shiny-server-pro/">
-  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
-  <meta property="og:title" content="Authenticating using LDAP from Active Directory using Shiny Server Pro">
-  <meta property="og:description" content="Right, I promised I would write this a very long time ago and I still haven’t done it. I’ve just got back from the NHS-R community conference (see an upcoming post) and I’m in a sharing mood, and besides someone just asked me about this on Twitter.
-So setting up LDAP based authentication on Shiny Server Pro via Windows Active Directory. Do note that this post is about using Active Directory. If you’re not doing that a lot of this stuff will not apply.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2019-11-06T18:03:08+00:00">
-    <meta property="article:modified_time" content="2019-11-06T18:03:08+00:00">
+  <title>Authenticating using LDAP from Active Directory using Shiny Server Pro | Chris Beeley&#39;s blog</title>
 
-<title>Chris Beeley&#39;s blog | Authenticating using LDAP from Active Directory using Shiny Server Pro</title>
-
-    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
-  
-      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
-
-      <script src="/chris_beeley_blog/js/main.js"></script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
 
   
-<body
-    class="dark"
->
-  
-  <main>
-    
-  <div class="container pt-5">
-    <div class="row mt-5 pt-5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+<body><nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="../../">Chris Beeley&#39;s blog</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto">
+
       
-  <nav aria-label="breadcrumb" class="small">
-    <ol class="breadcrumb fw-bold">
-    <li class="breadcrumb-item">
-      <a href="/chris_beeley_blog/posts"
-        class="text-decoration-underline link-offset-3"
-        
-      >posts</a>
-      
-    </li>
-    <li class="breadcrumb-item">
-      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
-        
-          target="_blank" rel="noopener noreferrer"
-        
-      >github</a>
-      
-    </li>
-    </ol>
-  </nav>
 
-    </div>
-    
-    <div class="post">
-      <header class="mb-4">
-        <h1 class="text-uppercase">Authenticating using LDAP from Active Directory using Shiny Server Pro</h1>
-        
-        
-        <div aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item small">
-              <time datetime="2019-11-06T18:03:08&#43;00:00">November 6, 2019</time>
-            </li>
-            <li class="breadcrumb-item small">
-              5 minutes
-            </li>
-          </ol>
-        </div>
-      </header>
-      <article>
-        <p>Right, I promised I would write this a very long time ago and I still haven’t done it. I’ve just got back from the NHS-R community conference (see an upcoming post) and I’m in a sharing mood, and besides someone just asked me about this on Twitter.</p>
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="../../chris_beeley_blog/posts/" title="posts">posts</a>
+
+        </li>
+
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="https://github.com/ChrisBeeley/chris_beeley_blog" title="GitHub">github</a>
+
+        </li>
+
+      
+
+    </ul>
+
+  </div>
+
+</nav>
+  <h1>Authenticating using LDAP from Active Directory using Shiny Server Pro</h1>
+
+  
+  
+  <time datetime="2019-11-06T18:03:08&#43;00:00">November 6, 2019</time>
+
+  <p>Right, I promised I would write this a very long time ago and I still haven’t done it. I’ve just got back from the NHS-R community conference (see an upcoming post) and I’m in a sharing mood, and besides someone just asked me about this on Twitter.</p>
 <p>So setting up LDAP based authentication on Shiny Server Pro via Windows Active Directory. Do note that this post is about using Active Directory. If you’re not doing that a lot of this stuff will not apply.</p>
 <p>I made the most most horrible mess of this when I tried, because quite frankly I didn’t have the slightest idea what I was doing. I’m sure your setup will be different from mine, but I can offer some general advice. Do read the documentation as well, obviously, this is only going to fill in the blanks, it’s not going to replace the <a href="https://docs.rstudio.com/shiny-server/">docs</a>.</p>
 <p>The first piece of advice I can give you is don’t try to get it working all at once in the configuration file. Unless you’re some sort of Linux security genius it’s not going to work. Instead use the <a href="https://linux.die.net/man/1/ldapsearch">ldapsearch</a> command to make sure that you’ve got the right server and your search string is correct. You’re going to need the help of IT who can tell you a bit about what the search string might look like. To give you a clue, here’s what I finally got working:</p>
@@ -116,44 +109,37 @@ That’s it! You’ve done it! Well done! That took me weeks.</p>
 <p>Your users can now connect at https://serveraddress</p>
 <p>That’s really it now. Well done. Have a cup of tea to relax and celebrate a job well done. I apologise that this post is a little light on details, it will be very different I think depending on where you are, but if I’d read this post before I’d started it would have helped me, and I hope it helps you too.</p>
 
-      </article>
-      
-
-      <div class="row">
-    <div class="col-md">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2019-10-31-add-label-to-shinydashboard/">
-            <span>previous: </span>
-            <span>Add label to shinydashboard</span>
-        </a>
-        
-    </div>
-    <div class="col-md text-md-end">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2019-12-08-nhs-r-conference/">
-            <span>next: </span>
-            <span>NHS-R conference</span>
-        </a>
-        
-    </div>
-</div>
-    </div>
-  </div>
-  <footer>
-    <div class="container mt-4 pb-1">
-    <p class="small opacity-75">
-        
-        
-        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
-        
-    </p>
-</div>
-
-  </footer>
-
-  </main>
-
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<footer class="footer mt-5">
+
+  <div class="container">
+
+    <table class="table table-sm">
+
+      <caption>Hugo Variables for current page</caption>
+
+      <tr><th>Name</th><td>Authenticating using LDAP from Active Directory using Shiny Server Pro</td></tr>
+
+      <tr><th>Kind</th><td>page</td></tr>
+
+      <tr><th>Type</th><td>posts</td></tr>
+
+      <tr><th>List Page</th><td>.Pages</td></tr>
+
+      <tr><th>IsPage</th><td>true</td></tr>
+
+      <tr><th>IsHome</th><td>true</td></tr>
+
+      <tr><th>Next</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2019-12-08-nhs-r-conference.md</td></tr>
+
+      <tr><th>Prev</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2019-10-31-add-label-to-shinydashboard.md</td></tr>
+
+      <tr><th>Section</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/_index.md</td></tr>
+
+    </table>
+
+  </div>
+
+</footer></body>
 </html>

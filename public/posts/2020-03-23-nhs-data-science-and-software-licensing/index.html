@@ -1,124 +1,111 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
-  
+<html><head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
-<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2020-03-23-nhs-data-science-and-software-licensing/">
-  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
-  <meta property="og:title" content="NHS data science and software licensing">
-  <meta property="og:description" content="I’m writing something about software licensing and IP in NHS data science projects at the moment. I don’t think I ever dreamed about doing this, but I’ve noticed that a lot of people working in data science and related fields are confused about some of the issues and I would like to produce a set of facts (and opinions) which are based on a thorough reading of the subject and share them with interested parties. It’s a big job but I thought I’d trail a bit of it here and there as I go. Here’s the summary at the end of the licences section.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2020-03-23T13:04:45+00:00">
-    <meta property="article:modified_time" content="2020-03-23T13:04:45+00:00">
+  <title>NHS data science and software licensing | Chris Beeley&#39;s blog</title>
 
-<title>Chris Beeley&#39;s blog | NHS data science and software licensing</title>
-
-    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
-  
-      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
-
-      <script src="/chris_beeley_blog/js/main.js"></script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
 
   
-<body
-    class="dark"
->
-  
-  <main>
-    
-  <div class="container pt-5">
-    <div class="row mt-5 pt-5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+<body><nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="../../">Chris Beeley&#39;s blog</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto">
+
       
-  <nav aria-label="breadcrumb" class="small">
-    <ol class="breadcrumb fw-bold">
-    <li class="breadcrumb-item">
-      <a href="/chris_beeley_blog/posts"
-        class="text-decoration-underline link-offset-3"
-        
-      >posts</a>
-      
-    </li>
-    <li class="breadcrumb-item">
-      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
-        
-          target="_blank" rel="noopener noreferrer"
-        
-      >github</a>
-      
-    </li>
-    </ol>
-  </nav>
 
-    </div>
-    
-    <div class="post">
-      <header class="mb-4">
-        <h1 class="text-uppercase">NHS data science and software licensing</h1>
-        
-        
-        <div aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item small">
-              <time datetime="2020-03-23T13:04:45&#43;00:00">March 23, 2020</time>
-            </li>
-            <li class="breadcrumb-item small">
-              2 minutes
-            </li>
-          </ol>
-        </div>
-      </header>
-      <article>
-        <p>I’m writing something about software licensing and IP in NHS data science projects at the moment. I don’t think I ever dreamed about doing this, but I’ve noticed that a lot of people working in data science and related fields are confused about some of the issues and I would like to produce a set of facts (and opinions) which are based on a thorough reading of the subject and share them with interested parties. It’s a big job but I thought I’d trail a bit of it here and there as I go. Here’s the summary at the end of the licences section.</p>
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="../../chris_beeley_blog/posts/" title="posts">posts</a>
+
+        </li>
+
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="https://github.com/ChrisBeeley/chris_beeley_blog" title="GitHub">github</a>
+
+        </li>
+
+      
+
+    </ul>
+
+  </div>
+
+</nav>
+  <h1>NHS data science and software licensing</h1>
+
+  
+  
+  <time datetime="2020-03-23T13:04:45&#43;00:00">March 23, 2020</time>
+
+  <p>I’m writing something about software licensing and IP in NHS data science projects at the moment. I don’t think I ever dreamed about doing this, but I’ve noticed that a lot of people working in data science and related fields are confused about some of the issues and I would like to produce a set of facts (and opinions) which are based on a thorough reading of the subject and share them with interested parties. It’s a big job but I thought I’d trail a bit of it here and there as I go. Here’s the summary at the end of the licences section.</p>
 <p>The best software licence for a data science project will vary case by case, but there are some broad things to consider when choosing one. The most important decision to make is between permissive and copyleft licences. Permissive licences are useful when you want to maximise the impact of something and are not worried about what proprietary vendors might do with your code. Releasing code under, for example, an MIT licence allows everybody, including individuals using proprietary code, a chance to use the code under that licence.</p>
 <p>Using a copyleft licence is useful when there is concern about what proprietary vendors might do with a piece of code. For example, vendors could use some functionality from an open source project to make their own product more appealing, and then use that functionality to sell their product to more customers, and then use that market leverage to help them acquire <em>vendor lock in</em>. Vendor lock in is the state in which using a company’s prodcuts ensures that you find it very difficult to move to another company’s products. An example might be using a proprietary statistical software package and saving data in its proprietary format, making it difficult to transfer that data to another piece of software. If proprietary software companies can use code to make the world worse in this way, then choosing a copyleft licence is an excellent way of sharing your code without allowing anybody to incorporate it into a proprietary codebase. Proprietary software companies are free to use copyleft licensed code, but are highly unlikely to do so since it means releasing all of the code that incorporates it.</p>
 
-      </article>
-      
-
-      <div class="row">
-    <div class="col-md">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2020-03-04-the-great-survey-munge/">
-            <span>previous: </span>
-            <span>The Great Survey Munge</span>
-        </a>
-        
-    </div>
-    <div class="col-md text-md-end">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2020-03-27-data-science-for-human-beings/">
-            <span>next: </span>
-            <span>Data science for human beings</span>
-        </a>
-        
-    </div>
-</div>
-    </div>
-  </div>
-  <footer>
-    <div class="container mt-4 pb-1">
-    <p class="small opacity-75">
-        
-        
-        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
-        
-    </p>
-</div>
-
-  </footer>
-
-  </main>
-
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<footer class="footer mt-5">
+
+  <div class="container">
+
+    <table class="table table-sm">
+
+      <caption>Hugo Variables for current page</caption>
+
+      <tr><th>Name</th><td>NHS data science and software licensing</td></tr>
+
+      <tr><th>Kind</th><td>page</td></tr>
+
+      <tr><th>Type</th><td>posts</td></tr>
+
+      <tr><th>List Page</th><td>.Pages</td></tr>
+
+      <tr><th>IsPage</th><td>true</td></tr>
+
+      <tr><th>IsHome</th><td>true</td></tr>
+
+      <tr><th>Next</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2020-03-27-data-science-for-human-beings.md</td></tr>
+
+      <tr><th>Prev</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2020-03-04-the-great-survey-munge.md</td></tr>
+
+      <tr><th>Section</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/_index.md</td></tr>
+
+    </table>
+
+  </div>
+
+</footer></body>
 </html>
