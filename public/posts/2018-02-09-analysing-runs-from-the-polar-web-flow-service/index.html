@@ -1,128 +1,114 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
-  
+<html><head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
-<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/posts/2018-02-09-analysing-runs-from-the-polar-web-flow-service/">
-  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
-  <meta property="og:title" content="Analysing runs from the Polar web flow service">
-  <meta property="og:description" content="Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run? For this analysis I have used the Polar Flow web service to download two attempts at the same Parkrun, recorded on a Polar M600 (which I love, by the way, if you’re looking for a running/ smartwatch recommendation).
-The background to the analysis is in the second of the two runs I thought I was doing really well and was going to crush my PB and it ended up being exactly the same as the previous run, in terms of total time taken, but with my heart rate a lot lower.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2018-02-09T10:30:27+00:00">
-    <meta property="article:modified_time" content="2018-02-09T10:30:27+00:00">
+  <title>Analysing runs from the Polar web flow service | Chris Beeley&#39;s blog</title>
 
-<title>Chris Beeley&#39;s blog | Analysing runs from the Polar web flow service</title>
-
-    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
-  
-      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
-
-      <script src="/chris_beeley_blog/js/main.js"></script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
 
   
-<body
-    class="dark"
->
-  
-  <main>
-    
-  <div class="container pt-5">
-    <div class="row mt-5 pt-5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+<body><nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="../../">Chris Beeley&#39;s blog</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto">
+
       
-  <nav aria-label="breadcrumb" class="small">
-    <ol class="breadcrumb fw-bold">
-    <li class="breadcrumb-item">
-      <a href="/chris_beeley_blog/posts"
-        class="text-decoration-underline link-offset-3"
-        
-      >posts</a>
-      
-    </li>
-    <li class="breadcrumb-item">
-      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
-        
-          target="_blank" rel="noopener noreferrer"
-        
-      >github</a>
-      
-    </li>
-    </ol>
-  </nav>
 
-    </div>
-    
-    <div class="post">
-      <header class="mb-4">
-        <h1 class="text-uppercase">Analysing runs from the Polar web flow service</h1>
-        
-        
-        <div aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item small">
-              <time datetime="2018-02-09T10:30:27&#43;00:00">February 9, 2018</time>
-            </li>
-            <li class="breadcrumb-item small">
-              2 minutes
-            </li>
-          </ol>
-        </div>
-      </header>
-      <article>
-        <p>Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run? For this analysis I have used the Polar Flow web service to download two attempts at the same <a href="http://www.parkrun.org.uk/forestrec/">Parkrun</a>, recorded on a Polar M600 (which I love, by the way, if you’re looking for a running/ smartwatch recommendation).</p>
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="../../chris_beeley_blog/posts/" title="posts">posts</a>
+
+        </li>
+
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="https://github.com/ChrisBeeley/chris_beeley_blog" title="GitHub">github</a>
+
+        </li>
+
+      
+
+    </ul>
+
+  </div>
+
+</nav>
+  <h1>Analysing runs from the Polar web flow service</h1>
+
+  
+  
+  <time datetime="2018-02-09T10:30:27&#43;00:00">February 9, 2018</time>
+
+  <p>Well, we’re still in New Year’s resolutions territory, so what better time to have a look at using R to analyse data collected from a run? For this analysis I have used the Polar Flow web service to download two attempts at the same <a href="http://www.parkrun.org.uk/forestrec/">Parkrun</a>, recorded on a Polar M600 (which I love, by the way, if you’re looking for a running/ smartwatch recommendation).</p>
 <p>The background to the analysis is in the second of the two runs I thought I was doing really well and was going to crush my PB and it ended up being exactly the same as the previous run, in terms of total time taken, but with my heart rate a lot lower.</p>
 <p>But I didn’t really feel like I wasn’t pushing myself hard enough, so I can’t really explain why my heart rate has dropped so much without a corresponding increase in performance. One possible explanation is I have moved from being bottlenecked by the performance of my cardiovascular system to being bottlenecked by the performance of my legs, but that these two bottlenecks are very similar in terms of where they cap my pace.</p>
 <p>It was pretty fun having a look in R. Here’s a <a href="http://rpubs.com/Chris_Beeley/analysis5K">link to the analysis</a> as it stands.</p>
 <p>I thought I would look at my race strategy in terms of how fast I went at each point, reasoning that maybe I let myself down on the hills or the straights or something in the second attempt. However, as you can see the pace is absolutely identical the whole way in both runs. The heart rate, as you can see, is consistently lower in the second run, and it only creeps up at the end for the sprint finish (which makes me wonder if I really was pushing myself hard enough).</p>
 <p>I need to do more analysis. My next idea is to look at the relationship between incline, heart rate, and pace (the route is pretty hilly so this is quite important).</p>
 
-      </article>
-      
-
-      <div class="row">
-    <div class="col-md">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2018-01-26-new-year-blog-post/">
-            <span>previous: </span>
-            <span>New Year blog post</span>
-        </a>
-        
-    </div>
-    <div class="col-md text-md-end">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/posts/2018-02-22-one-weird-trick-to-getting-column-types-right-with-read_csv/">
-            <span>next: </span>
-            <span>One weird trick to getting column types right with read_csv</span>
-        </a>
-        
-    </div>
-</div>
-    </div>
-  </div>
-  <footer>
-    <div class="container mt-4 pb-1">
-    <p class="small opacity-75">
-        
-        
-        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
-        
-    </p>
-</div>
-
-  </footer>
-
-  </main>
-
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<footer class="footer mt-5">
+
+  <div class="container">
+
+    <table class="table table-sm">
+
+      <caption>Hugo Variables for current page</caption>
+
+      <tr><th>Name</th><td>Analysing runs from the Polar web flow service</td></tr>
+
+      <tr><th>Kind</th><td>page</td></tr>
+
+      <tr><th>Type</th><td>posts</td></tr>
+
+      <tr><th>List Page</th><td>.Pages</td></tr>
+
+      <tr><th>IsPage</th><td>true</td></tr>
+
+      <tr><th>IsHome</th><td>true</td></tr>
+
+      <tr><th>Next</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2018-02-22-one-weird-trick-to-getting-column-types-right-with-read_csv.md</td></tr>
+
+      <tr><th>Prev</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2018-01-26-new-year-blog-post.md</td></tr>
+
+      <tr><th>Section</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/_index.md</td></tr>
+
+    </table>
+
+  </div>
+
+</footer></body>
 </html>

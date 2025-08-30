@@ -1,84 +1,77 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
-<head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
-  
+<html><head><script src="/chris_beeley_blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=chris_beeley_blog/livereload" data-no-instant defer></script>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" type="image/png" href="http://localhost:1313/chris_beeley_blog/favicon.ico" />
-<meta property="og:url" content="http://localhost:1313/chris_beeley_blog/?p=371/">
-  <meta property="og:site_name" content="Chris Beeley&#39;s blog">
-  <meta property="og:title" content="Data in the NHS">
-  <meta property="og:description" content="I wrote a little piece for an information pack related to the Patient Feedback Challenge so I thought I may as well share it here. I’m a little rushed so I won’t hyperlink the references, apologies for this they are all at the bottom in plain text.
-NHS data systems are, quite naturally, built around very strict data management systems which emphasise the security of data and ensuring accountability of data loss or misuse. This is right and proper. However, very frequently, clinicians, managers, auditors and evaluators do not need to access highly sensitive personal information. In certain cases, information can be shared freely over the internet, as with the data collected on patient experience within the Patient Feedback Challenge (survey responses, Patient Opinion stories, and specific extracts from the PALS database).">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2013-03-20T14:36:08+00:00">
-    <meta property="article:modified_time" content="2013-03-20T14:36:08+00:00">
+  <title>Data in the NHS | Chris Beeley&#39;s blog</title>
 
-<title>Chris Beeley&#39;s blog | Data in the NHS</title>
-
-    <link rel="stylesheet" href="/chris_beeley_blog/css/main.css">
-  
-      <link rel="stylesheet" href="/chris_beeley_blog/css/palette/catpuccin.css">
-
-      <script src="/chris_beeley_blog/js/main.js"></script>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
 
   
-<body
-    class="dark"
->
-  
-  <main>
-    
-  <div class="container pt-5">
-    <div class="row mt-5 pt-5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link rel="icon" href="../favicon.ico">
+
+
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+  </head>
+<body><nav class="navbar navbar-expand-lg navbar-light ">
+
+  <a class="navbar-brand" href="../">Chris Beeley&#39;s blog</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav ml-auto">
+
       
-  <nav aria-label="breadcrumb" class="small">
-    <ol class="breadcrumb fw-bold">
-    <li class="breadcrumb-item">
-      <a href="/chris_beeley_blog/posts"
-        class="text-decoration-underline link-offset-3"
-        
-      >posts</a>
-      
-    </li>
-    <li class="breadcrumb-item">
-      <a href="https://github.com/ChrisBeeley/chris_beeley_blog"
-        
-          target="_blank" rel="noopener noreferrer"
-        
-      >github</a>
-      
-    </li>
-    </ol>
-  </nav>
 
-    </div>
-    
-    <div class="post">
-      <header class="mb-4">
-        <h1 class="text-uppercase">Data in the NHS</h1>
-        
-        
-        <div aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item small">
-              <time datetime="2013-03-20T14:36:08&#43;00:00">March 20, 2013</time>
-            </li>
-            <li class="breadcrumb-item small">
-              6 minutes
-            </li>
-          </ol>
-        </div>
-      </header>
-      <article>
-        <p>I wrote a little piece for an information pack related to the <a href="http://www.institute.nhs.uk/innovation/spread_and_adoption/nhs_patient_feedback_challenge.html">Patient Feedback Challenge</a> so I thought I may as well share it here. I’m a little rushed so I won’t hyperlink the references, apologies for this they are all at the bottom in plain text.</p>
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="../chris_beeley_blog/posts/" title="posts">posts</a>
+
+        </li>
+
+      
+
+        <li class="navbar-item ">
+
+          <a class="nav-link" href="https://github.com/ChrisBeeley/chris_beeley_blog" title="GitHub">github</a>
+
+        </li>
+
+      
+
+    </ul>
+
+  </div>
+
+</nav>
+  <h1>Data in the NHS</h1>
+
+  
+  
+  <time datetime="2013-03-20T14:36:08&#43;00:00">March 20, 2013</time>
+
+  <p>I wrote a little piece for an information pack related to the <a href="http://www.institute.nhs.uk/innovation/spread_and_adoption/nhs_patient_feedback_challenge.html">Patient Feedback Challenge</a> so I thought I may as well share it here. I’m a little rushed so I won’t hyperlink the references, apologies for this they are all at the bottom in plain text.</p>
 <p>NHS data systems are, quite naturally, built around very strict data management systems which emphasise the security of data and ensuring accountability of data loss or misuse. This is right and proper. However, very frequently, clinicians, managers, auditors and evaluators do not need to access highly sensitive personal information. In certain cases, information can be shared freely over the internet, as with the data collected on patient experience within the Patient Feedback Challenge (survey responses, Patient Opinion stories, and specific extracts from the PALS database).</p>
 <p>The skills and technologies to rapidly analyse and disseminate data of this kind where rights access is not an issue is presently lacking in many NHS settings. Data analytic solutions, where they exist, are often large and complex and are complex and expensive to set up and modify. Where solutions are brought in from private sector providers these tend to be inflexible and it can be difficult for an organisation to achieve the results they want using off the shelf technologies (for example, integrating and resharing different types of data, such as the survey, Patient Opinion, and PALS data involved within the Patient Feedback Challenge).</p>
 <p>A further limitation in the data architecture of many NHS organisations is the tendency for data to exist in silos, with each department maintaining its own separate database with no capacity to combine or reshare any of the data. Often the existence and location of datasets is unknown to others working elsewhere in a Trust.</p>
@@ -93,44 +86,37 @@ NHS data systems are, quite naturally, built around very strict data management 
 <p>Beck et al. (2001). Manifesto for Agile Software Development. Agile Alliance. Retrieved 20-8-2012</p>
 <p>Burns, 2004. Spreadsheet addiction. <a href="http://www.burns-stat.com/pages/Tutor/spreadsheet">http://www.burns-stat.com/pages/Tutor/spreadsheet</a>_addiction.html Retrieved 16-5-2012</p>
 
-      </article>
-      
-
-      <div class="row">
-    <div class="col-md">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/?p=303/">
-            <span>previous: </span>
-            <span>Unstable net promoter scores</span>
-        </a>
-        
-    </div>
-    <div class="col-md text-md-end">
-        
-        <a href="http://localhost:1313/chris_beeley_blog/?p=378/">
-            <span>next: </span>
-            <span>All Information is Actionable</span>
-        </a>
-        
-    </div>
-</div>
-    </div>
-  </div>
-  <footer>
-    <div class="container mt-4 pb-1">
-    <p class="small opacity-75">
-        
-        
-        // powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/imgios/not-much">imgios/not-much</a>
-        
-    </p>
-</div>
-
-  </footer>
-
-  </main>
-
   
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+
+<footer class="footer mt-5">
+
+  <div class="container">
+
+    <table class="table table-sm">
+
+      <caption>Hugo Variables for current page</caption>
+
+      <tr><th>Name</th><td>Data in the NHS</td></tr>
+
+      <tr><th>Kind</th><td>page</td></tr>
+
+      <tr><th>Type</th><td>posts</td></tr>
+
+      <tr><th>List Page</th><td>.Pages</td></tr>
+
+      <tr><th>IsPage</th><td>true</td></tr>
+
+      <tr><th>IsHome</th><td>true</td></tr>
+
+      <tr><th>Next</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2013-04-14-all-information-is-actionable.md</td></tr>
+
+      <tr><th>Prev</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/2013-02-08-unstable-net-promoter-scores.md</td></tr>
+
+      <tr><th>Section</th><td>/Users/NatsSpace/chris_beeley_blog_update/content/posts/_index.md</td></tr>
+
+    </table>
+
+  </div>
+
+</footer></body>
 </html>

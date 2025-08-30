@@ -5,10 +5,10 @@
     <loc>http://localhost:1313/chris_beeley_blog/posts/2025-04-11-ai-applications/</loc>
     <lastmod>2025-04-11T16:12:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chris_beeley_blog/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/</loc>
     <lastmod>2025-04-11T16:12:56+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chris_beeley_blog/posts/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/</loc>
     <lastmod>2025-04-11T16:12:56+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chris_beeley_blog/posts/2025-03-16-value-thought/</loc>
@@ -278,7 +278,7 @@
     <loc>http://localhost:1313/chris_beeley_blog/posts/2017-04-20-consuming-rest-apis-with-php-and-curl/</loc>
     <lastmod>2017-04-20T11:27:38+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chris_beeley_blog/?p=936/</loc>
+    <loc>http://localhost:1313/chris_beeley_blog/posts/2017-04-13-converting-a-grouped-plyrddply-to-dplyr/</loc>
     <lastmod>2017-04-13T16:19:59+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/chris_beeley_blog/?p=904/</loc>

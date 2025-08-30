@@ -2,8 +2,9 @@ body {
   color: #222;
   font-family: sans-serif;
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 768px;
+  margin: 0;
+  background: url('/Chris-Galaxy-Background.png') no-repeat center center fixed;
+  background-size: cover;
 }
 
 header {
